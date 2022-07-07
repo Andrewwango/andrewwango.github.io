@@ -116,7 +116,7 @@ Furthermore, we can set a truthful initial condition in the latent space and pro
 
 We can compare these results to the original KVAE from [10] that is uninformed, and instead has to learn dynamics. The same visualisations are reported below. We see that in an uninformed model, it is difficult to learn the correct dynamics, and hence the inferred latent space does not resemble the underlying variables of the wave equation. The reconstruction still looks good; CNNs can learn very non-linear mappings that the dynamics have failed to capture. 
 
-![]({{site.baseurl}}/assets/img/iib_project/orig.gif) ![]({{site.baseurl}}/assets/img/iib_project/latent_u.gif) ![]({{site.baseurl}}/assets/img/iib_project/recon.gif)
+![]({{site.baseurl}}/assets/img/iib_project/orig.gif) ![]({{site.baseurl}}/assets/img/iib_project/latent_un.gif) ![]({{site.baseurl}}/assets/img/iib_project/recon.gif)
 
 With these poorly learnt dynamics, we can't predict in the future.
 
