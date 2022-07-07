@@ -2,13 +2,10 @@
 layout: post
 title: "FEMDA: State-of-the-art robust classification"
 date: 2021-04-25 00:00:00 +0000
-description: test test # Add post description (optional)
+description: # Add post description (optional)
 img: # Add image post (optional)
 tags: [research, machine-learning] # add tag
 ---
-
-
-[femda](https://github.com/Andrewwango/femda) is implemented as a scikit-learn estimator.
 
 [![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=GitHub)](https://github.com/Andrewwango/femda)
 [![](https://img.shields.io/badge/arXiv-View%20Preprint-green?logo=arxiv)](https://arxiv.org/abs/2201.02967)
@@ -17,8 +14,7 @@ tags: [research, machine-learning] # add tag
 
 P. Houdouin, F. Pascal, M. Jonckheere, A. Wang (2022). "Robust classification with flexible discriminant analysis in heterogeneous data". arXiv:2201.02967 \[stat.ML\]
 
-Flexible EM-Inspired Discriminant Analysis is a robust supervised classification algorithm that performs well in heterogeneous or noisy and contaminated datasets.
-
+Summary of my research at CentraleSupélec, in the ![Laboratoire des signaux et systèmes](https://l2s.centralesupelec.fr/). Flexible EM-Inspired Discriminant Analysis is a robust supervised classification algorithm that performs well in heterogeneous or noisy and contaminated datasets. [femda](https://github.com/Andrewwango/femda) is implemented as a scikit-learn estimator.
 
 #### Authors
 Andrew Wang, University of Cambridge, Cambridge, UK
@@ -55,14 +51,9 @@ Using a `sklearn.pipeline.Pipeline`...
 ...
 ```
 
-See ![demo.ipynb](demo.ipynb) for more.
+See ![demo.ipynb](https://github.com/Andrewwango/femda/blob/main/demo.ipynb) for more.
 
 #### Abstract
-Linear and Quadraic Discriminant Analysis are well-known classical methods but suffer heavily from non-Gaussian class distributions and are very non-robust in contaminated datasets. In this paper, we present a new discriminant analysis style classification algorithm that directly models noise and diverse shapes which can deal with a wide range of datasets. 
-
-Each data point is modelled by its own arbitrary Elliptically Symmetrical (ES) distribution and its own arbitrary scale parameter, modelling directly very heterogeneous, non-i.i.d datasets. We show that maximum-likelihood parameter estimation and classification are simple and fast under this model.
-
-We highlight the flexibility of the model to a wide range of Elliptically Symmetrical distribution shapes and varying levels of contamination in synthetic datasets. Then, we show that our algorithm outperforms other robust methods on contaminated datasets from Computer Vision and NLP.
-
+Linear and Quadratic Discriminant Analysis are well-known classical methods but can heavily suffer from non-Gaussian distributions and/or contaminated datasets, mainly because of the underlying Gaussian assumption that is not robust. To fill this gap, this paper presents a new robust discriminant analysis where each data point is drawn by its own arbitrary Elliptically Symmetrical (ES) distribution and its own arbitrary scale parameter. Such a model allows for possibly very heterogeneous, independent but non-identically distributed samples. After deriving a new decision rule, it is shown that maximum-likelihood parameter estimation and classification are very simple, fast and robust compared to state-of-the-art methods. 
 
 
