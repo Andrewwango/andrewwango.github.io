@@ -19,13 +19,13 @@ All code and experiments can be found on ![GitHub](https://github.com/Andrewwang
 ## Motivation
 Vegetation mapping and quantification is an important task in many fields of practical local environmental monitoring, such as for:
 
-- Deforestation <img src="{{site.baseurl}}/assets/img/vegetation/Picture1.jpg" alt="drawing" width="50%"/>
-- Conservation and rewilding <img src="{{site.baseurl}}/assets/img/vegetation/Picture2.jpg" alt="drawing" width="50%"/>
-- Natural disasters <img src="{{site.baseurl}}/assets/img/vegetation/Picture1.jpg" alt="drawing" width="100%"/>
+- Deforestation <img src="{{site.baseurl}}/assets/img/vegetation/Picture1.jpg" alt="drawing" width="20%"/>
+- Conservation and rewilding <img src="{{site.baseurl}}/assets/img/vegetation/Picture2.jpg" alt="drawing" width="20%"/>
+- Natural disasters <img src="{{site.baseurl}}/assets/img/vegetation/Picture1.jpg" alt="drawing" width="20%"/>
 
 The above are _local_ applications, and often require ground-level imagery to be useful, as opposed to satellite imagery:
 
-<img src="{{site.baseurl}}/assets/img/vegetation/Picture4.jpg" alt="drawing" width="50%"/> <img src="{{site.baseurl}}/assets/img/vegetation/Picture5.jpg" alt="drawing" width="75%"/>
+<img src="{{site.baseurl}}/assets/img/vegetation/Picture4.jpg" alt="drawing" width="20%"/> <img src="{{site.baseurl}}/assets/img/vegetation/Picture5.jpg" alt="drawing" width="20%"/>
 
 Non-technical researchers and robots may wish to automatically quantify vegetation in given hand or robot-recorded video scenes. This can be used to compare vegetation levels from time to time in forest and other natural environments, or by combining GPS data to produce vegetation heatmaps. This removes the time-consuming and laborious need to manually quantify vegetation; see the [full report](https://andrewwango.github.io/assets/pdf/4M25_Report_2_web.pdf) for an analysis.
 
@@ -43,16 +43,17 @@ See the full report for full model details and implementation.
 
 ## Results
 Input video:
-![]({{site.baseurl}}/assets/img/vegetation/orig_images.gif)
+<img src="{{site.baseurl}}/assets/img/vegetation/orig_images.gif" alt="drawing" width="30%"/>
 
 Estimated depths:
-![]({{site.baseurl}}/assets/img/vegetation/depth_images.gif)
+<img src="{{site.baseurl}}/assets/img/vegetation/depth_images.gif" alt="drawing" width="30%"/>
 
 Semantic segmentation:
-![]({{site.baseurl}}/assets/img/vegetation/preds.gif)
+<img src="{{site.baseurl}}/assets/img/vegetation/preds.gif" alt="drawing" width="30%"/>
 
 Quantity of grass:
-![]({{site.baseurl}}/assets/img/vegetation/VI_grass.gif)
+<img src="{{site.baseurl}}/assets/img/vegetation/VI_grass.gif" alt="drawing" width="30%"/>
 
 Quantity of vegetation:
-![]({{site.baseurl}}/assets/img/vegetation/VI_veg.gif)
+<img src="{{site.baseurl}}/assets/img/vegetation/VI_veg.gif" alt="drawing" width="30%"/>
+)
