@@ -2,18 +2,17 @@
 layout: post
 title: Student recipes for my pals
 date: 2020-11-01 00:00:00 +0000
-description: Student recipes for my pals # Add post description (optional)
+description:  # Add post description (optional)
 img: # Add image post (optional)
 tags: [life] # add tag
 ---
 
-## Student recipes for my pals
+A collection of recipes requested by friends and passed down from family.
 
 "You should have a website with recipes so I can make egg fried rice at home but without the annoying life story BS before" - Jordan, 2020
 
 <img src="{{site.baseurl}}/assets/img/cooking/recipe-request.jpg" alt="drawing" width="50%"/>
 
-A collection of recipes requested by friends and passed down from family.
 
 Skip to...
 
