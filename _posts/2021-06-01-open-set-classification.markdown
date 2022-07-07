@@ -1,22 +1,17 @@
 ---
 layout: post
-title: Open-set image classification with multiple ResNet models
+title: Open-set image classification with a simple and novel method
 date: 2021-06-01 00:00:00 +0000
 description:  # Add post description (optional)
-img: # Add image post (optional)
+img: Spaniel_Clumber.jpg # Add image post (optional)
 tags: [data-science, machine-learning] # add tag
 ---
 
-# Open-set image classification with a simple and novel method
-
-**[Open-set image classification web-app](https://andrewwango.github.io/open-set-resnet-web-app)** with multiple ResNet models. [[GitHub repo]](https://github.com/Andrewwango/open-set-resnet)
-
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://andrewwango.github.io/open-set-resnet-web-app) [![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=GitHub)](https://github.com/Andrewwango/open-set-resnet)
 
-Open-set classification is critical for letting image classifiers work in the real world.
+A project inspired by a use-case during my time at Data Reply UK. Check out the [web-app](https://andrewwango.github.io/open-set-resnet-web-app) and the [code](https://github.com/Andrewwango/open-set-resnet). Open-set classification is critical for letting image classifiers work in the real world. I developed a simple solution with multiple ResNet models. 
 
 ![](https://raw.githubusercontent.com/Andrewwango/open-set-resnet/master/web-app/src/assets/display_sm.jpg)
-
 
 #### Web app
 Try me out here: https://andrewwango.github.io/open-set-resnet-web-app

@@ -1,14 +1,13 @@
 ---
 layout: post
-title: "Topics and Materials for 4F10: Deep Learning and Structured Data"
+title: "Topics and materials for 4F10"
 date: 2022-05-01 00:00:00 +0000
-description: "Topics and Materials for 4F10: Deep Learning and Structured Data" # Add post description (optional)
+description:  # Add post description (optional)
 img: # Add image post (optional)
 tags: [cambridge] # add tag
 ---
 
-# Topics and Materials
-## for 4F10: Deep Learning and Structured Data
+A collection of topics and materials for 4F10: Deep Learning and Structured Data in 2022.
 
 Key of what's expected (hopefully...):
 - 🔴 important topic, mathematical detail

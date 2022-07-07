@@ -3,7 +3,7 @@ layout: post
 title: "FEMDA: State-of-the-art robust classification"
 date: 2021-04-25 00:00:00 +0000
 description: # Add post description (optional)
-img: # Add image post (optional)
+img: femda_img.jpg # Add image post (optional)
 tags: [research, machine-learning] # add tag
 ---
 

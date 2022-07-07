@@ -1,19 +1,17 @@
 ---
 layout: post
-title: "MEng dissertation: towards physics-informed dynamic latent space models"
+title: "MEng research: towards physics-informed dynamic latent space models"
 date: 2022-07-01 00:00:00 +0000
 description:  # Add post description (optional)
-img: # Add image post (optional)
-tags: [research, machine-learning] # add tag
+img: iib_project/MNIST_manifold.png # Add image post (optional)
+tags: [research, machine-learning, cambridge] # add tag
 ---
 
-# Towards physics-informed dynamic latent space models
+This is a quick write-up of my IIB Masters project, titled *"Dynamic latent spaces with statistical finite elements"*, for submission to the MEng Engineering degree. Full project thesis on its way...
 
 Andrew Wang, supervised by [Prof. Mark Girolami](https://prof-girolami.uk/) in the [Computational Statistics and Machine Learning](https://csml-cam.github.io) group in the Department of Civil Engineering at the University of Cambridge.
 
-This is a quick write-up of my IIB Masters project for submission to the MEng Engineering degree. Full project thesis on its way...
-
-# Motivation
+## Motivation
 
 There are many natural physical phenomena in the world that can be modelled by partial differential equations (PDEs) that evolve both in space and time. The goal of modelling these phenomena with these equations is to estimate the underlying variables. A few quick examples:
 
@@ -54,7 +52,7 @@ By doing this, we can do the following:
 - **Predict** what the phenomena will look like in the future;
 - Quantify the **uncertainty** of solutions in an interpretable statistical framework. 
 
-# Application to digital twins
+## Application to digital twins
 
 Digital twins are models that contain the physics of a real-world model, for example a PDE, and are continually updated with observed data from the real twin. Digital twins are used for estimation, forecasting and decision making with respect to the physical twin, in a growing list of application fields, such as structural health monitoring, precision medicine, climate modelling, agricultural modelling and oceanography [4]. Digtal twins are characterised by their need to assimilate large quantities of sensor data with underlying physical models with statistical uncertainty; it is clear that a statistical framework is needed to underpin digital twins.
 
@@ -62,7 +60,7 @@ For example, in [5], a digital twin of an instrumented bridge is developed. Sens
 
 ![]({{site.baseurl}}/assets/img/iib_project/statFEMCMAMEfig1.png) [5]
 
-# Background
+## Background
 
 The statistical finite element method has been developed in [6] in order to tackle this problem of data assimilation. In their model, data is observed via an assumed noisy, linear mapping. The data assimilation problem is framed as a Bayesian filtering problem; the data likelihood is combined with a prior arising from the solution of a stochastic PDE (SPDE) to form posterior estimates of the latent (underlying) variable. Below, sparsely observed data and an underlying, invisble PDE are combined to give statistical estimates of the posterior.
 
@@ -82,13 +80,13 @@ In a VAE, an encoder models dimensionality reduction into a lower-dimensional la
 
 To start modelling time dependency in the VAE latent space, the dynamical variant called Kalman VAE (KVAE) [10] introduces a linear state-space model (SSM) into the VAE latent space, and infers latent state-space sequences using the Kalman Filter. This is useful as the inferred posteriors are a Bayesian combination of the VAE data and some dynamical SSM.
 
-# Our approach
+## Our approach
 
 The aim in [10] was to learn the parameters of the linear dynamical model from data. However, our approach instead fixes the parameters according to an assumed SPDE. We can do this because in the linear case, solving a SPDE with statistical finite elements gives a linear transition model. Therefore this transition model can be elegantly "dropped-in" into the KVAE latent space. Our model is _physics-informed_: instead of having to learning dynamics from scratch, inference combines knowledge of the underlying PDE "prior" and the observed data. 
 
 Note that there are two perspectives here. Firstly, we have equipped a physics model solver with deep feature extraction capabilities that are learnt in an unsupervised manner. Alternatively, we have equipepd a deep representation learning model with dynamics that are informed by physics.
 
-# Experiments
+## Experiments
 
 In experiments for this project, we firstly generate a synthetic video dataset from the analytical solution to the 1D wave equation. Even though the dataset is very simple, the mapping is still non-trivial and requires some knowledge of 2D spatial dependency: 
 
@@ -102,7 +100,7 @@ We expect the inferred sequence posteriors to look like a stochastic combination
 
 All models are implemented and trained with PyTorch. The encoder and decoder networks are very simple convolutional neural networks (CNNs). The loss function is the negative log-lower bound of the evidence using variational inference, and contains terms relating to VAE reconstruction, VAE regularisation, the stochastic filter log-likelihood and the transition model log-likelihoods. Please see the full report for a full derivation of the model.
 
-# Results and discussion
+## Results and discussion
 
 After the model has been trained, we can firstly check for training and generalisation success by plotting the loss function:
 
@@ -124,7 +122,7 @@ With these poorly learnt dynamics, we can't predict in the future.
 
 
 
-# References
+## References
 
 - [1] [Ta2o](https://commons.wikimedia.org/wiki/File:KdV_equation.gif). CC BY-SA 3.0
 - [2] [M. Griffon](https://commons.wikimedia.org/wiki/File:Ile_de_r%C3%A9.JPG). CC BY 3.0

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Computer Vision for social distancing monitoring
+title: Computer vision for social distancing monitoring
 date: 2020-12-07 00:00:00 +0000
 description:  # Add post description (optional)
 img: turing/fig6.png # Add image post (optional)
-tags: [data-science, machine-learning] # add tag
+tags: [research, data-science, machine-learning] # add tag
 ---
 
 [![](https://img.shields.io/badge/arXiv-Paper%20in%20Preprint-green?logo=arxiv)](https://arxiv.org/abs/2012.07751)
 
-Summary of my research with the Alan Turing Institute under Project Odysseus – understanding London ‘busyness’ and exiting lockdown. Find more here on the [Turing website](https://www.turing.ac.uk/research/research-projects/project-odysseus-understanding-london-busyness-and-exiting-lockdown).
+Summary of my research with the Alan Turing Institute under Project Odysseus – understanding London ‘busyness’ and exiting lockdown. Read our paper ![here](https://arxiv.org/abs/2012.07751). Find more here on the [Turing website](https://www.turing.ac.uk/research/research-projects/project-odysseus-understanding-london-busyness-and-exiting-lockdown).
 
 
 My contribution: designing, building and evaluting a real-time robust batch feature extraction and camera calibration tool for traffic cameras across 1000 locations in London. This was used to automatically map vehicles and pedestrians and was integrated into existing work on live traffic pollution monitoring and COVID-19 social distancing monitoring in conjunction with Transport for London.

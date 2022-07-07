@@ -1,21 +1,19 @@
 ---
 layout: post
-title: "CCASE: Serverless call centre custom analytics pipeline"
+title: "CCASE: serverless call centre custom analytics pipeline"
 date: 2021-06-01 00:00:00 +0000
 description:  # Add post description (optional)
-img: # Add image post (optional)
+img: aws.png # Add image post (optional)
 tags: [data-science, machine-learning] # add tag
 ---
 
-# CCASE: a serverless call centre custom analytics pipeline - a solution using AWS Machine Learning services.
-
 [![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=GitHub)](https://github.com/Andrewwango/aws-custom-calls)
 
-A pipeline for analysing call center calls using AWS Machine Learning services. We use [AWS Transcribe](aws.amazon.com/transcribe/) for transcribing call center audio and elements of the [AWS Comprehend](https://aws.amazon.com/comprehend/) service for providing analytics. Custom analytics are built on top of AWS Comprehend to provide more relevant analytics. Insights of the analytics are published on [AWS Quicksight](aws.amazon.com/quicksight/).
+An MVP I built at Data Reply UK for the CCASE project, which has since become an AWS offering (see ![online coverage here](https://www.reply.com/data-reply/ccase)).
+
+This blog describes a pipeline for analysing call center calls using AWS Machine Learning services. We use [AWS Transcribe](aws.amazon.com/transcribe/) for transcribing call center audio and elements of the [AWS Comprehend](https://aws.amazon.com/comprehend/) service for providing analytics. Custom analytics are built on top of AWS Comprehend to provide more relevant analytics. Insights of the analytics are published on [AWS Quicksight](aws.amazon.com/quicksight/).
 
 The pipeline is implemented in the [AWS Serverless Application Model](https://aws.amazon.com/serverless/sam/) which provides a scalable and flexible way of deploying an AWS application. The Machine Learning services are called using [AWS Lambda](aws.amazon.com/lambda/) functions, as described below. Audio is ingested, transcriptions are stored and structured analytics are stored using [AWS S3](aws.amazon.com/s3/). The whole stack is deployed to [AWS CloudFormation](https://aws.amazon.com/cloudformation/).
-
-This blog documents our development of the minimum viable product (MVP) for the CCASE project, which has since become an AWS offering, see ![online coverage here](https://www.reply.com/data-reply/ccase). 
 
 #### Getting started
 
