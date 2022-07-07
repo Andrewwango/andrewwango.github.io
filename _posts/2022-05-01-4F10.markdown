@@ -2,7 +2,7 @@
 layout: post
 title: "Topics and Materials for 4F10: Deep Learning and Structured Data"
 date: 2022-05-01 00:00:00 +0000
-description: Topics and Materials for 4F10: Deep Learning and Structured Data # Add post description (optional)
+description: "Topics and Materials for 4F10: Deep Learning and Structured Data" # Add post description (optional)
 img: # Add image post (optional)
 tags: [cambridge] # add tag
 ---

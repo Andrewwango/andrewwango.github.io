@@ -1,14 +1,12 @@
 ---
 layout: post
-title: "FEMDA: State-of-the-art robust classification algorithm"
+title: "FEMDA: State-of-the-art robust classification"
 date: 2021-06-01 00:00:00 +0000
-description:  # Add post description (optional)
+description: test test # Add post description (optional)
 img: # Add image post (optional)
 tags: [research, machine-learning] # add tag
 ---
 
-
-# FEMDA: a state-of-the-art robust classification algorithm
 
 [femda](https://github.com/Andrewwango/femda) is implemented as a scikit-learn estimator.
 
