@@ -17,3 +17,42 @@ Automatic vegetation mapping in dense forest areas is desirable for a number of 
 All code and experiments can be found on ![GitHub](https://github.com/Andrewwango/vegetation-segmentation).
 
 ## Motivation
+Vegetation mapping and quantification is an important task in many fields of practical local environmental monitoring, such as for:
+
+- Deforestation ![]({{site.baseurl}}/assets/img/vegetation/Picture1.jpg)
+- Conservation and rewilding ![]({{site.baseurl}}/assets/img/vegetation/Picture2.jpg)
+- Natural disasters ![]({{site.baseurl}}/assets/img/vegetation/Picture3.jpg)
+
+The above are _local_ applications, and often require ground-level imagery to be useful, as opposed to satellite imagery:
+
+![]({{site.baseurl}}/assets/img/vegetation/Picture4.jpg) ![]({{site.baseurl}}/assets/img/vegetation/Picture5.jpg)
+
+Non-technical researchers and robots may wish to automatically quantify vegetation in given hand or robot-recorded video scenes. This can be used to compare vegetation levels from time to time in forest and other natural environments, or by combining GPS data to produce vegetation heatmaps. This removes the time-consuming and laborious need to manually quantify vegetation; see the [full report](https://andrewwango.github.io/assets/pdf/4M25_Report_2_web.pdf) for an analysis.
+
+## Approach
+We develop a computer vision model to solve this robotics task. This consists of a mathematical model to quantify the “vegetation levels” in an unstructured forest scene, where object locations and sizes are not well-defined, unlike urban scenes. Then, given videos taken by a hand-held camera as one walks through forest paths or by an autonomous robotic vehicle, our model detects and quantifies vegetation present per frame to record the total vegetation presented during the video.
+
+The model works as follows:
+
+- Input frame at given time ![]({{site.baseurl}}/assets/img/vegetation/Picture6.jpg)
+- Detect frame perspective ![]({{site.baseurl}}/assets/img/vegetation/Picture8.jpg)
+- Segment vegetation from frames ![]({{site.baseurl}}/assets/img/vegetation/Picture7.jpg)
+- Agglomerate vegetation into one number per frame.
+
+See the full report for full model details and implementation.
+
+## Results
+Input video:
+![]({{site.baseurl}}/assets/img/vegetation/Picture10.gif)
+
+Estimated depths:
+![]({{site.baseurl}}/assets/img/vegetation/Picture12.gif)
+
+Semantic segmentation:
+![]({{site.baseurl}}/assets/img/vegetation/Picture11.gif)
+
+Quantity of grass:
+![]({{site.baseurl}}/assets/img/vegetation/VI_grass.gif)
+
+Quantity of vegetation:
+![]({{site.baseurl}}/assets/img/vegetation/VI_veg.gif)
