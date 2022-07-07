@@ -3,7 +3,7 @@ layout: post
 title: Student recipes for my pals
 date: 2022-07-05 00:00:00 +0000
 description: Student recipes for my pals # Add post description (optional)
-img: software.jpg # Add image post (optional)
+img: # Add image post (optional)
 tags: [life] # add tag
 ---
 
@@ -11,7 +11,7 @@ tags: [life] # add tag
 
 "You should have a website with recipes so I can make egg fried rice at home but without the annoying life story BS before" - Jordan, 2020
 
-<img src="images/recipe-request.jpg" alt="drawing" width="50%"/>
+<img src="{{site.baseurl}}/assets/img/cooking/recipe-request.jpg" alt="drawing" width="50%"/>
 
 A collection of recipes requested by friends and passed down from family.
 
@@ -113,7 +113,7 @@ Grill on dry high-heat cast-iron pan for 5 mins per side, until cooked (inside=7
 
 ### 🇨🇳 EFR for the day after when there's rice left in the pot and he gives you that knowing look... <a id="efr"></a>
 #### 蛋炒饭
-<img src="images/efr-jordan.jpg" alt="drawing" width="50%"/>
+<img src="{{site.baseurl}}/assets/img/cooking/efr-jordan.jpg" alt="drawing" width="50%"/>
 
 Need: leftover cooked long-grain 🍚, 2 chopped spring onions separated into white and green. 
 
@@ -129,7 +129,7 @@ Serve with 老干妈 (laoganma), aka Jordan's old wet grandma
 
 ### 🇮🇹 Gone 5pm still no dinner plans... broccoli pasta? <a id="broccoli-pasta"></a>
 #### "Before trying this thought this sounded disgusting but it was banging" - Jordan
-<img src="images/broccoli-pasta-jordan.jpg" alt="drawing" width="50%"/>
+<img src="{{site.baseurl}}/assets/img/cooking/broccoli-pasta-jordan.jpg" alt="drawing" width="50%"/>
 
 1. Parboil 🥦 in small pieces (+ peeled chopped stalks) for 4 mins in salted water.
 2. Meanwhile big pan/low heat sauté 1 garlic per person pressed into 1 Tbsp per person extra virgin olive oil.
@@ -143,7 +143,7 @@ Serve with 老干妈 (laoganma), aka Jordan's old wet grandma
 
 ### 🇮🇹 "Cabbage pasta"? <a id="cabbage-pasta"></a>
 #### "This sounds disgusting" - Mike
-<img src="images/cabbage-pasta-lucy.jpg" alt="drawing" width="50%"/>
+<img src="{{site.baseurl}}/assets/img/cooking/cabbage-pasta-lucy.jpg" alt="drawing" width="50%"/>
 
 ---
 
@@ -194,7 +194,7 @@ Some here are inherently vegan, some accidentally vegan, and some with meat subs
 ---
 
 ### 🇨🇳 土豆丝, hot oil shredded 🥔<a id="tudousi"></a>
-<img src="images/tudousi.jpg" alt="drawing" width="50%"/>
+<img src="{{site.baseurl}}/assets/img/cooking/tudousi.jpg" alt="drawing" width="50%"/>
 
 Oblong 🥔 for easy cutting. Slice 1 edge for base. Slice thinly then use toothpick to slice sides in perpendicular direction. Optionally soak in cold water for extra crispiness (and to prevent blackening). Add to bowl, pour boiling water, cover, stand 10 mins. Halfway through add thinly sliced flat green pepper. 
 
