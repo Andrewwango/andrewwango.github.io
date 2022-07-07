@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Alan Turing Institute: Project Odysseus – Understanding London ‘busyness’ and exiting lockdown
+title: "The Alan Turing Institute: Project Odysseus – Understanding London ‘busyness’ and exiting lockdown"
 date: 2022-07-07 00:00:00 +0000
 description:  # Add post description (optional)
 img: # Add image post (optional)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MEng dissertation: towards physics-informed dynamic latent space models
+title: "MEng dissertation: towards physics-informed dynamic latent space models"
 date: 2022-07-01 00:00:00 +0000
 description:  # Add post description (optional)
 img: # Add image post (optional)

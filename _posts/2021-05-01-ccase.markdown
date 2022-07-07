@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CCASE: Serverless call centre custom analytics pipeline
+title: "CCASE: Serverless call centre custom analytics pipeline"
 date: 2021-06-01 00:00:00 +0000
 description:  # Add post description (optional)
 img: # Add image post (optional)
