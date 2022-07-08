@@ -7,7 +7,7 @@ img: iib_project/MNIST_manifold.png # Add image post (optional)
 tags: [research, machine-learning, cambridge] # add tag
 ---
 
-This is a quick write-up of my IIB Masters project, titled *"Dynamic latent spaces with statistical finite elements"*, for submission to the MEng Engineering degree. Full project thesis on its way...
+This is a quick write-up of my IIB Masters project, titled *"Dynamic latent spaces with statistical finite elements"*, for submission to the MEng Engineering degree, for which I was awarded a 1st class and a Distinction. Find my [project thesis abstract here](https://andrewwango.github.io/assets/pdf/iib_abstract.pdf), and my [full project thesis here](https://andrewwango.github.io/assets/pdf/iib_report.pdf).
 
 Andrew Wang, supervised by [Prof. Mark Girolami](https://prof-girolami.uk/) in the [Computational Statistics and Machine Learning](https://csml-cam.github.io) group in the Department of Civil Engineering at the University of Cambridge.
 
