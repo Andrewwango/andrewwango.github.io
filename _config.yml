@@ -10,6 +10,7 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Andrew Wang # add your name
 author-img: logo.jpg # add your photo
 about-author: Recent Computer and Information Engineering grad from Cambridge University. Passion for learning, building, experimenting!
+cv-author: "https://andrewwango.github.io/cv.pdf"
 social-twitter: andrewwango # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: andrewwango # add your Github handle
