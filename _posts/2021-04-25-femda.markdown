@@ -12,7 +12,7 @@ tags: [research, machine-learning] # add tag
 
 *Update 2022:* our paper has just been accepted at ICASSP 2022 - the International Conference on Acoustics, Speech, & Signal Processing. ICASSP is the IEEE Signal Processing Society's flagship conference on signal processing.
 
-P. Houdouin, F. Pascal, M. Jonckheere, A. Wang (2022). "Robust classification with flexible discriminant analysis in heterogeneous data". arXiv:2201.02967 \[stat.ML\]
+Cite: _P. Houdouin, A. Wang, M. Jonckheere and F. Pascal, "Robust Classification with Flexible Discriminant Analysis in Heterogeneous Data," ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022, pp. 5717-5721, doi: 10.1109/ICASSP43922.2022.9747576._
 
 Summary of my research at CentraleSupélec, in the ![Laboratoire des signaux et systèmes](https://l2s.centralesupelec.fr/). Flexible EM-Inspired Discriminant Analysis is a robust supervised classification algorithm that performs well in heterogeneous or noisy and contaminated datasets. [femda](https://github.com/Andrewwango/femda) is implemented as a scikit-learn estimator.
 
