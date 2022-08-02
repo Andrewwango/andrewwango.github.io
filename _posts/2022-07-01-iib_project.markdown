@@ -17,7 +17,7 @@ There are many natural physical phenomena in the world that can be modelled by p
 
 - Waves on a string can be modelled with the wave equation (the underlying variable is the wave amplitude):
 
-$$test$$
+$$x=2+2$$
 
 ![]({{site.baseurl}}/assets/img/iib_project/wave_solution.gif)
 
