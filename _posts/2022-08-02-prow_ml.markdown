@@ -11,16 +11,24 @@ A project to automatically analyse all footpaths in England and Wales to find lo
 
 ## Introduction
 
+### Motivation
+
+### Aims
+
 ## Datasets
 
+- **Public data**: A good source of public GPS activity (e.g. walking, cycling, driving) is provided by the OpenStreetMap (OSM) [API](https://wiki.openstreetmap.org/wiki/API_v0.6#GPS_traces), which delivers anonymised tracks in a given region. We use an [agglomerated dump of this data](http://zverik.openstreetmap.ru/gps/files/extracts/europe/great_britain/index.html) from 2013 to speed up data download. In future it would be nice to use a more modern source such as [Strava Metro](https://metro.strava.com/).
 
+- **Right of Way data**: A dataset of public rights of way from the definitive maps of each authority is kindly shared [here](https://www.rowmaps.com/) in one convenient API. Currently data for 121 authorities in England and Wales is available, see [here](https://www.rowmaps.com/gpxs/).
+
+- **Base path network**: A comprehensive path network, onto which the above datasets are overlaid, is available from OSM. This includes all public and private paths that have made it onto [OSM](openstreetmap.org/). A dataset containing only paths (and not roads) is downloaded using [OSMNX](https://osmnx.readthedocs.io). 
 
 ## Algorithm
 
 ## Deliverables
 
 <iframe
-  src="https://raw.githubusercontent.com/Andrewwango/prow-ml/main/vis/east-of-england_BN.html"
+  src="https://andrewwango.github.io/assets/html/east-of-england_BN.html"
   style="width:100%; height:300px;"
 ></iframe>
 
