@@ -23,7 +23,7 @@ There are many natural physical phenomena in the world that can be modelled by p
 
 - Cnoidal waves in shallow water can be modelled with the Korteweg-de Vries equation:
 
-$$test$$
+![]({{site.baseurl}}/assets/img/iib_project/eq2.png)
 
 <img src="{{site.baseurl}}/assets/img/iib_project/KdV_equation.gif" alt="drawing" width="20%"/> [1]
 

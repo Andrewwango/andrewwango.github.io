@@ -1,0 +1,11 @@
+layout: post
+title: "Finding lost rights of way using public data"
+date: 2022-08-02 00:00:00 +0000
+description:  # Add post description (optional)
+img: iib_project/MNIST_manifold.png # Add image post (optional)
+tags: [research, data] # add tag
+---
+
+## Hello
+
+{% include east-of-england_BN.html %}
