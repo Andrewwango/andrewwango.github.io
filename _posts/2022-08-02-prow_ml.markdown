@@ -25,6 +25,10 @@ A project to automatically analyse all footpaths in England and Wales to find lo
 
 ## Algorithm
 
+The aim here is to combine the data detailing public usage of paths with the PRoW data into a single geodataset of paths to be displayed.
+
+1. 
+
 ## Deliverables
 
 <iframe
@@ -33,5 +37,3 @@ A project to automatically analyse all footpaths in England and Wales to find lo
 ></iframe>
 
 ## Limitations
-
-{% include east-of-england_BN.html %}
