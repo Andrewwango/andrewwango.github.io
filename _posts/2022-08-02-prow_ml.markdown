@@ -1,22 +1,26 @@
 ---
 layout: post
-title: "Finding lost rights of way using public data"
+title: "Discovering lost rights of way using public data"
 date: 2022-08-02 00:00:00 +0000
 description:  # Add post description (optional)
 img: iib_project/MNIST_manifold.png # Add image post (optional)
 tags: [research, data] # add tag
 ---
 
+A project to automatically analyse all footpaths in England and Wales to find lost public rights of way (PRoW) using analysis of public GPX traces. In conjunction with [Joe Thorogood](https://rowresearch.coventry.domains/contact/).
+
 ## Introduction
 
 ## Datasets
+
+
 
 ## Algorithm
 
 ## Deliverables
 
 <iframe
-  src="https://github.com/Andrewwango/prow-ml/blob/main/vis/east-of-england_BN.html"
+  src="https://raw.githubusercontent.com/Andrewwango/prow-ml/main/vis/east-of-england_BN.html"
   style="width:100%; height:300px;"
 ></iframe>
 
