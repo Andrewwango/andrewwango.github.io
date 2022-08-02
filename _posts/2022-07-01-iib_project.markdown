@@ -19,6 +19,8 @@ There are many natural physical phenomena in the world that can be modelled by p
 
 $$x=2+2$$
 
+$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
+
 <img src="{{site.baseurl}}/assets/img/iib_project/wave_solution.gif" alt="drawing" width="100%"/>
 
 - Cnoidal waves in shallow water can be modelled with the Korteweg-de Vries equation:
