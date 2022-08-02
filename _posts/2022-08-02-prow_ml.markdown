@@ -27,13 +27,23 @@ A project to automatically analyse all footpaths in England and Wales to find lo
 
 The aim here is to combine the data detailing public usage of paths with the PRoW data into a single geodataset of paths to be displayed.
 
-1. 
+1. Map-match public GPS dataset and PRoW dataset to OSM path network using `osmnx`, to remove traces that are spurious or on highways.
+2. Join path datasets using `geopandas`. Label paths with measure of "activity".
+3. Filter and smooth using `networkx`.
+4. Query paths with non-zero activity but are not RoW from geodataset. Render colour-coded paths over an OSM map using `folium`.
 
 ## Deliverables
+
+1. A geodataset of path entries labelled with PRoW (yes/no) and public activity, and tagged with OSM IDs for further feature analysis.
+2. An online map presenting the data stored on server, showing analysed paths.
+
+The online map is available on the [web-app](https://andrewwango.github.io/prow-web-app). An example is shown below:
 
 <iframe
   src="https://andrewwango.github.io/assets/html/east-of-england_BN.html"
   style="width:100%; height:300px;"
 ></iframe>
+
+_OSM paths that have some public activity but are not PRoW, in Bedford, UK. Yellow-red = low-high activity._
 
 ## Limitations
