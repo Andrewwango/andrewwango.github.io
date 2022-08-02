@@ -7,6 +7,19 @@ img: iib_project/MNIST_manifold.png # Add image post (optional)
 tags: [research, data] # add tag
 ---
 
-## Hello
+## Introduction
+
+## Datasets
+
+## Algorithm
+
+## Deliverables
+
+<iframe
+  src="https://github.com/Andrewwango/prow-ml/blob/main/vis/east-of-england_BN.html"
+  style="width:100%; height:300px;"
+></iframe>
+
+## Limitations
 
 {% include east-of-england_BN.html %}
