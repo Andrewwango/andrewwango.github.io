@@ -4,7 +4,7 @@ title: Forest vegetation quantification for environmental monitoring using hand-
 date: 2022-04-09 00:00:00 +0000
 description:  # Add post description (optional)
 img: vegetation.jpg # Add image post (optional)
-tags: [research, machine-learning, cambridge] # add tag
+tags: [research, machine-learning, cambridge, robotics] # add tag
 ---
 
 [![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=GitHub)](https://github.com/Andrewwango/vegetation-segmentation)

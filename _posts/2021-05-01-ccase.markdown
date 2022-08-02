@@ -4,12 +4,12 @@ title: "CCASE: serverless call centre custom analytics pipeline"
 date: 2021-06-01 00:00:00 +0000
 description:  # Add post description (optional)
 img: aws.png # Add image post (optional)
-tags: [data-science, machine-learning] # add tag
+tags: [data-science, machine-learning, internship] # add tag
 ---
 
 [![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=GitHub)](https://github.com/Andrewwango/aws-custom-calls)
 
-An MVP I built at Data Reply UK for the CCASE project, which has since become an AWS offering (see ![online coverage here](https://www.reply.com/data-reply/ccase)).
+An MVP I built at Data Reply UK for the CCASE project, which has since become an AWS offering (see [online coverage here](https://www.reply.com/data-reply/ccase) and offering on AWS Marketplace [here](https://aws.amazon.com/marketplace/pp/prodview-faqktzg244ufu)).
 
 This blog describes a pipeline for analysing call center calls using AWS Machine Learning services. We use [AWS Transcribe](aws.amazon.com/transcribe/) for transcribing call center audio and elements of the [AWS Comprehend](https://aws.amazon.com/comprehend/) service for providing analytics. Custom analytics are built on top of AWS Comprehend to provide more relevant analytics. Insights of the analytics are published on [AWS Quicksight](aws.amazon.com/quicksight/).
 

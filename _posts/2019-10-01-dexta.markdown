@@ -1,0 +1,274 @@
+---
+layout: post
+title: Modifying the Dexmo haptic controller
+date: 2020-12-07 00:00:00 +0000
+description:  # Add post description (optional)
+img: turing/fig6.png # Add image post (optional)
+tags: [robotics, internship] # add tag
+---
+
+During my internship at [Dexta Robotics, Shenzhen](https://www.dextarobotics.com/), I had the opportunity to play around with Dexta Robotics' flagship product, the Dexmo force-feedback exoskeletal glove. Apart from exhibiting the product [at SIGGRAPH 2019](https://twitter.com/within/status/1161015333873836037?s=21&t=RVDklT0jfbUsP7mYKXmmCA), I also worked on trying to improve the technology itself. From the [website](https://www.dextarobotics.com/product): 
+
+> Dexmo is a commercialized lightweight, wireless, force feedback glove. It offers the most compelling force feedback experience with both motion capture and force feedback abilities, designed for the use in training, education, medical, gaming, simulation, aerospace and much more. Dexmo is the most easy-to-use force feedback glove, designed for both researchers, enterprises and consumers. Its natural and intuitive interaction enables everyone to seamlessly touch a truly immersive VR world. 
+
+> Dexmo captures 11 degrees of freedom hand motion. On top of the bending and splitting motion detection on all fingers, it introduces an additional rotation sensor for the thumb, which allows it to capture the hand motion at full dexterity.
+
+> Powered by highly customized servo motors, with compact circuit design and advanced control algorithms, Dexmo’s Direct Drive Method offers higher precision, higher torque output and lower latency than other motors of same sizes.
+
+I wanted to add 5 more degrees of freedom to the glove: one additional DoF for each finger, allowing each finger to express full 3D and therefore its full range of motion. The most natural biomechanically-motivated location to add another sensor was at the interphalangeal (IP) joints. The only way to add this functionality without severely modifying the ergonomics of the glove was to add indirect light-based time of flight (ToF) sensors. These sensor measurements allowed more natural grasp motions to be predicted and were integrated into the Dexmo software development kit (SDK) in Unity.
+
+My concept made it into Dexta Robotics' 2020 [US patent](https://patents.google.com/patent/US10817056B2/) Fig. 32:
+> FIGS. 32A-B show the change in the distance between a knuckle of the user's finger and the system 210 when the user bends the finger. In the unbent state of the finger, as shown by FIG. 32A, the distance between the knuckle and the system 210 is greater than the distance when the finger is bent, as shown in FIG. 32B. In many embodiments, the distance is measured by a proximity sensor and can be used to calculate rotation of the user's finger and the system 210, which in turn facilitates motion capture of the finger. The use of a proximity sensor demonstrates yet another difference over the prior art, where many existing force feedback exoskeleton devices use rotational sensor(s).
+> The proximity sensor may use infrared sensing, electromagnetic fields, a beam of electromagnetic radiation emitting and sensing, optical/depth sensing, or any other suitable sensing method. 
+
+For all Unity and Arduino code please see the [repo](https://github.com/Andrewwango/tof_sensor_dexmo). Demo video [here](https://github.com/Andrewwango/tof_sensor_dexmo/blob/master/dexmo_tof_demo.mp4).
+
+## Introduction
+
+By adding an additional sensor on each finger, the SDK can differentiate between grasps with different interphalangeal (IP) joint positions, for example holding a book or holding a cylinder.
+
+![]({{site.baseurl}}/assets/img/dexta/Dexta_overall.png)
+
+Virtual fingers currently only follow one given trajectory with Dexmo, the power grasp (grasping a cylinder). Adding an additional sensor lets Dexmo independently measure finger PIP joints. 
+
+Now any grasp can be expressed as a percentage between the **"power"** grasp (IP joints fully bent) and **"plate"** grasp (IP joints fully unbent):
+
+*Plate trajectory (minimum):*
+
+![]({{site.baseurl}}/assets/img/dexta/plate_low.JPG) (open hand) ->  ![]({{site.baseurl}}/assets/img/dexta/plate_high.JPG) (bend max but IP joints still completely straight)
+
+*Power trajectory (maximum):*
+
+![]({{site.baseurl}}/assets/img/dexta/power_lows.JPG) (hook grasp) -> ![]({{site.baseurl}}/assets/img/dexta/power_high.JPG) (fist, IP joints always fully bent)
+
+The thumb's movements are learnt separately but the idea is the same:
+
+*Thumb Plate* (IP joint completely straight)
+
+![]({{site.baseurl}}/assets/img/dexta/plate_thumb_high.JPG)
+
+*Thumb Power* (IP joint completely bent)
+
+![]({{site.baseurl}}/assets/img/dexta/power_thumb_high.JPG)
+
+Therefore for any given ToF reading and finger bend value, a grasp can be predicted between the minimum and maximum trajectories:
+
+![]({{site.baseurl}}/assets/img/dexta/desmosgraph.png)
+
+The curves representing the maximum and minimum trajectories are obtained from the regression algorithm. 
+
+### Code overview
+
+Note that the sensor data processing is completely decoupled, so any sensor can be used instead of ToF, and its sensor data output to array, like `TofManager.TofReading` .
+
+- `double[][][] GraspPredictManager.GraspTofCoeffsMax` stores Power (MAX) trajectory coefficients as array of 5 fingers, 2 segmented regressions, and polynomialorder+1 coeffs
+
+- `double[][][] GraspPredictManager.GraspTofCoeffsMin` stores Plate (MIN) trajectory coefficients as array of 5 fingers, 2 segmented regressions, and polynomialorder+1 coeffs
+- `float[] TofManager.TofReading` stores the continuously updated smoothed ToF sensor readings
+- `float[] TofManager.Graspness` stores the continuously updated finger bend value readings
+- `FingerData.MyGraspPredictor.PredictGrasp(float)` returns grasp prediction between plate (min, returns 0) and power (max, returns 100) for given graspness value and according to current ToF reading 
+
+### Demo
+
+1. Plug in Arduino to PC and connect Dexmo.
+2. Check Arduino found all sensors in Arduino IDE (see [Hardware](TofHardware.md)).
+3. In Demo game, press `A` to read previously learnt calibration coefficients from file.
+4. **Learning** Press `C` to clear loaded coefficients to start learning new. This is important so the current coeffs don't affect the new ones as they are learnt. There are 4 learning procedures in total:
+	- Press `J` to initialise learning data collection for power grasp for fingers (keep IP joints fully bent)
+	![]({{site.baseurl}}/assets/img/dexta/powergrasp.gif)
+	- Press `K` to initialise learning data collection for plate grasp for fingers (keep IP joints fully straight)
+	![]({{site.baseurl}}/assets/img/dexta/plategrasp.gif)
+	- Press `N` to initialise learning data collection for power grasp for thumb (keep IP joint fully bent)
+	![]({{site.baseurl}}/assets/img/dexta/powergraspthumb.gif)
+	- Press `M` to initialise learning data collection for plate grasp for thumb (keep IP joint fully straight)
+	![]({{site.baseurl}}/assets/img/dexta/plategraspthumb.gif)
+4. Press `S` to save coefficients to file 
+
+## Technical deep dive
+
+### Sensor hardware
+
+This project uses [sensor boards](https://detail.tmall.com/item.htm?spm=a230r.1.14.13.45777c91RXfMan&id=584324786648&cm_id=140105335569ed55e27b&abbucket=9) which are based on the [VL6180X](https://cdn-learn.adafruit.com/assets/assets/000/037/608/original/VL6180X_datasheet.pdf) module.
+
+An Arduino controls the sensors and is connected to PC via serial, default baud rate 115200.
+
+![]({{site.baseurl}}/assets/img/dexta/TofArduino.png)
+
+The sensors communicate with I2C and take 2.8V supply, and the board has a level shifter which can take Arduino 5V or 3V3. The sensors connect directly into the same SCL and SDA pins on Arduino and each sensor SHDN (shutdown) pin is connected to an Arduino digital out pin.
+
+The `TofSensorArduino.ino` script runs on Arduino, which sets sensors up on reset and writes to Serial. The sensor settings and functions are implemented in `VL6180.cpp`. This is based off the [examples](https://pan.baidu.com/s/1U_owJqJ-0z2ErWi6oIawVQ) shipped with the sensor (password `dekp`).
+
+On reset:
+
+- All sensors are shutdown via SHDN pin
+- Sensor individually booted and set to a different I2C address.
+- If an error occurs, ConnectionError will be output.
+
+In the loop:
+
+- Sensors single-shot ranging is commenced on each sensor 
+- Each sensor is polled until all readings are ready.
+- Readings output together as a comma separated line: 
+
+`range0,range1,range2,range3,range4`
+
+- If error encountered after single-shot ranging, this is non-fatal (i.e. error due to no target detected) and a cache value is output instead.
+
+**ConnectionError at I2C intended address**
+
+- Reset Arduino via hardware
+- Check SHDN pin is pulled high after connection attempted.
+
+**ToF Sensor placement**
+
+Needs to detect difference between bent PIP and straight PIP for most finger bend values. Note the difference in distances between the ToF sensor and the finger PIP joint positions in the following situations:  
+
+![]({{site.baseurl}}/assets/img/dexta/plateTofPosition.JPG)
+
+*Plate grasp: finger PIP far away from ToF sensor*
+
+![]({{site.baseurl}}/assets/img/dexta/powerTofPosition.JPG)
+
+*Power grasp: finger PIP closer to ToF sensor*
+
+### Data processing and inference
+
+![]({{site.baseurl}}/assets/img/dexta/ToF.png)
+
+**Description of Grasp Prediction algorithm** 
+
+`GraspPredictor.PredictGrasp`
+
+1. Retrieve sensor reading from `TofManager.TofReading`
+2. Retrieve max and min coefficients for correct finger and segment (whether graspness < or > segment point) from `GraspPredictManager.GraspTofCoeffsMax[finger][segmentIndex]` and `GraspPredictManager.GraspTofCoeffsMin[finger][segmentIndex]`
+3. From the polynomials  given by the coefficients, calculate `f_max(graspness)` and `f_min(graspness)`
+4. Find ToF reading as linear percentage between min and max
+5. Remap the min-max range for more realistic model
+6. Clamp value so can't get unachievable hand grasps
+
+**Description of Learning/Regression algorithm** 
+
+`GraspPredictManager.Update` and `GraspLearner.LearnGrasp`
+
+1. Data collected into `DataCollector` as grasp trajectory is performed, giving data of sensor reading against bend value. There may be anomalies present (away from main grasp trajectory):
+
+	![]({{site.baseurl}}/assets/img/dexta/learning1.png)
+
+2. Outliers removed by applying quadratic regression on entire dataset and removing points > 2*standard deviation away from regression, and repeat, to obtain a clean trajectory on the graph.
+
+	![]({{site.baseurl}}/assets/img/dexta/learning2g.png)
+
+3. The data is segmented into two halves from `XXX_SegmentPoint` and linear regression applied on each segment. The coefficients are stored in `GraspPredictManager.GraspTofCoeffsXXX[finger][segmentIndex]` depending on the current grasp being learned.
+
+	![]({{site.baseurl}}/assets/img/dexta/learning3g.png)
+
+4. Once both Power and Plate have been learned, `GraspPredictManager` validation algorthm adjusts the coefficients so that the curves only intersect <0 and >100 so that the prediction space is always valid.
+
+	![]({{site.baseurl}}/assets/img/dexta/desmosAdjustGraph.png)
+
+
+**Description of ToF sensor smoothing algorithm**
+
+`TofManager._cacheReturnFilteredReadings`
+
+1. Parse comma separated data strings of sensors' values from serial buffer (see [Hardware](TofHardware.md)) into array.
+2. For each finger, apply exponential recursive filter with new reading and previous cache value: `filtered = k * previous + (1-k) * new` where `k` is a constant. Note a higher `k` means a more stable value but with a bigger lag between the raw and output data.
+3. Remove glitches (random fluctuations)
+	1. Because the noisy signal's mean is assumed to be the true value, `tofMovements` tracks each each positive and negative fluctuation step and is centred around zero. For small fluctuations the signal is assumed static and the signal is anchored to a cache value.
+	2. If the fluctuation step is too large, or the absolute `tofMovements` value exceeds a threshold in any direction, the signal is assumed to have started properly changing, and the anchor is released until the signal fluctuates in the other direction again.  
+4. Output to `TofManager.TofReading`
+
+![]({{site.baseurl}}/assets/img/dexta/noisy_tof.png)
+
+*ToF data before (green) and after (yellow) filter and glitch removal*
+
+### SDK documentation
+
+**Static Classes**
+
+- `TofManager` reads ToF sensor data from serial and updates smoothed values to a public array. Any sensor can be used in this way, instead of the ToF sensor, for example rotation sensors on Dexmo or other distance sensors.
+- `GraspPredictManager` handles events for reading and writing the regression coefficients associated with the different grasp trajectories. This class also manages the learning of the maximum and minimum grasp trajectories.
+- `TofRegression` provides functions for regression and regression prediction.
+- `DebugTools` contains some tools for showing graphs and writing to Excel files. 
+
+**Classes**
+
+- `GraspPredictor` serves the purpose of predicting the grasp posture between the maximum (power grasp) and minimum (plate grasp). Unlike the other Dexmo sensors, this maximum and minimum depends on the current bend value.
+- `GraspLearner` is created by `GraspPredictManager` to handle the data collection and regression for one finger and one grasp trajectory.
+- `DataCollector` is a container for the sensor (`TofReading`) and bend value (`Graspness`) values collected during learning.
+
+**Additions to existing SDK**
+
+- `HandData.Parse`
+
+Additions get each finger's bend value, stores in `TofManager.Graspness`, retrieves grasp prediction based on this and modifies the bend values for each joint to be outputted. PIP and DIP are now directly updated by `graspPrediction` and MCP is offset with a scaled value (try switching from plate and power with Dexmo whilst maintaining the same finger bend value).
+
+    for (int i = 0; i < _rawHandData.Fingers.Length; ++i)
+    {
+        float _graspness = 100f * _rawHandData.GetJointBendData(i, 0);
+        TofManager.Graspness[i] = _graspness;
+        float _graspPrediction = fingerDatas[i].MyGraspPredictor.PredictGrasp(_graspness);
+        float _MCPAdjust = Mathf.Clamp01((1f-_graspPrediction) * 0.2f);
+
+        for (int j = 0; j < _rawHandData.Fingers[i].Joints.Length; ++j)
+        {
+            float _bendness = _rawHandData.GetJointBendData(i, j);
+            fingerDatas[i].JointDatas[j].BendValue = _bendness;
+
+            if (_graspness < 8f) break;
+            
+            switch ((JointType)j)
+            {
+	            case (JointType.MCP):
+	                _bendness += _MCPAdjust;
+	                break;
+	            case (JointType.PIP):
+	                if (_graspness > 8f) // Disallow IP change with small graspness as too unreliable (for now)
+	                {
+	                    if (i == (int)FingerType.THUMB)
+	                    {
+	                        _bendness += _MCPAdjust;
+	                    }
+	                    else
+	                    {
+	                        _bendness = _graspPrediction;
+	                    }
+	                }
+	                break;
+	            case (JointType.DIP):
+	                if (_graspness > 8f) // Disallow IP change with small graspness as too unreliable (for now)
+	                    _bendness = _graspPrediction;
+	                break;
+            }
+
+            fingerDatas[i].JointDatas[j].BendValue = _bendness;
+        }
+
+- `TouchInteractionBehaviourDefault.OnInteractionStay`
+
+Additions get each finger's bend value from `FingerData`, retrieves grasp prediction based on this and offsets the force feedback position so the contact looks more realistic.
+
+    if (_touchTarget.EnableForceFeedback)
+    {                        
+        float _forceFeedBackBendValue = _fingerData.FingerDataOnSurface[JointType.MCP].BendValue + (_data.Value.IsInward ? forceFeedbackPositionOffset : -forceFeedbackPositionOffset);
+
+        float _graspPrediction = _fingerData.FingerDataOnSurface.MyGraspPredictor.PredictGrasp(100f * _fingerData.FingerDataOnSurface[JointType.MCP].BendValue);
+        _forceFeedBackBendValue -= Mathf.Clamp01((1f-(_graspPrediction)) * 0.2f);
+        
+	...
+            _forceFeedBackData.Update(_forceFeedBackBendValue, _touchTarget.Stiffness, _data.Value.IsInward);
+    ...
+        }
+	}
+
+- `FingerData.FingerData` (all constructors)
+
+        MyGraspPredictor = new GraspPredictor(_type);
+or
+
+    	MyGraspPredictor = new GraspPredictor(_fingerData.Type);
+
+- *DexmoDatabase.asset*
+
+Setting of `TuringValue` and `TuringPoint` to 1 for PIP joints and 0 for DIP joints, as now these bend values are directly set by the grasp prediction.
+

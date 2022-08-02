@@ -4,7 +4,7 @@ title: Open-set image classification with a simple and novel method
 date: 2021-06-01 00:00:00 +0000
 description:  # Add post description (optional)
 img: Spaniel_Clumber.jpg # Add image post (optional)
-tags: [data-science, machine-learning] # add tag
+tags: [data-science, machine-learning, internship] # add tag
 ---
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://andrewwango.github.io/open-set-resnet-web-app) [![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=GitHub)](https://github.com/Andrewwango/open-set-resnet)

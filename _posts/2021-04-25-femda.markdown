@@ -4,7 +4,7 @@ title: "FEMDA: State-of-the-art robust classification"
 date: 2021-04-25 00:00:00 +0000
 description: # Add post description (optional)
 img: femda_img.jpg # Add image post (optional)
-tags: [research, machine-learning] # add tag
+tags: [research, machine-learning, internship] # add tag
 ---
 
 [![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=GitHub)](https://github.com/Andrewwango/femda)
@@ -14,7 +14,7 @@ tags: [research, machine-learning] # add tag
 
 Cite: _P. Houdouin, A. Wang, M. Jonckheere and F. Pascal, "Robust Classification with Flexible Discriminant Analysis in Heterogeneous Data," ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022, pp. 5717-5721, doi: 10.1109/ICASSP43922.2022.9747576._
 
-Summary of my research at CentraleSupélec, in the ![Laboratoire des signaux et systèmes](https://l2s.centralesupelec.fr/). Flexible EM-Inspired Discriminant Analysis is a robust supervised classification algorithm that performs well in heterogeneous or noisy and contaminated datasets. [femda](https://github.com/Andrewwango/femda) is implemented as a scikit-learn estimator.
+Summary of my research at CentraleSupélec, in the [Laboratoire des signaux et systèmes](https://l2s.centralesupelec.fr/). Flexible EM-Inspired Discriminant Analysis is a robust supervised classification algorithm that performs well in heterogeneous or noisy and contaminated datasets. [femda](https://github.com/Andrewwango/femda) is implemented as a scikit-learn estimator.
 
 #### Authors
 Andrew Wang, University of Cambridge, Cambridge, UK
