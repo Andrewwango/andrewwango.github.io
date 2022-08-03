@@ -7,6 +7,8 @@ img: brass_ring/sample1.jpg # Add image post (optional)
 tags: [freelance, machine-learning] # add tag
 ---
 
+[![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=GitHub)](https://github.com/Andrewwango/brass-ring-ocr)
+
 ...and my first freelance data science project. I was recently emailed by an ML hobbyist who'd found my previous [open-set classification project on GitHub](https://github.com/Andrewwango/open-set-resnet), where I came up with a simple way to classify images in certain open-set recognition problems [demo](https://andrewwango.github.io/open-set-resnet-web-app).
 
 They had a ["real-world"](https://www.cs.cmu.edu/~shuk/open-world-vision.html) image classification problem: 1000s of images of these brass "rings" split unevenly across ~20 classes (some with 1000+ samples, some with only a couple), plus the possibility of having to classify images that don't even fall into any of these classes. They had tackled the problem using deep learning (reporting 98% accuracy with a resnet18 CNN) and wanted to add open-set classification capabilities. Framed as a deep learning problem, we are faced with two challenges:
@@ -62,7 +64,7 @@ Then we pass the crops through the [4-stage scene text recognition pipeline](htt
 
 Finally, we run word matching. For each image, get all permutations of its bag of words, and compare each permutation with all given `classes=["winusa556mm", "winnt556mm", "hornadynato556", "hornady223mm", "frontier223rem", "fc223rem"]` using fuzzy word matching. Keep best match for each image, and for any score that is less than a given threshold, return `REJECT` signifying OOD _or_ failure. See below for an example output dataframe.
 
-<img src="{{site.baseurl}}/assets/img/brass_ring/demo_test_results.png" alt="drawing" width="15%"/>
+<img src="{{site.baseurl}}/assets/img/brass_ring/demo_test_results.png" alt="drawing" width="100%"/>
 
 where the first row is original filename, second row is class predictions, and third row is the matching score. We see that samples are classified to the text descriptions quite well, and the samples whose classes weren't included in the list of classes for word matching have been rejected: they are out-of-distribution samples.
 
