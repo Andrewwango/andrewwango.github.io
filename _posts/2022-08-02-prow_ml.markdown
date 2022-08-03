@@ -82,7 +82,7 @@ The aim here is to combine the data detailing public usage of paths with the PRo
 1. A geodataset of path entries labelled with PRoW (yes/no) and public activity, and tagged with OSM IDs for further feature analysis.
 2. An online map presenting the data stored on server, showing analysed paths.
 
-The online map is available on the [web-app](https://andrewwango.github.io/prow-web-app). An example is shown below:
+The online map is available on the [web-app](https://andrewwango.github.io/prow-web-app) - check it out!. An example is shown below:
 
 <iframe
   src="https://andrewwango.github.io/assets/html/east-of-england_BN.html"
