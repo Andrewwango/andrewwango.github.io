@@ -93,6 +93,9 @@ _OSM paths that have some public activity but are not PRoW, in Bedford, UK. Yell
 
 ## Limitations
 
-1. Current analysis uses public recorded GPS data from 2013 - I can't find any newer dumps than this.
-2. All analysed paths are limited to paths which appear on the OSM network. 
-3. Anonymised data means it's harder to track how and when the public are using the paths.
+1. Roadside foot- and cycle-paths show up as high activity non-RoW: these should be removed.
+2. Need to remove all paths intersecting with open access land and other public land.
+3. Need to link close path segments.
+4. Current analysis uses public recorded GPS data from 2013 - I can't find any newer dumps than this.
+5. All analysed paths are limited to paths which appear on the OSM network. 
+6. Anonymised data means it's harder to track how and when the public are using the paths.
