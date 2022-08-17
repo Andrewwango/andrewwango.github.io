@@ -20,8 +20,16 @@ Note: being able to listen to harmony and understand what is going on requires t
 
 1. Mixing tracks on percussion. No harmonic information - a lot of club-ready tracks might have intros/endings of solely percussion so you do not have to think about harmony.
 2. Mixing tracks on sparse harmony. Limited harmonic information...
-    a. Example: [_Bubas Producoes - Padjinha Pt. 3_](#padjinha). All melodies in the song only consist of 2 notes (B and A) and there is no harmony (no chords under the melody to suggest a key). Therefore no matter what key is "detected", you can use this information to e.g. mix into other songs in keys whose scales contain these notes, such as G major or E minor (among others) - see [REF].
-    b. Example: _Logic1000 - Baddie Pt. 2_ [EMBED]. Very sparse melody composing of few notes + sub-bass all around the key centre - it'd be safe to mix to any related key to the "detected" key - see [REF].
+
+    a. Example: _Bubas Producoes - Padjinha Pt. 3_
+    
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/820280779&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/djmag" title="djmag" target="_blank" style="color: #cccccc; text-decoration: none;">djmag</a> · <a href="https://soundcloud.com/djmag/premiere-bubas-producoes-padjinha-part-3" title="Premiere: Bubas Produçoes ‘Padjinha Part 3’" target="_blank" style="color: #cccccc; text-decoration: none;">Premiere: Bubas Produçoes ‘Padjinha Part 3’</a></div>
+    All melodies in the song only consist of 2 notes (B and A) and there is no harmony (no chords under the melody to suggest a key). Therefore no matter what key is "detected", you can use this information to e.g. mix into other songs in keys whose scales contain these notes, such as G major or E minor (among others) - see [REF].
+
+    b. Example: _Logic1000 - Baddie Pt. 2_.
+    
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/540865497&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/sumactrac" title="SUMAC" target="_blank" style="color: #cccccc; text-decoration: none;">SUMAC</a> · <a href="https://soundcloud.com/sumactrac/baddie-part-2-1" title="Baddie Part 2" target="_blank" style="color: #cccccc; text-decoration: none;">Baddie Part 2</a></div>
+    Very sparse melody composing of few notes + sub-bass all around the key centre - it'd be safe to mix to any related key to the "detected" key - see [REF].
 3. Mixing tracks with very simple but full harmony.
     a. Example: _Groove Armada - Superstylin'_ [EMBED]. There is full harmony in the melodic instruments, but it stays put on the chord of A major - the harmony does not move at all. You can mix in harmonic information from another track at any point in the track. However, it might help to understand what keys follow naturally after A major - see [REF].
 4. Mixing tracks with moving chord progressions and full harmony. Harder as have to a) think about how the chords are being used throughout the song, and how to relate these to new ones when mixing, and b) constantly pay attention to where you are in the chord progression.
@@ -108,9 +116,4 @@ Here are some common patterns for chord movements which are useful to know. I th
 
     Less popular now in popular music. One important usage is in the famous 12-bar blues pattern, which ends on a plagal cadence in bars 10-11. [EMBED]
 
-# Examples 
 
-### 
-
-<a id="padjinha"></a>
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/820280779&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/djmag" title="djmag" target="_blank" style="color: #cccccc; text-decoration: none;">djmag</a> · <a href="https://soundcloud.com/djmag/premiere-bubas-producoes-padjinha-part-3" title="Premiere: Bubas Produçoes ‘Padjinha Part 3’" target="_blank" style="color: #cccccc; text-decoration: none;">Premiere: Bubas Produçoes ‘Padjinha Part 3’</a></div>
