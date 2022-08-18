@@ -123,7 +123,7 @@ Here are some common patterns for chord movements which are useful to know. I th
 1. Moving from a major key to its relative minor key (or vice versa). The "relative minor", or 6m, is the minor key that is the most related to a major key, since their scales are exactly the same. For example, Am is the relative minor of C major; the Am and C major scales are the same, and the Am triad and the C major triad have two notes in common. (Similarly, Eb major is the relative major for C minor). See _Demo 2b_.  This means that when mixing from one to the other, it's less likely to hear notes that clash. This is so common that the inner ring of the Camelot wheel shows the relative minors of the outside major keys.
 2. Moving from a major key to its own minor key (or vice versa). This makes sense, as the tonic does not change at all, for example C major - C minor. If one track ends on the tonic note and the next track starts on the tonic note, then it will seem seamless. See _Demo 2a_. However, if notes of the scale such as the third degree are very present in the melody, there might be a clash between the major third and minor third.
 
-<iframe src="https://flat.io/embed/62fd61642dc8160013c46afb?locale=en-GB&sharingKey=0a4c28160a664f95f5bbd4b32d6403254262b9a0d30d431b075ce9623c5643ad241372b126120fd19a68b5063f5766a7b1d8ea3db545c96fd428c819066fe284" height="200" width="50%" frameBorder="0" allowfullscreen allow="midi"></iframe>
+<iframe src="https://flat.io/embed/62fe06ead3f69c0012686992?sharingKey=6df88ce57804da9a60c215489ce65a437cea420d759a005119ca1d59163b422c8d733bd43caf63c257419264c31ed7d1c93b900268e0b2d9a6335c6cc6e2523d" height="210" width="50%" frameBorder="0" allowfullscreen allow="midi"></iframe>
 
 _Demo 2: a): C major and its own minor key (C minor). b) C major and its relative minor key (A minor)._
 
@@ -132,7 +132,7 @@ _Demo 2: a): C major and its own minor key (C minor). b) C major and its relativ
 1. 5-1, which, when at the end of a phrase/pattern, is called a "perfect cadence". (e.g. G-C or G-Cm) Why it works is shown in _Demo 1_. This is so common that it is immortalised in the circle of fifths: consecutive perfect cadences equals moving down the circle of fifths.
 2. 7-1m, or 5-6m. Quite popular for keeping a dark feeling in minor-key songs. This is called an interrupted cadence - instead of 5-1, the relative minor (6m) "interrupts" the resolution of the tension.
 
-    <iframe src="https://flat.io/embed/62fd61642dc8160013c46afb?locale=en-GB&sharingKey=0a4c28160a664f95f5bbd4b32d6403254262b9a0d30d431b075ce9623c5643ad241372b126120fd19a68b5063f5766a7b1d8ea3db545c96fd428c819066fe284" height="200" width="50%" frameBorder="0" allowfullscreen allow="midi"></iframe>
+    <iframe src="https://flat.io/embed/62fd617780ef630013010630?locale=en-GB&sharingKey=1f36bc6fdd639dd93ba5627bafebd89409ab4f6d21debdf6211e34367819b06158fad34f9869f226eda37581a53e9e997491edc93b5e4b9ed05ed865be4b9de0" height="200" width="50%" frameBorder="0" allowfullscreen allow="midi"></iframe>
     _Demo 3: interrupted cadence in key of C major_
 
 3. 4-1, which, when at the end of a phrase/pattern, is called a "plagal cadence". (e.g. F-C). Note that this can also be seen as the inverse of a perfect cadence, or moving "up" the circle of fifths.
