@@ -24,6 +24,7 @@ Skip to...
     * [🇨🇳 Pork](#hong-shao-rou)
     * [Grilled chicken](#grilled-chicken)
     * [🇨🇳 Sweet and sour pork](#sweet-sour)
+    * [Pulled pork](#pulled-pork)
 * **🥦 [Vegetarian](#vegetarian)**
     * [🇨🇳 EFR](#efr)
     * [🇮🇹 Broccoli pasta](#broccoli-pasta)
@@ -104,6 +105,25 @@ Grill on dry high-heat cast-iron pan for 5 mins per side, until cooked (inside=7
 6. Deep fry pork on a slow fry and remove when yellow (~10 mins).
 7. Deep fry pork on high and remove when golden and crispy (~3 mins).
 8. Fry aromatics and veg. Add sauce, thicken. Add pork, toss.
+
+---
+
+### Pulled pork <a id="pulled-pork"></a>
+<img src="{{site.baseurl}}/assets/img/cooking/pulled-pork.png" alt="drawing" width="50%"/>
+
+Ingredients:
+
+- Pork shoulder from the supermarket, following quantities assume 1.4kg of meat. Choose one that doesn't look like it's falling apart, and with a small fat/skin cap.
+- Spice rub (flexible - most things optional): BBQ seasoning (check ingredients and adapt following quantities appropriately), 1 cup combined brown+white sugar, paprika, smoked paprika (to emulate smoker effect but not too much unless you like it like that) garlic/ginger/onion powder, salt+pepper, mustard powder, oregano.
+- Cooking liquid: maybe a cider/beer, some cider vinegar, some water - doesn't really matter.
+- Sauce ingredients: ketchup, vinegar, onion, optional: molasses, chipotle, Worcestershire sauce
+
+1. Trim off most of fat cap and pat dry. Use fat cap for crackling (pat dry, score, rub with salt and oil, oven/grill at high heat.)
+2. Generously apply spice rub.
+3. The pork needs to be cooked in the oven covered with a source of humidity. Place on rack elevated above a roasting tray with liquid inside (e.g. [this](https://www.ikea.com/gb/en/p/koncis-roasting-tin-with-grill-rack-stainless-steel-10099053/)) and cover whole tray with foil, or place on metal rack inside large casserole dish with lid with liquid inside. Make sure fat is facing up. 
+4. Cook low and slow - 140°C/120°C fan for >6 hours, the longer the better. Optionally for last hour turn up heat slightly and uncover slightly to develop crust and evaporate some liquid. Remove and rest.
+5. BBQ sauce: sauté diced onion, add splash vinegar, ketchup (forms base of sauce), some sugar/honey, optional: molasses/soy sauce/Worcestershire sauce/anything else, garlic powder. Add juices from roasting tray. Simmer until thick.
+6. Pull pork with 2 forks and mix in sauce.
 
 ---
 
