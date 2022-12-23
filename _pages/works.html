@@ -1,0 +1,20 @@
+---
+title: Works / Projects
+layout: page
+permalink: /works/
+---
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+  {% for post in site.works %} {% if post.image %}
+  <a href="{{post.url}}" class="no-underline">
+    <img
+      class="lazyload h-44 w-full object-cover object-center rounded"
+      src="{{post.image}}"
+      alt="{{work.title}}"
+    />
+    {% endif %}
+    <h4 class="text-xl font-semibold text-center">{{post.title}}</h4>
+    <p class="text-center">{{post.description}}</p>
+  </a>
+  {% endfor %}
+</div>

@@ -1,0 +1,27 @@
+# choose a color scheme for the website
+color-scheme: bg-blue-500
+text-color-scheme: text-blue-500
+# you have these options: https://tailwindcss.com/docs/customizing-colors
+# Do not use white or lighter shades of gray since the text may not be visible
+
+touch-icon: /assets/images/figs-180.png
+favicon: /assets/images/figs-32.png
+
+footer:
+  show-footer: false
+  footer-text: "Copyrights by &copy; Figs"
+
+analytics: "UA-92266803-7"
+disqus-shortname: "webjeda-demo"
+
+# this is for contact form in contact page /_pages/contact.
+formspree-action: https://formspree.io/f/mdowwywy
+#Create an account here https://formspree.io
+
+# if enabled, Mathjax script is loaded and math formulas are rendered beautifully - https://www.mathjax.org/
+# this will not run on homepage but can be used on any other page
+math: true
+
+
+# set this to false
+show-buy-button: true

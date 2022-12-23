@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="wrapper px-2 md:px-0 my-4 md:my-12">
+    <div class="grid md:grid-cols-12 gap-8">
+      {% include sidebar.html %}
+      <main
+        class="col-span-12 md:col-span-8 shadow-lg rounded-lg bg-white p-4 md:p-8"
+      >
+        <div class="grid grid-cols-1 gap-6 place-items-center mb-3">
+          {% if page.image %}
+          <img
+            loading="lazy"
+            class="lazyload w-full object-cover object-center rounded"
+            src="{{page.image}}"
+            alt="{{page.title}}"
+          />
+          {% endif %}
+          <h1 class="font-bold text-2xl text-center">{{page.title}}</h1>
+          <p class="text-center">{{page.description}}</p>
+        </div>
+        <div class="mb-3 text-sm text-gray-500">
+          {% include breadcrumbs.html %}
+        </div>
+        <div class="page">{{content}}</div>
+      </main>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+{% if site.data.settings.footer.show-footer %}
+<footer
+  class="bg-black col-span-12 md:col-span-8 md:col-start-5 shadow-lg rounded justify-end p-4 md:p-8"
+  data-sal="slide-up"
+  data-sal-duration="800"
+>
+  <div class="wrapper">
+    <p class="text-gray-300">{{site.data.settings.footer.footer-text}}</p>
+  </div>
+</footer>
+{% endif %}

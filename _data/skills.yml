@@ -1,0 +1,23 @@
+- name: HTML
+  skillLevel: 90 #do not add '%' symbol. It will be added automatically
+  color: "text-pink-400" # choose a tailwind color class
+
+- name: CSS
+  skillLevel: 80
+  color: "text-green-400"
+
+- name: JavaScript
+  skillLevel: 60
+  color: "text-yellow-400"
+  
+- name: Python
+  skillLevel: 70
+  color: "text-indigo-400"
+  
+- name: Photoshop
+  skillLevel: 70
+  color: "text-blue-400"
+  
+- name: Svelte
+  skillLevel: 50
+  color: "text-red-400"

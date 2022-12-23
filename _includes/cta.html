@@ -1,0 +1,65 @@
+{% if site.data.settings.show-buy-button %}
+<div class="cta">
+  <h2
+    class="font-bold text-xl pb-3 mb-3 border-b"
+    data-sal="slide-up"
+    data-sal-duration="800"
+  >
+    Buy
+    <span class="{{site.data.settings.text-color-scheme}}"
+      >Figs Jekyll Theme</span
+    >
+    <span
+      ><img
+        loading="lazy"
+        class="lazyload inline-block ml-2 w-6"
+        src="{{site.data.settings.touch-icon}}"
+        alt="Figs Jekyll Theme"
+      />
+    </span>
+  </h2>
+  <div
+    class="grid grid-cols-1 gap-4 py-3 items-center"
+    data-sal="fade"
+    data-sal-duration="800"
+  >
+    <ul>
+      <li class="italic text-gray-600">
+        <i class="fas fa-check-circle text-green-500 mr-2"></i>3 months support.
+      </li>
+      <li class="italic text-gray-600">
+        <i class="fas fa-check-circle text-green-500 mr-2"></i>Get assistance
+        with reported bugs and issues.
+      </li>
+      <li class="italic text-gray-600">
+        <i class="fas fa-check-circle text-green-500 mr-2"></i>Help with
+        included 3rd party assets.
+      </li>
+      <li class="italic text-gray-600">
+        You can always leave us an email at <code>hello@webjeda.com</code>.
+      </li>
+    </ul>
+    <iframe
+      width="941"
+      height="538"
+      src="https://www.youtube.com/embed/dc-zMDiANvg"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <div class="max-w-xs">
+      <a
+        class="block mb-4 underline text-blue-500 hover:text-blue-600"
+        href="/blog/documentation/"
+        >Features</a
+      >
+      <form>
+        <script
+          src="https://checkout.razorpay.com/v1/payment-button.js"
+          data-payment_button_id="pl_GOIpM5VVspDaKh"
+        ></script>
+      </form>
+    </div>
+  </div>
+</div>
+{% endif %}

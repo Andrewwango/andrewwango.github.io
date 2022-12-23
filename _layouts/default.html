@@ -1,0 +1,30 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+  {% include head.html %}
+  <body class="bg-gray-100">
+    {% include loading-animation.html %} {% include header.html %} {{ content }}
+    <!-- https://github.com/mattboldt/typed.js/ -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script>
+      var options = {
+        strings: [
+          {% for item in site.data.sidebar.designations %}
+          "{{item}} ^200",
+          {% endfor %}
+        ],
+        typeSpeed: 80,
+        loop: true,
+        loopCount: Infinity,
+      };
+
+      var typed = new Typed(".typed", options);
+    </script>
+
+    {% include lazy-style-loader.html %} {% include lazy-script-loader.html %}
+    {% include instapage.html %}
+  </body>
+</html>

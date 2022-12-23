@@ -1,0 +1,15 @@
+- name: AutoSpeed
+  image: /assets/images/customers/auto-speed.svg
+  link: '#'
+  
+- name: BeautyBox
+  image: /assets/images/customers/beauty-box.svg
+  link: '#'
+
+- name: The Dance Studio
+  image: /assets/images/customers/the-dance-studio.svg
+  link: '#'
+
+- name: FastBanana
+  image: /assets/images/customers/fast-banana.svg
+  link: '#'

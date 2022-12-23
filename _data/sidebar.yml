@@ -1,0 +1,36 @@
+name: John Owens
+image: https://randomuser.me/api/portraits/men/86.jpg
+designations:
+  - Teacher
+  - Freelancer
+  - Blogger
+  - Programmer
+
+social:
+  - title: LinkedIn
+    link: "#"
+    icon: fa-linkedin
+
+  - title: Facebook
+    link: "#"
+    icon: fa-facebook-square
+
+  - title: Twitter
+    link: "#"
+    icon: fa-twitter-square
+
+  - title: Github
+    link: "#"
+    icon: fa-github-square
+
+  - title: StackOverflow
+    link: "#"
+    icon: fa-stack-overflow
+
+sidebar-links:
+  - title: Download CV
+    link: "/assets/docs/resume.pdf"
+    downloadable: true
+
+  - title: Contact me
+    link: /contact/

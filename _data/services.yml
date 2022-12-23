@@ -1,0 +1,15 @@
+- title: Python
+  description: I teach python on Udemy.
+  icon: '<i class="fab text-white text-xl fa-python"></i>'
+
+- title: Data Science
+  description: I work on Big Data and Machine Learning.
+  icon: '<i class="fas text-white text-xl fa-database"></i>'
+
+- title: Marketing
+  description: I have marketed several products online.
+  icon: '<i class="fas text-white text-xl fa-globe-americas"></i>'
+
+- title: Blogging
+  description: I write blogs on everything.
+  icon: '<i class="fas text-white text-xl fa-newspaper"></i>'
