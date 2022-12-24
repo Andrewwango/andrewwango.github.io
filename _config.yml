@@ -4,7 +4,6 @@ description: A resume theme
 # enabled baseurl if you are using project pages in Github or Gitlab
 #baseurl: /figs
 
-_site: .
 permalink: /blog/:title/
 
 include:
