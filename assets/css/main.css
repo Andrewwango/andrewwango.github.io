@@ -1159,6 +1159,7 @@ footer .copyright {
   margin: 0 0 10px;
   font-size: 30px;
   font-weight: 400;
+  line-height: normal;
 }
 
 .post .post-content .post-title a {
@@ -1169,6 +1170,7 @@ footer .copyright {
 
 .post .post-content p {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 a.older-posts, a.newer-posts {
