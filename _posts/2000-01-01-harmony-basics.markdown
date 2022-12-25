@@ -2,7 +2,7 @@
 layout: post
 title: Harmony basics for harmonic mixing
 date: 2000-01-01 00:00:00 +0000
-otherpost: y
+other: y
 description:  # Add post description (optional)
 img: # Add image post (optional)
 tags: [life] # add tag
