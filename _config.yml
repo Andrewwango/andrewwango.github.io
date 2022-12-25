@@ -1,0 +1,37 @@
+title: Andrew Wang's Portfolio
+description: > # this means to ignore newlines until "baseurl:"
+  Andrew Wang's personal website and data science portfolio
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://andrewwango.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Andrew Wang # add your name
+author-img: logo.jpg # add your photo
+about-author: AI Engineer at <a href="https://www.kainos.com/">Kainos</a>. Cambridge Uni MEng grad. Data scientist and researcher passionate about environmental sustainability & land justice. Campaigning for better access to the outdoors for everyone. Speak to me in 🇬🇧 🇫🇷 🇨🇳 🇩🇪
+cv-author: "https://andrewwango.github.io/cv.pdf"
+google-scholar: "https://scholar.google.com/citations?user=00ET0NAAAAAJ"
+social-twitter: andrewwango # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: andrewwango # add your Github handle
+social-linkedin: andrewwang27 # add your Linkedin handle
+social-email: andrew.wang27@gmail.com # add your Email address
+
+# Disqus
+discus-identifier: # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

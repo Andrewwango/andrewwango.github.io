@@ -1,0 +1,67 @@
+---
+layout: post
+title: "Topics and materials for 4F10"
+otherpost: y
+date: 2000-01-01 00:00:00 +0000
+description:  # Add post description (optional)
+img: # Add image post (optional)
+tags: [cambridge] # add tag
+---
+
+A collection of topics and materials for 4F10: Deep Learning and Structured Data in 2022.
+
+Key of what's expected (hopefully...):
+- 🔴 important topic, mathematical detail
+- 🟡 understanding of concepts
+- 🟢 awareness
+
+- **Lecture 1: "Introduction"**
+    - Nothing of use presented in this lecture
+- **Lecture 2: "Probability of Error & Decision Boundaries"**
+    - 🔴 Much better explained in this very clear tutorial on Linear and Quadratic Disciminant Analysis: [arXiv](https://arxiv.org/abs/1906.02590)
+    - 🔴 Bayes decision rule: slides 4-6
+- **Lecture 3: "Graphical Models and Conditional Independence"**, and Undirected GMs (Markov Networks)
+    - 🔴 CIs: slides 4-6
+    - 🟡 Markov networks: [Murphy ch19](https://www.cs.ubc.ca/~murphyk/MLbook/pml-print3-ch19.pdf), section 19.3.1.
+- **Lecture 4,5,6: "Latent Variable and Sequence Models"**
+    - 🟡 Factor Analysis [sklearn](https://scikit-learn.org/stable/modules/decomposition.html#factor-analysis)
+    - 🔴 EM for learning GMM - [Murphy 11.4.2](https://andrewwango.github.io/assets/pdf/Murphy_PML_sec11_4.pdf)
+    - HMMs:
+        - 🔴 General: see [3F8 notes](https://andrewwango.github.io/assets/pdf/3F8_sequence_modelling.pdf)
+        - 🟡 Inference: Discrete Kalman Filter & Viterbi algorithm: [Murphy section 17.4](https://andrewwango.github.io/assets/pdf/Murphy_PML_sec17_4.pdf), see also 3F8
+        - 🟡 Learning: EM (not covered really)
+    - 🟢 Conditional Random Fields - model description, motivation, and learning [Murphy section 19.6](https://andrewwango.github.io/assets/pdf/Murphy_PML_sec19_6.pdf)
+- **Lecture 7,8: "Deep Learning"**
+    - A very poor intro to DL where everything is just in the wrong order - see instead chapters in the tutorials on [d2l.ai](http://d2l.ai):
+        - 🔴 Linear network intro: [d2l.ai](http://d2l.ai/chapter_linear-networks) 
+        - 🔴 MLPs: [d2l.ai](http://d2l.ai/chapter_multilayer-perceptrons) 
+            - Network configuration: [MLM](https://machinelearningmastery.com/how-to-configure-the-number-of-layers-and-nodes-in-a-neural-network/)
+        - 🔴 Network training: [d2l.ai](http://d2l.ai/chapter_multilayer-perceptrons/backprop.html ) 
+            - Batch normalisation [d2l.ai](http://d2l.ai/chapter_convolutional-modern/batch-norm.html)
+            - Regularisation: [TDS](https://towardsdatascience.com/regularization-in-deep-learning-l1-l2-and-dropout-377e75acc036)
+        - 🔴 CNNs: [d2l.ai](http://d2l.ai/chapter_convolutional-neural-networks) 
+            - Pooling: [d2l.ai](http://d2l.ai/chapter_convolutional-neural-networks/pooling.html)
+        - 🔴 ResNets: [d2l.ai](http://d2l.ai/chapter_convolutional-modern/resnet.html ) 
+            - Highway layers: [PWC](https://paperswithcode.com/method/highway-layer)
+        - 🟡 Advanced optimisation algorithms: [d2l.ai](http://d2l.ai/chapter_optimization) 
+    - 🔴 Initialisation and Xavier initialisation: [deeplearning.ai](https://www.deeplearning.ai/ai-notes/initialization/)
+- **Lecture 9,10: "Deep Learning for Sequence Data"**
+    - 🔴 RNNs (slides 4-7, seq to target): [Blog](https://victorzhou.com/blog/intro-to-rnns/) and [d2l.ai](https://d2l.ai/chapter_recurrent-neural-networks/rnn.html)
+    - 🟢 Elman vs Jordan networks: slide 8
+    - 🟢 Bi-directional RNNs: [d2l.ai](https://d2l.ai/chapter_recurrent-modern/bi-rnn.html)
+    - 🟡 LSTMs and GRUs: [Blog](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+    - Seq2seq/encoder-decoder model with attention:
+        - 🟡 Overview with application to Neural Machine Translation: [Jalammar blog](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
+        - 🟡 Focus on seq2seq model: [d2l.ai](https://d2l.ai/chapter_recurrent-modern/seq2seq.html)
+        - 🔴 Focus on attention types: [d2l.ai](https://d2l.ai/chapter_attention-mechanisms/attention-scoring-functions.html)
+    - 🟢 Target to sequence: slides 37-40.
+    - 🟢 Word2vec [Overview blog](https://wiki.pathmind.com/word2vec), [More thorough treatment](https://d2l.ai/chapter_natural-language-processing-pretraining/word2vec.html?highlight=word2vec)
+    - 🟢 Transformers: [Jalammar blog](https://jalammar.github.io/illustrated-transformer/)
+    - 🟢 Introduction to BERT: [Jalammar blog](https://jalammar.github.io/illustrated-bert/)
+- **Lecture 11: "Ensemble Methods"**
+    - 🟡 Dropout: [Medium](https://prvnk10.medium.com/ensemble-methods-and-the-dropout-technique-95f36e4ae9be)
+    - 🟡 Bagging: [TDS](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205)
+    - 🟢 Model compression: [Medium](https://medium.com/analytics-vidhya/knowledge-distillation-in-a-deep-neural-network-c9dd59aff89b)
+- 🔴 **Lecture 12: "Support Vector Machines"** - ok, this is actually quite good
+- 🔴 **Lecture 13: "Support Vector Machines: Advanced Topics"** (kernel SVM) - good too
+- 🟢 **Lecture 14: "Kernels for Structured Data"** - good enough

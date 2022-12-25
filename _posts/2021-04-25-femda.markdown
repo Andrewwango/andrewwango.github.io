@@ -1,0 +1,59 @@
+---
+layout: post
+title: "FEMDA: State-of-the-art robust classification"
+date: 2021-04-25 00:00:00 +0000
+description: # Add post description (optional)
+img: femda_img.jpg # Add image post (optional)
+tags: [research, machine-learning, internship] # add tag
+---
+
+[![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=GitHub)](https://github.com/Andrewwango/femda)
+[![](https://img.shields.io/badge/arXiv-View%20Preprint-green?logo=arxiv)](https://arxiv.org/abs/2201.02967)
+
+*Update 2022:* our paper has just been accepted at ICASSP 2022 - the International Conference on Acoustics, Speech, & Signal Processing. ICASSP is the IEEE Signal Processing Society's flagship conference on signal processing.
+
+Cite: _P. Houdouin, A. Wang, M. Jonckheere and F. Pascal, "Robust Classification with Flexible Discriminant Analysis in Heterogeneous Data," ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022, pp. 5717-5721, doi: 10.1109/ICASSP43922.2022.9747576._
+
+Summary of my research at CentraleSupélec, in the [Laboratoire des signaux et systèmes](https://l2s.centralesupelec.fr/). Flexible EM-Inspired Discriminant Analysis is a robust supervised classification algorithm that performs well in heterogeneous or noisy and contaminated datasets. [femda](https://github.com/Andrewwango/femda) is implemented as a scikit-learn estimator.
+
+#### Authors
+Andrew Wang, University of Cambridge, Cambridge, UK
+Pierre Houdouin, CentraleSupélec, Paris, France
+
+#### Get started
+```python
+>>> from sklearn.datasets import load_iris
+>>> from femda import FEMDA
+>>> X, y = load_iris(return_X_y=True)
+>>> clf = FEMDA()
+>>> clf.fit(X, y)
+FEMDA()
+>>> clf.score(X, y)
+0.9666666666666667
+```
+
+Using a `sklearn.pipeline.Pipeline`...
+
+```python
+>>> from sklearn.datasets import load_digits
+>>> from sklearn.pipeline import make_pipeline
+>>> from sklearn.decomposition import PCA
+>>> X, y = load_digits(return_X_y=True)
+>>> pipe = make_pipeline(PCA(n_components=5), FEMDA()).fit(X, y)
+>>> pipe.predict(X)
+...
+```
+
+#### Run the experiments presented in the paper
+```python
+>>> from femda.experiments import run_experiments()
+>>> run_experiments()
+...
+```
+
+See ![demo.ipynb](https://github.com/Andrewwango/femda/blob/main/demo.ipynb) for more.
+
+#### Abstract
+Linear and Quadratic Discriminant Analysis are well-known classical methods but can heavily suffer from non-Gaussian distributions and/or contaminated datasets, mainly because of the underlying Gaussian assumption that is not robust. To fill this gap, this paper presents a new robust discriminant analysis where each data point is drawn by its own arbitrary Elliptically Symmetrical (ES) distribution and its own arbitrary scale parameter. Such a model allows for possibly very heterogeneous, independent but non-identically distributed samples. After deriving a new decision rule, it is shown that maximum-likelihood parameter estimation and classification are very simple, fast and robust compared to state-of-the-art methods. 
+
+
