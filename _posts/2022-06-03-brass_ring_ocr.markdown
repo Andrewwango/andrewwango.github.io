@@ -2,7 +2,7 @@
 layout: post
 title: "An interesting open-set image classification problem..."
 date: 2022-06-03 00:00:00 +0000
-description:  # Add post description (optional)
+description:  "An interesting open-set image classification problem..."
 img: brass_ring/sample1.jpg # Add image post (optional)
 tags: [freelance, machine-learning] # add tag
 ---

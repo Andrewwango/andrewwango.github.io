@@ -2,7 +2,7 @@
 layout: post
 title: Open-set image classification with a simple and novel method
 date: 2021-06-01 00:00:00 +0000
-description:  # Add post description (optional)
+description:  Open-set image classification with a simple and novel method
 img: Spaniel_Clumber.jpg # Add image post (optional)
 tags: [data-science, machine-learning, internship] # add tag
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Computer vision for social distancing monitoring
 date: 2020-12-07 00:00:00 +0000
-description:  # Add post description (optional)
+description: Computer vision for social distancing monitoring
 img: turing/fig6.png # Add image post (optional)
 tags: [research, data-science, machine-learning, internship] # add tag
 ---

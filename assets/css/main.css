@@ -1101,8 +1101,8 @@ footer .copyright {
 }
 
 .post {
-  width: 48%;
-  max-width: 48%;
+  width: 100%;
+  max-width: 100%;
   margin-bottom: 1.5rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1364,6 +1364,7 @@ a.newer-posts:hover {
 
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */
 /* Medium Devices, Desktops */
+/* NOTE: max-width changed from 992 */
 @media only screen and (max-width: 1992px) {
   .post {
     width: 48%;

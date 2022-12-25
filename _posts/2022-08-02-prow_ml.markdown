@@ -2,7 +2,7 @@
 layout: post
 title: "Land access research: discovering lost rights of way using public data"
 date: 2022-08-02 00:00:00 +0000
-description:  # Add post description (optional)
+description:  "Land access research: discovering lost rights of way using public data"
 img: prow/thumb.png # Add image post (optional)
 tags: [research, data] # add tag
 ---
