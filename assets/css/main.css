@@ -1101,8 +1101,8 @@ footer .copyright {
 }
 
 .post {
-  width: 100px;
-  max-width: 100px;
+  width: 1%;
+  max-width: 1%;
   margin-bottom: 1.5rem;
   display: -webkit-box;
   display: -webkit-flex;
