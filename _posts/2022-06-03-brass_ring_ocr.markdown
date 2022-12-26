@@ -1,5 +1,6 @@
 ---
 layout: post
+type: project
 title: "An interesting open-set image classification problem..."
 date: 2022-06-03 00:00:00 +0000
 description:  "An interesting open-set image classification problem..."

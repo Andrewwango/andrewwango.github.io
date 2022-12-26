@@ -1,5 +1,6 @@
 ---
 layout: post
+type: project
 title: "CCASE: serverless call centre custom analytics pipeline"
 date: 2021-06-01 00:00:00 +0000
 description:  "CCASE: serverless call centre custom analytics pipeline"

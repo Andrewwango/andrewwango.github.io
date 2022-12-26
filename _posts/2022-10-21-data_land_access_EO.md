@@ -2,7 +2,7 @@
 layout: post
 title: Why improving UK land access rights is important for a more sustainable outdoors
 date: 2022-10-21 00:00:00 +0000
-unlisted: y
+type: unlisted
 description:  # Add post description (optional)
 img: # Add image post (optional)
 tags: [] # add tag

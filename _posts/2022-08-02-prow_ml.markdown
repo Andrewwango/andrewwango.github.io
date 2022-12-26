@@ -1,5 +1,6 @@
 ---
 layout: post
+type: project
 title: "Land access research: discovering lost rights of way using public data"
 date: 2022-08-02 00:00:00 +0000
 description:  "Land access research: discovering lost rights of way using public data"

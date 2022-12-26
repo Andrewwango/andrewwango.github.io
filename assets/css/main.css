@@ -1100,20 +1100,8 @@ footer .copyright {
   margin: 0;
 }
 
-.post-section {
-  text-align: center;
-  margin: 10px 0;
-  display: flex;
-}
-
-.post-section .section-title {
-  font-weight: 400;
-  margin: 0 0 10px;
-  line-height: 1.3;
-  display: flex;
-}
-
 .page-section-header {
+  margin-left: 10px;
   margin-right: 20em;
 }
 

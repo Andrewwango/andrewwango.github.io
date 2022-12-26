@@ -1,5 +1,6 @@
 ---
 layout: post
+type: project
 title: Open-set image classification with a simple and novel method
 date: 2021-06-01 00:00:00 +0000
 description:  Open-set image classification with a simple and novel method

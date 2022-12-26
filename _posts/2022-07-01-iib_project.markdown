@@ -1,5 +1,6 @@
 ---
 layout: post
+type: research
 title: "MEng research: towards physics-informed dynamic latent space models"
 date: 2022-07-01 00:00:00 +0000
 description:  "MEng research: towards physics-informed dynamic latent space models"

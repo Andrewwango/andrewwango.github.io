@@ -1,5 +1,6 @@
 ---
 layout: post
+type: research
 title: "FEMDA: State-of-the-art robust classification"
 date: 2021-04-25 00:00:00 +0000
 description: "FEMDA: State-of-the-art robust classification"
