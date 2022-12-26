@@ -3,7 +3,7 @@ layout: main
 ---
 {% for post in paginator.posts %}
 {% unless post.unlisted %}
-<!-- {% if post.other %} -->
+{% if post.other %}
 <article class="post">
   {% if post.img %}
     <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
@@ -14,7 +14,7 @@ layout: main
     <p>{{ post.description }}</p>
   </div>
 </article>
-<!-- {% endif %} -->
+{% endif %}
 {% endunless %}
 {% endfor %}
 
