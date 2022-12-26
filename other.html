@@ -1,7 +1,7 @@
 ---
 layout: main
 ---
-{% for post in paginator.posts %}
+{% for post in site.posts %}
 {% unless post.unlisted %}
 {% if post.other %}
 <article class="post">
@@ -17,5 +17,3 @@ layout: main
 {% endif %}
 {% endunless %}
 {% endfor %}
-
-{% include pagination.html %}
