@@ -1,5 +1,6 @@
 ---
 layout: post
+type: research
 title: Forest vegetation quantification for environmental monitoring using hand-held cameras
 date: 2022-04-09 00:00:00 +0000
 description:  Forest vegetation quantification for environmental monitoring using hand-held cameras

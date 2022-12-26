@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Harmony basics for harmonic mixing
+title: Harmonic mixing
 date: 2000-01-01 00:00:00 +0000
-other: y
-description:  # Add post description (optional)
+type: other
+description:  Harmony basics for Jordan
 img: # Add image post (optional)
 tags: [life] # add tag
 ---

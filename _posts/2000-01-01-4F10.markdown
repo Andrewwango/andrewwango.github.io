@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Topics and materials for 4F10"
-other: y
+title: "4F10: Deep Learning"
+type: other
 date: 2000-01-01 00:00:00 +0000
-description:  # Add post description (optional)
+description:  A collection of topics and materials
 img: # Add image post (optional)
 tags: [cambridge] # add tag
 ---

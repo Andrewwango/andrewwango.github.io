@@ -1,5 +1,6 @@
 ---
 layout: post
+type: research
 title: Computer vision for social distancing monitoring
 date: 2020-12-07 00:00:00 +0000
 description: Computer vision for social distancing monitoring
