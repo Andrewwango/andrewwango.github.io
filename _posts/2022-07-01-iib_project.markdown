@@ -13,7 +13,13 @@ This is a quick write-up of my IIB Masters project, titled *"Dynamic latent spac
 
 Andrew Wang, supervised by [Prof. Mark Girolami](https://prof-girolami.uk/) in the [Computational Statistics and Machine Learning](https://csml-cam.github.io) group in the Department of Civil Engineering at the University of Cambridge.
 
+Hello
+
 $$E=mc^2$$
+
+Hello
+
+\[E=mc^2\]
 
 ## Motivation
 
