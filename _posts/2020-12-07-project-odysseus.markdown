@@ -1,10 +1,10 @@
 ---
 layout: post
 type: research
-title: Computer vision for social distancing monitoring
+title: London social distance estimation
 date: 2020-12-07 00:00:00 +0000
-description: Computer vision for social distancing monitoring
-img: turing/fig6.png # Add image post (optional)
+description: BCS Computer Journal paper with the Alan Turing Institute
+img: turing/turing_cover.png 
 tags: [research, data-science, machine-learning, internship] # add tag
 ---
 

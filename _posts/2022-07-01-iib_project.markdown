@@ -1,10 +1,10 @@
 ---
 layout: post
 type: research
-title: "MEng research: towards physics-informed dynamic latent space models"
+title: Physics-informed dynamic latent space models
 date: 2022-07-01 00:00:00 +0000
-description:  "MEng research: towards physics-informed dynamic latent space models"
-img: iib_project/MNIST_manifold.png # Add image post (optional)
+description:  MEng thesis in computational statistics and ML
+img: iib_project/MNIST_manifold_long.png # Add image post (optional)
 tags: [research, machine-learning, cambridge] # add tag
 usemathjax: true
 ---
@@ -19,8 +19,6 @@ There are many natural physical phenomena in the world that can be modelled by p
 
 - Waves on a string can be modelled with the wave equation (the underlying variable is the wave amplitude):
 
-![]({{site.baseurl}}/assets/img/iib_project/eq1.png)
-
 $$\frac{\partial^2 u}{\partial t^2}-c^2 \frac{\partial^2 u}{\partial x^2}=0$$
 
 <img src="{{site.baseurl}}/assets/img/iib_project/wave_solution.gif" alt="drawing" width="20%"/>
@@ -28,6 +26,8 @@ $$\frac{\partial^2 u}{\partial t^2}-c^2 \frac{\partial^2 u}{\partial x^2}=0$$
 - Cnoidal waves in shallow water can be modelled with the Korteweg-de Vries equation:
 
 ![]({{site.baseurl}}/assets/img/iib_project/eq2.png)
+
+$$\frac{\partial u}{\partial t}+u \frac{\partial u}{\partial x}+\delta^2 \frac{\partial^3 u}{\partial x^3}=0$$
 
 <img src="{{site.baseurl}}/assets/img/iib_project/KdV_equation.gif" alt="drawing" width="20%"/> [1]
 

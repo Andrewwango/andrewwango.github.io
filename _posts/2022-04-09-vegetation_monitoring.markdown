@@ -1,10 +1,10 @@
 ---
 layout: post
 type: research
-title: Forest vegetation quantification for environmental monitoring using hand-held cameras
+title: Forest vegetation quantification
 date: 2022-04-09 00:00:00 +0000
-description:  Forest vegetation quantification for environmental monitoring using hand-held cameras
-img: vegetation.jpg # Add image post (optional)
+description:  Environmental monitoring robotics project report
+img: vegetation/vegetation_long.jpg # Add image post (optional)
 tags: [research, machine-learning, cambridge, robotics] # add tag
 ---
 
