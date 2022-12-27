@@ -4,7 +4,7 @@ type: project
 title: OCR vs OOD
 date: 2022-06-03 00:00:00 +0000
 description: Text recognition for classifying brass ring images
-img: brass_ring/cover.jpg # Add image post (optional)
+img: brass_ring/cover.png # Add image post (optional)
 tags: [freelance, machine-learning] # add tag
 ---
 
