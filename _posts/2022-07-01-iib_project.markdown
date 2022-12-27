@@ -6,11 +6,14 @@ date: 2022-07-01 00:00:00 +0000
 description:  "MEng research: towards physics-informed dynamic latent space models"
 img: iib_project/MNIST_manifold.png # Add image post (optional)
 tags: [research, machine-learning, cambridge] # add tag
+usemathjax: true
 ---
 
 This is a quick write-up of my IIB Masters project, titled *"Dynamic latent spaces with statistical finite elements"*, for submission to the MEng Engineering degree, for which I was awarded a 1st class and a Distinction. Find my [project thesis abstract here](https://andrewwango.github.io/assets/pdf/iib_abstract.pdf), and my [full project thesis here](https://andrewwango.github.io/assets/pdf/iib_report.pdf).
 
 Andrew Wang, supervised by [Prof. Mark Girolami](https://prof-girolami.uk/) in the [Computational Statistics and Machine Learning](https://csml-cam.github.io) group in the Department of Civil Engineering at the University of Cambridge.
+
+$$E=mc^2$$
 
 ## Motivation
 
