@@ -13,14 +13,6 @@ This is a quick write-up of my IIB Masters project, titled *"Dynamic latent spac
 
 Andrew Wang, supervised by [Prof. Mark Girolami](https://prof-girolami.uk/) in the [Computational Statistics and Machine Learning](https://csml-cam.github.io) group in the Department of Civil Engineering at the University of Cambridge.
 
-Hello
-
-$$E=mc^2$$
-
-Hello
-
-\[E=mc^2\]
-
 ## Motivation
 
 There are many natural physical phenomena in the world that can be modelled by partial differential equations (PDEs) that evolve both in space and time. The goal of modelling these phenomena with these equations is to estimate the underlying variables. A few quick examples:
@@ -28,6 +20,8 @@ There are many natural physical phenomena in the world that can be modelled by p
 - Waves on a string can be modelled with the wave equation (the underlying variable is the wave amplitude):
 
 ![]({{site.baseurl}}/assets/img/iib_project/eq1.png)
+
+$$\frac{\partial^2 u}{\partial t^2}-c^2 \frac{\partial^2 u}{\partial x^2}=0$$
 
 <img src="{{site.baseurl}}/assets/img/iib_project/wave_solution.gif" alt="drawing" width="20%"/>
 
