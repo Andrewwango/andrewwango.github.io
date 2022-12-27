@@ -1,10 +1,10 @@
 ---
 layout: post
 type: project
-title: Open-set image classification with a simple and novel method
+title: Open-set image classification
 date: 2021-06-01 00:00:00 +0000
-description:  Open-set image classification with a simple and novel method
-img: Spaniel_Clumber.jpg # Add image post (optional)
+description: A simple and novel approach
+img: open-set-resnet/cover.png # Add image post (optional)
 tags: [data-science, machine-learning, internship] # add tag
 ---
 
@@ -15,9 +15,9 @@ Open-set classification or out-of-distribution detection is critical for letting
 ![](https://raw.githubusercontent.com/Andrewwango/open-set-resnet/master/web-app/src/assets/display_sm.jpg)
 
 #### Web app
-Try me out here: https://andrewwango.github.io/open-set-resnet-web-app
+Try me out [here](https://andrewwango.github.io/open-set-resnet-web-app)
 
-The API is available here: https://open-set-resnet-api.herokuapp.com/ 
+The API is available [here](https://open-set-resnet-api.herokuapp.com/)
 
 #### Getting started locally
 1.
