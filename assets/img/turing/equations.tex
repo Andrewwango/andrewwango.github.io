@@ -1,0 +1,24 @@
+World-coordinates are then obtained by transforming the vehicle positions using the camera's saved parameters $(u0,v0,u1,h)$ estimated in Section \ref{section:feature}
+$$(u,v) \underset{u0,v0,u1,h}{\operatorname{\mapsto}}(X,Y)$$
+where first, the image origin is relocated to the principal point, 
+\begin{equation}
+\begin{bmatrix}u'\\v' \end{bmatrix}=\begin{bmatrix}u\\v \end{bmatrix}-\mathbf{p}
+\end{equation}
+where the principal point $\mathbf{p}$ is assumed to be the image centre (Section \ref{section:model}).
+Then the transformation is given, from \cite{schoepflin}, by
+\begin{gather}
+\label{eq:X}
+X=\frac{h}{f\sin{\phi}} \frac{v'_0\cdot u'}{v'_0-v'}\\
+\label{eq:Y}
+Y=\frac{h}{f\sin^2{\phi}} \frac{v'_0\cdot v'}{v'_0-v'}
+\end{gather}
+where, from \cite{dubska}, the focal length of a camera is given by two vanishing points
+\begin{equation}
+f=\sqrt{-(\begin{bmatrix}u_0\\v_0 \end{bmatrix}-\mathbf{p})\cdot (\begin{bmatrix}u_1\\v_1 \end{bmatrix}-\mathbf{p})}
+=\sqrt{-u'_0 u'_1 - v^{\prime 2}_0}
+\end{equation}
+using the assumption in Section \ref{section:model} that the horizon is flat $v_0=v_1$, 
+and from \cite{schoepflin},
+\begin{equation}
+\cos{\phi}=\frac{f}{\sqrt{-u'_0 u'_1}}
+\end{equation}

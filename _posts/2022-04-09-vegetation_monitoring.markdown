@@ -6,6 +6,7 @@ date: 2022-04-09 00:00:00 +0000
 description:  Environmental monitoring robotics project report
 img: vegetation/vegetation_long.jpg # Add image post (optional)
 tags: [research, machine-learning, cambridge, robotics] # add tag
+usemathjax: true
 ---
 
 [![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=GitHub)](https://github.com/Andrewwango/vegetation-segmentation)
