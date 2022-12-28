@@ -27,13 +27,17 @@ There are many natural physical phenomena in the world that can be modelled by p
 
 $$\frac{\partial^2 u}{\partial t^2}-c^2 \frac{\partial^2 u}{\partial x^2}=0$$
 
-<img src="{{site.baseurl}}/assets/img/iib_project/wave_solution.gif" alt="drawing" display:block;float:none;margin-left:auto;margin-right:auto;width="20%"/>
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/iib_project/wave_solution.gif" alt="drawing" width="20%"/>
+</p>
 
 - Cnoidal waves in shallow water can be modelled with the Korteweg-de Vries equation:
 
 $$\frac{\partial u}{\partial t}+u \frac{\partial u}{\partial x}+\delta^2 \frac{\partial^3 u}{\partial x^3}=0$$
 
-<img src="{{site.baseurl}}/assets/img/iib_project/KdV_equation.gif" alt="drawing" display:block;float:none;margin-left:auto;margin-right:auto;width="20%"/> [1]
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/iib_project/KdV_equation.gif" alt="drawing" width="20%"/> [1]
+</p>
 
 - Heat transfer (the underlying variable is temperature), chemical reaction-diffusion (the underlying variable is chemical concentration), structural strain, electromagnetic fields...
 
@@ -84,7 +88,7 @@ In order to model more complex data, such as image/video data in the wave exampl
 
 <img src="{{site.baseurl}}/assets/img/iib_project/vae%20diagram.png" alt="drawing" width="60%"/> [9]
 
-In a VAE, an encoder models dimensionality reduction into a lower-dimensional latent space, and a decoder models the inverse, generative mapping. The latent space "bottleneck" has a prior to enforce an efficient representation space. The neural networks of the model are trained end-to-end in a unsupervised manner, using a variational lower bound of the Bayesian evidence:
+In a VAE, an encoder models dimensionality reduction into a lower-dimensional latent space, and a decoder models the inverse, generative mapping. The latent space "bottleneck" has a prior to enforce an efficient representation space. The neural networks of the model are trained end-to-end in a unsupervised manner, using a variational lower bound of the Bayesian evidence, where `y` are observed images and `x` are the latents, the tilde represents a sampling step taken during variational inference and `KL` means the Kullback-Leibler divergence:
 
 $$\operatorname{ELBO}(\phi, \theta) \approx \frac{1}{M} \sum_{i=1}^M\left[\log p_\theta\left(\mathbf{y}_i \mid \tilde{\mathbf{x}}_i\right)\right]-D_{\mathrm{KL}}\left(q_\phi(\mathbf{x} \mid \mathbf{y}) \| p_x(\mathbf{x})\right)$$
 
@@ -96,13 +100,19 @@ The VAE has been shown to learn meaningful, smooth low-dimensional representatio
 
 <img src="{{site.baseurl}}/assets/img/iib_project/vae_gen.png" alt="drawing" width="40%"/>
 
-To start modelling time dependency in the VAE latent space, the dynamical variant called Kalman VAE (KVAE) [10] introduces a linear state-space model (SSM) into the VAE latent space, and infers latent state-space sequences using the Kalman Filter. This is useful as the inferred posteriors are a Bayesian combination of the VAE data and some dynamical SSM.
+To start modelling time dependency in the VAE latent space, the dynamical variant called Kalman VAE (KVAE) [10] introduces a linear state-space model (SSM) into the VAE latent space, and infers latent state-space sequences using the Kalman Filter. This is useful as the inferred posteriors are a Bayesian combination of the VAE data and some dynamical SSM. The resulting evidence lower bound combines parameters from both the state space model and the VAE:
+
+$$\begin{aligned} \operatorname{ELBO}(\theta, \phi, \Lambda, v) & \approx \frac{1}{M} \sum_{i=1}^M\left[\log p_\theta\left(\mathbf{y}_{1: T, i} \mid \tilde{\mathbf{x}}_{1: T, i}\right)-\log q_\phi\left(\tilde{\mathbf{x}}_{1: T, i} \mid \mathbf{y}_{1: T, i}\right)+\right. \\ & \left.\log p_v\left(\tilde{\mathbf{x}}_{1: T, i} \mid \tilde{\mathbf{u}}_{1: T, i}\right)+\log p_{\Lambda}\left(\tilde{\mathbf{u}}_{1: T, i}\right)-\log p_{\Lambda, v}\left(\tilde{\mathbf{u}}_{1: T, i} \mid \tilde{\mathbf{x}}_{1: T, i}\right)\right]\end{aligned}$$
 
 ## Our approach
 
-The aim in [10] was to learn the parameters of the linear dynamical model from data. However, our approach instead fixes the parameters according to an assumed SPDE. We can do this because in the linear case, solving a SPDE with statistical finite elements gives a linear transition model. Therefore this transition model can be elegantly "dropped-in" into the KVAE latent space. Our model is _physics-informed_: instead of having to learning dynamics from scratch, inference combines knowledge of the underlying PDE "prior" and the observed data. 
+The aim in [10] was to learn the parameters of the linear dynamical model from data. However, our approach instead fixes the parameters according to an assumed SPDE. We can do this because in the linear case, solving a SPDE with statistical finite elements gives a linear transition model. Therefore this transition model can be elegantly "dropped-in" into the KVAE latent space, where the dimension is the number of finite elements. The transition model is calculated to be, in the case of a linear SPDE using the explicit Euler spatial discretisation method:
 
-Note that there are two perspectives here. Firstly, we have equipped a physics model solver with deep feature extraction capabilities that are learnt in an unsupervised manner. Alternatively, we have equipepd a deep representation learning model with dynamics that are informed by physics.
+$$\begin{aligned} p_{\Lambda}\left(\mathbf{u}_n \mid \mathbf{u}_{n-1}\right) & =\mathscr{N}\left(\mathbf{u}_n ; \mathbf{F}_{\Lambda} \mathbf{u}_{n-1}+\mathbf{f}, \mathbf{Q}\right) \\ \mathbf{F}_{\Lambda} & =\mathbf{I}-\Delta_t \mathbf{M}^{-1} \mathbf{A} \\ \mathbf{f} & =\Delta_t \mathbf{M}^{-1} \mathbf{b} \\ \mathbf{Q} & =\Delta_t \mathbf{M}^{-1} \mathbf{G M}^{-\top}\end{aligned}$$
+
+where `M` and `A` are finite-dimensional matrices representing the PDE in discretised Sobolev space, `G` is a finite-dimensional diffusion matrix constructed according to the assumptions on the noise, and `\Delta_t` is the time discretisation constant.
+
+Our model is **physics-informed**: instead of having to learning dynamics from scratch, inference combines knowledge of the underlying PDE "prior" and the observed data. Note that there are two perspectives here. Firstly, we have equipped a physics model solver with deep feature extraction capabilities that are learnt in an unsupervised manner. Alternatively, we have equipepd a deep representation learning model with dynamics that are informed by physics.
 
 ## Experiments
 
@@ -122,13 +132,13 @@ All models are implemented and trained with PyTorch. The encoder and decoder net
 
 After the model has been trained, we can firstly check for training and generalisation success by plotting the loss function:
 
-<img src="{{site.baseurl}}/assets/img/iib_project/ELBO_test87.png" alt="drawing" width="70%"/>
+<img src="{{site.baseurl}}/assets/img/iib_project/ELBO_test87.png" alt="drawing" width="50%"/>
 
 We can also pass a test sample through the model (below left). We see that the image has been successfully reconstruced through the encoder-decoder model (below right). However, most importantly, the inferred latent space sequence (below middle) closely resembles what we expect the underlying variables to be: a vector following the wave equation. This sequence has been inferred from the higher-dimensional data, given knowledge that it should follow the wave equation.
 
 <img src="{{site.baseurl}}/assets/img/iib_project/orig.gif" alt="drawing" width="20%"/> <img src="{{site.baseurl}}/assets/img/iib_project/latent.gif" alt="drawing" width="20%"/> <img src="{{site.baseurl}}/assets/img/iib_project/recon.gif" alt="drawing" width="20%"/>
 
-Furthermore, we can set a truthful initial condition in the latent space and propagate forward in time according to the transition model (below left). Then, by passing this through the decoder, we can predict a new sequence in the future that resembles the original seen data (below right)/
+Furthermore, we can set a truthful initial condition in the latent space and propagate forward in time according to the transition model (below left). Then, by passing this through the decoder, we can predict a new sequence in the future that resembles the original seen data (below right):
 
 <img src="{{site.baseurl}}/assets/img/iib_project/gen_latent.gif" alt="drawing" width="20%"/> <img src="{{site.baseurl}}/assets/img/iib_project/gen_recon.gif" alt="drawing" width="20%"/>
 
