@@ -9,9 +9,15 @@ tags: [research, machine-learning, cambridge] # add tag
 usemathjax: true
 ---
 
-This is a quick write-up of my IIB Masters project, titled *"Dynamic latent spaces with statistical finite elements"*, for submission to the MEng Engineering degree, for which I was awarded a 1st class and a Distinction. Find my [project thesis abstract here](https://andrewwango.github.io/assets/pdf/iib_abstract.pdf), and my [full project thesis here](https://andrewwango.github.io/assets/pdf/iib_report.pdf).
+How can Digital Twins incorporate observed data into an underlying "digital" finite element model?
 
-Andrew Wang, supervised by [Prof. Mark Girolami](https://prof-girolami.uk/) in the [Computational Statistics and Machine Learning](https://csml-cam.github.io) group in the Department of Civil Engineering at the University of Cambridge.
+This is a quick summary of my IIB Masters project, titled *"Dynamic latent spaces with statistical finite elements"*, for submission to the MEng Engineering degree, for which I was awarded a 1st class and a Distinction. I was supervised by [Prof. Mark Girolami](https://prof-girolami.uk/) in the [Computational Statistics and Machine Learning](https://csml-cam.github.io) group in the Department of Civil Engineering at the University of Cambridge. 
+
+Publications:
+
+- [Project thesis abstract](https://andrewwango.github.io/assets/pdf/iib_abstract.pdf)
+- [Full project thesis](https://andrewwango.github.io/assets/pdf/iib_report.pdf).
+- [arXiv paper submitted to ICLR](https://arxiv.org/abs/2209.15609) 
 
 ## Motivation
 
@@ -24,8 +30,6 @@ $$\frac{\partial^2 u}{\partial t^2}-c^2 \frac{\partial^2 u}{\partial x^2}=0$$
 <img src="{{site.baseurl}}/assets/img/iib_project/wave_solution.gif" alt="drawing" width="20%"/>
 
 - Cnoidal waves in shallow water can be modelled with the Korteweg-de Vries equation:
-
-![]({{site.baseurl}}/assets/img/iib_project/eq2.png)
 
 $$\frac{\partial u}{\partial t}+u \frac{\partial u}{\partial x}+\delta^2 \frac{\partial^3 u}{\partial x^3}=0$$
 
@@ -41,13 +45,9 @@ The problem with FEM is that it is not in any way related to the real world; the
 
 The data-driven approach to these science and engineering problems involves integrating observed data to improve the physical model, for example:
 
-- Observed waves in a lab:
-
-<img src="{{site.baseurl}}/assets/img/iib_project/waveside%20dataset.gif" alt="drawing" width="30%"/>
-
-- Observed cnoidal waves in the field:
-
-<img src="{{site.baseurl}}/assets/img/iib_project/cnoidal%20image.JPG" alt="drawing" width="30%"/> [2]
+| Observed waves in a lab: | Observed cnoidal waves in the field: |
+|---|---|
+| <img src="{{site.baseurl}}/assets/img/iib_project/waveside%20dataset.gif" alt="drawing" width="30%"/> | <img src="{{site.baseurl}}/assets/img/iib_project/cnoidal%20image.JPG" alt="drawing" width="30%"/> [2] |
 
 By doing this, we can do the following:
 
