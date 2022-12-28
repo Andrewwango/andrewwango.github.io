@@ -27,13 +27,13 @@ There are many natural physical phenomena in the world that can be modelled by p
 
 $$\frac{\partial^2 u}{\partial t^2}-c^2 \frac{\partial^2 u}{\partial x^2}=0$$
 
-<img src="{{site.baseurl}}/assets/img/iib_project/wave_solution.gif" alt="drawing" width="20%"/>
+<img src="{{site.baseurl}}/assets/img/iib_project/wave_solution.gif" alt="drawing" display:block;float:none;margin-left:auto;margin-right:auto;width="20%"/>
 
 - Cnoidal waves in shallow water can be modelled with the Korteweg-de Vries equation:
 
 $$\frac{\partial u}{\partial t}+u \frac{\partial u}{\partial x}+\delta^2 \frac{\partial^3 u}{\partial x^3}=0$$
 
-<img src="{{site.baseurl}}/assets/img/iib_project/KdV_equation.gif" alt="drawing" width="20%"/> [1]
+<img src="{{site.baseurl}}/assets/img/iib_project/KdV_equation.gif" alt="drawing" display:block;float:none;margin-left:auto;margin-right:auto;width="20%"/> [1]
 
 - Heat transfer (the underlying variable is temperature), chemical reaction-diffusion (the underlying variable is chemical concentration), structural strain, electromagnetic fields...
 
@@ -62,25 +62,39 @@ Digital twins are models that contain the physics of a real-world model, for exa
 
 For example, in [5], a digital twin of an instrumented bridge is developed. Sensor data of the strain, that is perhaps noisy and sparse, is assimilated with an assumed, underlying finite element model of the structural mechanics, which may be misspecified, in order to estimate the true strains in the bridge.
 
-<img src="{{site.baseurl}}/assets/img/iib_project/statFEMCMAMEfig1.png" alt="drawing" width="100%"/> [5]
+<img src="{{site.baseurl}}/assets/img/iib_project/statFEMCMAMEfig1.png" alt="drawing" width="70%"/> [5]
 
 ## Background
 
-The statistical finite element method has been developed in [6] in order to tackle this problem of data assimilation. In their model, data is observed via an assumed noisy, linear mapping. The data assimilation problem is framed as a Bayesian filtering problem; the data likelihood is combined with a prior arising from the solution of a stochastic PDE (SPDE) to form posterior estimates of the latent (underlying) variable. Below, sparsely observed data and an underlying, invisble PDE are combined to give statistical estimates of the posterior.
+The statistical finite element method has been developed in [6] in order to tackle this problem of data assimilation. In their model, data `x` is observed via an assumed noisy, linear mapping. The data assimilation problem is framed as a Bayesian filtering problem; the likelihood of the data `x` is combined with a prior arising from the solution of a stochastic PDE (SPDE) to form posterior estimates of the latent (underlying) variable `u`. In effect, the method solves the SPDE to give a first order linear Markovian state-space model:
 
-<img src="{{site.baseurl}}/assets/img/iib_project/statFEM%20duffinh.png" alt="drawing" width="40%"/>
+$$p_{\Lambda}\left(\mathbf{u}_t \mid \mathbf{u}_{t-1}\right) =\mathscr{N}\left(\mathbf{u}_t ; \mathbf{F}_{\Lambda} \mathbf{u}_{t-1}, \mathbf{Q}\right) $$
+
+$$p_v\left(\mathbf{x}_t \mid \mathbf{u}_{t-1}\right) = \mathscr{N}\left(\mathbf{x}_t ; \mathbf{C}_\nu \mathbf{u}_t, \mathbf{R}\right)$$
+
+where subscripts represent sets of parameters. Then, the filtering posterior is
+
+$$p_{\Lambda, \nu}\left(\mathbf{u}_{1: T} \mid \mathbf{x}_{1: T}\right)$$
+
+For example, below, sparsely observed data and an underlying, invisble PDE are combined to give statistical estimates of the posterior.
+
+<img src="{{site.baseurl}}/assets/img/iib_project/statFEM%20duffinh.png" alt="drawing" width="25%"/> [6]
 
 In order to model more complex data, such as image/video data in the wave examples above, we need a way to model and also learn complex data mappings, which are much harder to provide by hand, without knowing already what the solution is meant to be. In the field of machine learning, this is known as unsupervised representation learning. One such approach is the variational autoencoder (VAE) [7] below: 
 
-<img src="{{site.baseurl}}/assets/img/iib_project/vae%20diagram.png" alt="drawing" width="80%"/> [9]
+<img src="{{site.baseurl}}/assets/img/iib_project/vae%20diagram.png" alt="drawing" width="60%"/> [9]
 
-In a VAE, an encoder models dimensionality reduction into a lower-dimensional latent space, and a decoder models the inverse, generative mapping. The latent space "bottleneck" has a prior to enforce an efficient representation space. The neural networks of the model are trained end-to-end in a unsupervised manner. The VAE has been shown to learn meaningful, smooth low-dimensional representations of data...
+In a VAE, an encoder models dimensionality reduction into a lower-dimensional latent space, and a decoder models the inverse, generative mapping. The latent space "bottleneck" has a prior to enforce an efficient representation space. The neural networks of the model are trained end-to-end in a unsupervised manner, using a variational lower bound of the Bayesian evidence:
 
-<img src="{{site.baseurl}}/assets/img/iib_project/MNIST_manifold.png" alt="drawing" width="80%"/> [8]
+$$\operatorname{ELBO}(\phi, \theta) \approx \frac{1}{M} \sum_{i=1}^M\left[\log p_\theta\left(\mathbf{y}_i \mid \tilde{\mathbf{x}}_i\right)\right]-D_{\mathrm{KL}}\left(q_\phi(\mathbf{x} \mid \mathbf{y}) \| p_x(\mathbf{x})\right)$$
+
+The VAE has been shown to learn meaningful, smooth low-dimensional representations of data...
+
+<img src="{{site.baseurl}}/assets/img/iib_project/MNIST_manifold.png" alt="drawing" width="40%"/> [8]
 
 ... and also generate synthetic data that is realistic but novel, such as from this VAE trained on human faces:
 
-<img src="{{site.baseurl}}/assets/img/iib_project/vae_gen.png" alt="drawing" width="80%"/>
+<img src="{{site.baseurl}}/assets/img/iib_project/vae_gen.png" alt="drawing" width="40%"/>
 
 To start modelling time dependency in the VAE latent space, the dynamical variant called Kalman VAE (KVAE) [10] introduces a linear state-space model (SSM) into the VAE latent space, and infers latent state-space sequences using the Kalman Filter. This is useful as the inferred posteriors are a Bayesian combination of the VAE data and some dynamical SSM.
 
