@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Harmonic mixing
-date: 2000-01-01 00:00:00 +0000
+date: 2022-07-17 00:00:00 +0000
 type: other
 description:  Harmony basics for Jordan
 img: # Add image post (optional)
