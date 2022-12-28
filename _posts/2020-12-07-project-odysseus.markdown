@@ -6,7 +6,6 @@ date: 2020-12-07 00:00:00 +0000
 description: BCS Computer Journal paper with the Alan Turing Institute
 img: turing/turing_cover.png 
 tags: [research, data-science, machine-learning, internship]
-usemathjax: true
 ---
 
 [![](https://img.shields.io/badge/arXiv-Paper%20in%20Preprint-green?logo=arxiv)](https://arxiv.org/abs/2012.07751)
@@ -96,15 +95,15 @@ The second image is to calibrate this arbitrary birds eye view to real-world Lon
 There are a huge variety of models and datasets available for performing object detection. We found that YOLOv4 performed the best. The detector was trained on two datasets, where the labels were collapsed into 6 common categories `[person, bike, car, motorbike, bus, truck]`:
 
 - [COCO](https://cocodataset.org/): “a large-scale object detection, segmentation, and captioning dataset.”
-- [MIO-TCD])(https://tcd.miovision.com/): “a challenge dataset for localization and identification of vehicles”
+- [MIO-TCD](https://tcd.miovision.com/): “a challenge dataset for localization and identification of vehicles”
 
 The detector was validated additionally on a custom dataset of labelled JamCam images. The number of annotations used is as follows, where we used as many high quality bounding boxes as possible:
 
-<img src="{{site.baseurl}}/assets/img/turing/counts.png" alt="drawing" width="20%"/>
+<img src="{{site.baseurl}}/assets/img/turing/counts.png" alt="drawing" width="15%"/>
 
 The results are as follows. The best validation performance on the custom dataset was achieved by the detector trained on the joint dataset. As expected, the best validation performance on each of COCO and MIO-TCD was achieved by detectors trained solely on each dataset. The mean average precision results at IoU threshold of 0.5 are summarised below:
 
-<img src="{{site.baseurl}}/assets/img/turing/results heatmap.png" alt="drawing" width="60%"/>
+<img src="{{site.baseurl}}/assets/img/turing/results heatmap.png" alt="drawing" width="40%"/>
 
 ## 6. Ethical considerations
 
