@@ -1,0 +1,310 @@
+---
+layout: post
+title: Student recipes for my pals
+date: 2019-01-01 00:00:00 +0000
+type: other
+description: A collection of my recipes.
+img: # Add image post (optional)
+tags: [life] # add tag
+---
+
+A collection of recipes requested by friends and passed down from family.
+
+"You should have a website with recipes so I can make egg fried rice at home but without the annoying life story BS before" - Jordan, 2020
+
+<img src="{{site.baseurl}}/assets/img/cooking/recipe-request.jpg" alt="drawing" width="50%"/>
+
+
+Skip to...
+
+* **🐟 [Fish](#fish)**
+    * [🇨🇳 Cod](#cod)
+    * [Poached salmon](#poached-salmon)
+* **🥩 [Meat](#meat)**
+    * [🇨🇳 Pork](#hong-shao-rou)
+    * [Grilled chicken](#grilled-chicken)
+    * [🇨🇳 Sweet and sour pork](#sweet-sour)
+    * [Pulled pork](#pulled-pork)
+* **🥦 [Vegetarian](#vegetarian)**
+    * [🇨🇳 EFR](#efr)
+    * [🇮🇹 Broccoli pasta](#broccoli-pasta)
+    * [🇮🇹 Cabbage pasta](#cabbage-pasta)
+    * [🇮🇹 Mushroom risotto](#risotto)
+    * [🇨🇳 Stir-fried veg ideas](#veg)
+    * [🇮🇳 Guest recipe from The Little One: Palak paneer](#paneer)
+* **🌱 [Vegan](#vegan)**
+    * [🇨🇳 土豆丝, potato side dish](#tudousi)
+    * [🇨🇳 Asian salad](#asian-salad)
+    * [🇨🇳 Kung pao chicken](#kung-pao)
+    * [🇨🇳 Mapo tofu](#tofu)
+    * [🇨🇳 鱼香茄子](#yu-xiang-qie-zi)
+    * [🇮🇳 Dahl](#dahl)
+    * [Veggie chilli](#chilli)
+    * [Roasted red pepper pasta](#red-pepper-pasta)
+
+---
+
+## 🐟 Fish<a id="fish"></a>
+
+---
+
+### 🇨🇳 Chinese cod 🐟 <a id="cod"></a>
+#### 鱼
+
+Prep: chop small thumb ginger, small garlic, 1 mild de-seeded red 🌶️, whites of 1 spring onion. Reserve chopped coriander, chopped greens of spring onion. White wine. Light soy.
+
+High heat frying pan, bit of oil. Quickly fry aromatics. Pat dry each cod fillet 🐟 and flash sear on both sides. Add couple glugs white wine to cover bottom + splash light soy. Sprinkle MSG and salt. Keep lid off. When sauce reduced, add greens, stir and remove. (Note: putting too much wine will overcook the cod.)
+
+_Note: can use haddock (firmer) or basa (cheaper)._
+
+---
+
+### Salmon poached in white wine 🐟 <a id="poached-salmon"></a>
+#### Brain food
+
+1. Boil new 🥔 and sprouting 🥦 and keep warm.
+2. Sauce: gently fry finely chopped shallots in olive oil, 5 mins. Add splash white wine, season and reduce very gently.
+3. Salmon: in small saucepan, gently warm 1 cup white wine. Add 1 halved shallot, sprigs of thyme, parsley, bay leaf etc. Rub salmon salt+pepper. 
+4. Place salmon on top, lid on, poach low heat 8 mins (barely bubbling). Check doneness (should still just see last bits of transluscency in thickest bit).
+5. Add 2 chunks of cold salted butter to sauce, stir, reduce.
+6. Serve with freshly chopped parsley.
+
+---
+
+## 🥩 Meat<a id="meat"></a>
+
+---
+
+### 🇨🇳 Your fat pork <a id="hong-shao-rou"></a>
+#### 妈的红烧肉
+
+*Ingredients*: 🐷 belly - ensure each strip has alternating lean/fat, has a layer of fat on top and rectangular in shape. Ginger, spring onion, star anise (八角, optional), cassia bark (桂皮/cinnamon sticks, optional), Chinese rock sugar (substitute with normal sugar), Shaoxing cooking wine, light + dark soy sauces.
+
+1. Pork preparation: boil pork belly with few ginger slices, few smashed spring onions, splash of cooking wine, for 2 mins. Drain, wash pork and dry on paper to remove scum. Heat up big saucepan with small drizzle of oil if not non-stick. Add pork slices fat side down and move around slowly, do not let stick. Then fry each side briefly. Remove, dry on paper. Cut into 1 inch wide slices.
+2. Aromatics: finely chopped ginger, ~5 spring onion chopped 5-10cm long, 2 star anise, 1 cassia bark. Saucepan on low heat, fry aromatics briefly until flavours released. Remove.
+3. Heat medium 1 Tbsp oil, add 1 handful rock sugar. Very slowly heat while constantly stirring until all sugar is brown and gloopy. Ease heat at end to ensure sugar is not too hot. Reintroduce pork and mix quickly to coat. Reintroduce aromatics, splash of cooking wine, splash light soy, water to cover everything. Generous 2 Tbsp dark soy until nice colour. Optional oyster sauce. Cover, simmer 30 mins. 
+4. Uncover. When starting to visibly reduce, add chopped 🥕 and stew at least another 20 mins until reduced enough. Serve.
+
+---
+
+### Simple grilled chicken <a id="grilled-chicken"></a>
+
+Boneless skinless chicken thighs (breasts dry out too easily). Cut flat and score. For 200g chicken: 1Tbsp mayo, black pepper, paprika, garlic (crushed/powder), cumin, lime zest, etc. Rub all over and marinade. 
+
+Grill on dry high-heat cast-iron pan for 5 mins per side, until cooked (inside=75°C). Slice and check. Thigh will not overcook. Ideas: burrito, kebab wrap...
+
+---
+
+### 🇨🇳 Sweet and sour pork <a id="sweet-sour"></a>
+#### 糖醋里脊
+
+1. Pork loin: slice horizontally if possible, crosshatch score, then cut into finger width strips. Marinate in salt, white pepper, Shaoxing wine, few ginger + spring onion pieces 15 mins.
+3. Batter: 1 🥚, 1 dsp flour, 2 dsp cornflour. Mix with pork.
+4. Sauce: 1 tsp salt, 1 Tbsp sugar, 2 Tbsp Chinese dark vinegar, some tomato ketchup + passata, water, 1 dsp cornflour. Better having more sauce than less.
+5. Aromatics: ginger, spring onion. Veg: peppers, carrots. etc.
+6. Deep fry pork on a slow fry and remove when yellow (~10 mins).
+7. Deep fry pork on high and remove when golden and crispy (~3 mins).
+8. Fry aromatics and veg. Add sauce, thicken. Add pork, toss.
+
+---
+
+### Pulled pork <a id="pulled-pork"></a>
+#### Mix of several online recipes + lessons learnt from first time in 2021. Adapted for easy home cooking.
+<img src="{{site.baseurl}}/assets/img/cooking/pulled-pork.png" alt="drawing" width="50%"/>
+
+
+**Ingredients**
+
+- Pork shoulder from the supermarket, following quantities assume 1.4kg of meat. Choose one that doesn't look like it's falling apart, and with a small fat/skin cap.
+- Spice rub (flexible - most things optional): BBQ seasoning (check ingredients and adapt following quantities appropriately), 1 cup combined brown+white sugar, paprika, smoked paprika (to emulate smoker effect but not too much unless you like it like that) garlic/ginger/onion powder, salt+pepper, mustard powder, oregano.
+- Cooking liquid: maybe a cider/beer, some cider vinegar, some water - doesn't really matter.
+- Sauce ingredients: ketchup, vinegar, onion, optional: molasses, chipotle, Worcestershire sauce
+
+**Method**
+
+1. Trim off most of fat cap and pat dry. Use fat cap for crackling (pat dry, score, rub with salt and oil, oven/grill at high heat.)
+2. Generously and **thoroughly** apply spice rub.
+3. The pork needs to be cooked in the oven covered with a source of humidity. Place on rack elevated above a roasting tray with liquid inside (e.g. [this](https://www.ikea.com/gb/en/p/koncis-roasting-tin-with-grill-rack-stainless-steel-10099053/)) and cover whole tray with foil, or place on metal rack inside large casserole dish with lid with liquid inside. Make sure fat is facing up. 
+4. Cook low and slow - 140°C/120°C fan for >6 hours, the longer the better. Optionally for last hour turn up heat slightly and uncover slightly to develop crust and evaporate some liquid. Remove and rest.
+5. BBQ sauce: sauté diced onion, add splash vinegar, ketchup (forms base of sauce), some sugar/honey, optional: molasses/soy sauce/Worcestershire sauce/anything else, garlic powder. Add juices from roasting tray. Simmer until thick.
+6. Pull pork with 2 forks and mix in sauce.
+
+---
+
+## 🥦 Vegetarian<a id="vegetarian"></a>
+
+---
+
+### 🇨🇳 EFR for the day after when there's rice left in the pot and he gives you that knowing look... <a id="efr"></a>
+#### 蛋炒饭
+<img src="{{site.baseurl}}/assets/img/cooking/efr-jordan.jpg" alt="drawing" width="50%"/>
+
+Need: leftover cooked long-grain 🍚, 2 chopped spring onions separated into white and green. 
+
+1. For 1: beat 2 🥚 w/ salt, heat oil on high until smoking, cook until almost done ~30s, remove. 
+2. Replenish oil on high. Add 🍚, immediately move around and press with mashing action until clumps separated. 
+3. White spring onion to bottom of pan. Add 2tsp light soy from edge of pan, mix. 
+4. Sprinkle MSG. Reintroduce 🥚. 
+5. Green spring onion, optional garden peas/bacon/ham etc., Chinese sesame oil
+
+Serve with 老干妈 (laoganma), aka Jordan's old wet grandma
+
+---
+
+### 🇮🇹 Gone 5pm still no dinner plans... broccoli pasta? <a id="broccoli-pasta"></a>
+#### "Before trying this thought this sounded disgusting but it was banging" - Jordan
+<img src="{{site.baseurl}}/assets/img/cooking/broccoli-pasta-jordan.jpg" alt="drawing" width="50%"/>
+
+1. Parboil 🥦 in small pieces (+ peeled chopped stalks) for 4 mins in salted water.
+2. Meanwhile big pan/low heat sauté 1 garlic per person pressed into 1 Tbsp per person extra virgin olive oil.
+3. Using slotted spoon, add 🥦 to pan, stir and keep on gentle sauté. Black pepper.
+4. Cook good quality spaghetti in broccoli water.
+5. Using tongs, add spaghetti to pan with pasta water. Toss around until starts getting creamy.
+6. Add grated pecorino 🧀 and toss with plenty pasta water for creamy sauce.
+
+
+---
+
+### 🇮🇹 "Cabbage pasta"? <a id="cabbage-pasta"></a>
+#### "This sounds disgusting" - Mike
+<img src="{{site.baseurl}}/assets/img/cooking/cabbage-pasta-lucy.jpg" alt="drawing" width="50%"/>
+
+---
+
+Olive oil in pan medium heat, add squarely sliced sweetheart cabbage, lid on, don’t mix for 5 mins.
+Add 🥄 sugar, roughly chopped 🧄 , roughly chopped anchovies with oil and knob of 🧈 stir.
+Fry until cabbage caramelised and anchovies “melted”.
+Meanwhile boil starchy spaghetti, when almost done add couple ladles pasta water to cabbage and boil down to go creamy.
+Add pasta, mix with more pasta water and Parmesan until creamy.
+
+---
+
+### 🇮🇹 Simple mushroom risotto <a id="risotto"></a>
+1. Sauté 🧅 in butter 5 mins, add finely chopped chestnut 🍄, cook until all moisture released and evaporated and dried (good for people who don't like the taste of mushrooms).
+2. Turn up heat, add arborio rice and toss until transluscent.
+3. White wine to deglaze pan.
+4. Gradually spoon in warm vegetable stock over period of 20 mins until rice is al dente (+ saffron optional).
+5. Knob of cold 🧈, parmesan, parsley. Season.
+6. Extra ingredient ideas: peas, green beans, boiled-pressed-chopped spinach (for health), fried pancetta, poached salmon, fresh pesto, truffle...
+
+---
+
+
+### 🇨🇳 Stir-fried veg ideas to keep Jordan a healthy boy <a id="veg"></a>
+#### note most of these have oyster sauce in.
+- Pak choi: stand in boiling water for 30 sec to parboil stems, then submerge for another 30 sec. Cold water, dry thoroughly. High heat: oil, garlic. Flash fry pak choi with oyster sauce. Season: salt, (optional sugar, msg).
+- 🥦: parboil 🥦 in small pieces (+ peeled chopped stalks) for 4 mins, cold water, dry thoroughly. High heat: oil, garlic, oyster sauce. Broccoli. Salt sugar msg. Lid on briefly.
+- Courgettes: no need to parboil, stir fry as above. No need for any seasoning.
+- Sweetheart cabbage: chop roughly. Add to oil on high heat and stir-fry. Salt. Add some sort of chilli crisp, e.g. 老干妈 Laoganma. Lid on briefly until desired tenderness reached.
+
+---
+
+#### _Guest recipe from_ 💪 _Vajoink_ 💪
+### 🇮🇳 Shrek juice <a id="paneer"></a>
+#### Palak Paneer
+Serves 4. You need spinach, paneer.
+
+1. Oil, temper 2-3tsp cumin seeds, 2 diced 🧅, 7 🧄, grate ginger, 3 green chillies, then 2 🍅, 20 cashews, salt. Add 500g spinach and shrink. Cool. Blend.
+2. Oil, temper 3 bay leaves, 6 cloves, 1-2 cinnamon sticks, 6 cardamom. Add 1tsp turmeric, 2tsp coriander powder, 1.5tsp cumin powder, 1tsp chilli powder.
+3. Add green purée, water. Add 2-3tsp garam masala, 3tsp fenugreek (methi), salt.
+4. Oil, chilli powder, garam masala, turmeric, coriander powder, sauté paneer. Add. Cream to taste.
+
+---
+
+## 🌱 Vegan<a id="vegan"></a>
+
+Some here are inherently vegan, some accidentally vegan, and some with meat substitutes that work alright.
+
+---
+
+### 🇨🇳 土豆丝, hot oil shredded 🥔<a id="tudousi"></a>
+<img src="{{site.baseurl}}/assets/img/cooking/tudousi.jpg" alt="drawing" width="50%"/>
+
+Oblong 🥔 for easy cutting. Slice 1 edge for base. Slice thinly then use toothpick to slice sides in perpendicular direction. Optionally soak in cold water for extra crispiness (and to prevent blackening). Add to bowl, pour boiling water, cover, stand 10 mins. Halfway through add thinly sliced flat green pepper. 
+
+- Aromatics: cut Chinese dried chillis with scissors, salt, sugar, minced garlic.
+- Drain potatoes thoroughly. Gently put aromatics on top, light soy, Chinese white rice vinegar. Pour over smoking hot oil to sizzle. Sesame oil.
+
+---
+
+### 🇨🇳 Asian salad<a id="asian-salad"></a>
+#### Adapted from somewhere on YouTube
+
+Salad, cut very thinly strips of: half a Kohlrabi, half yellow pepper, half red pepper, 1 🥕, 2 spring onion.
+
+Dressing: 2 garlic minced, 1 tsp salt, 1 Tbsp sugar, 2 Tbsp white rice vinegar, 2 Tbsp sesame oil, 2 Tbsp light soy sauce, 2.5 Tbsp neutral oil.
+
+Dress when serving. Top with crushed roasted/lightly-toasted-blanched peanuts.
+
+---
+
+### 🇨🇳 Kung pao 🐔<a id="kung-pao"></a>
+Vegan options tested using [what-the-cluck](https://www.thevegetarianbutcher.co.uk/products/retail/what-the-cluck.html), Co-op Gro Chick'n, seitan (面筋)
+1. Marinate: chicken/chicken substitute, 1tsp salt, 1Tbsp cornflour slurry, dark soy (go easy), (+ if using chicken, Shaoxing wine + 1 yolk + 1tsp white pepper)
+2. Peanuts: either pre-roasted or lightly toast blanched white peanuts.
+3. Sauce: 3Tbsp sugar, 1tsp salt, 1tsp white pepper, 1Tbsp Chinese white rice vinegar, 1Tbsp Chinkiang vinegar, 1Tbsp cornflour slurry, 1tsp dark soy, water.
+4. Prep: chop red pepper + carrot slices. Chop ginger, spring onion. Toast Sichuan peppercorns until fragrant and grind with pestle.
+4. If using chicken/optional: flash fry chicken until cooked.
+5. Cook: Oil high heat. Stir fry Chinese dried chillis, toasted ground Sichuan peppercorns, ginger, veg, spring onion.
+6. Add meat + sauce. Simmer + reduce. Add peanuts + garnish.
+
+---
+
+### 🇨🇳 鱼香茄子 🍆<a id="yu-xiang-qie-zi"></a>
+Note: find the slender, purple Chinese 🍆.
+
+1. Sauce: 3tsp sugar, Chinese white rice vinegar, light soy, dark soy, cornflour slurry, water.
+2. 🍆: slug-sized batons. Soak 15 mins with salt. Thoroughly dry and shallow fry until soft.
+3. Shallow fry ginger, garlic, 1Tbsp [郫县豆瓣酱 (Pixian doubanjiang)](https://thewoksoflife.com/doubanjiang/) (go easy), 1tsp [剁椒 (pickled chillis)](https://thewoksoflife.com/duo-jiao-chinese-salted-pickled-chilies/) (optional). Pork if using, with wine.
+4. Add 🍆, sauce. Simmer, reduce. Garnish with spring onion greens.
+
+---
+
+### 🇨🇳 Mapo tofu<a id="tofu"></a>
+#### Adapted from Dunlop - The Food of Sichuan.
+Medium-firm tofu (板豆腐) cut into 2cm cubes. Steep in hot salted water.
+
+Optional: cook minced pork on high heat.
+
+Optional: lightly toast Sichuan peppercorns discarding lone stems. Grind with pestle.
+
+1. Hot wok, oil, 1Tbsp [郫县豆瓣酱 (Pixian doubanjiang)](https://thewoksoflife.com/doubanjiang/), until fragrant. 
+2. Garlic, ginger. 
+3. Add tofu with slotted spoon. Add meat if using. Add 0.5-1 cup water, 0.5tsp white pepper.
+4. Bring to boil and simmer couple mins. Add cornstarch slurry to thicken.
+5. Spring onion, ground Sichuan peppercorns.
+
+---
+
+### 🇮🇳 Simple dahl <a id="dahl"></a>
+#### Approved by 2 Indian housemates, serves 4
+
+Prep extra ingredients:
+- 🍆: chop, salt and dry, shallow fry
+- Spinach: boil, squeeze water and chop
+- Tomatoes: dice
+
+2 cups red lentils rinsed + 6 cups water, medium cook 20 mins.
+Oil medium heat, cumin cinnamon cardamom. Add 1 🧅 , chilli, 🧄, ginger.
+Turmeric, extra ingredients, cook.
+Drain some water off lentils and add. 🍋 juice and season. 
+
+---
+
+### Plant-based chilli <a id="chilli"></a>
+#### Tastes surprisingly good considering it looks like shit, serves 4, good with brown rice
+
+Grill 2 🍆 turning occasionally until blackened all around (~20 mins). Peel and chop in cubes.
+Finely chop/blitz 🧅, 🥕, celery and sauté in olive oil 10 mins.
+Add aubergine, 1 can chopped tomatoes, 1 cup red lentils, 1 can kidney beans, dark soy, dark chocolate, smoky paprika, chilli powder, oregano, cumin, cinnamon, 800ml veg stock. Simmer 2 hours.
+
+---
+
+### Roasted red pepper pasta <a id="red-pepper-pasta"></a>
+#### Abridged from somewhere on TikTok
+
+Serves 4 (very filling), nice with pasta shells
+- soak 80g cashews, some sun dried tomatoes
+- Roast 4 chopped red peppers, 1💡 of 🧄, 1 🧅 with olive oil for 20 mins
+- Blend everything, 1 cup milk, juice half 🍋, 3 Tbsp nutritional yeast, chilli flakes, season.
+- Heat up. Add pasta and pasta water and cheese.

@@ -1100,6 +1100,11 @@ footer .copyright {
   margin: 0;
 }
 
+.page-section-header {
+  margin-left: 10px;
+  margin-right: 20em;
+}
+
 .post {
   width: 100%;
   max-width: 100%;
@@ -1117,7 +1122,7 @@ footer .copyright {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  min-height: 11rem;
+  min-height: 7rem;
   -webkit-border-radius: 10px;
           border-radius: 10px;
   overflow: hidden;
@@ -1139,7 +1144,7 @@ footer .copyright {
 .post .post-thumbnail {
   width: 30%;
   max-width: 100%;
-  min-height: 11rem;
+  min-height: 7rem;
   -webkit-background-size: cover;
           background-size: cover;
   background-position: 50% 50%;
@@ -1159,16 +1164,18 @@ footer .copyright {
   margin: 0 0 10px;
   font-size: 30px;
   font-weight: 400;
+  line-height: normal;
 }
 
 .post .post-content .post-title a {
-  font-family: 'PT Serif', serif;
+  /* font-family: 'PT Serif', serif; */
   text-decoration: none;
   color: #263959;
 }
 
 .post .post-content p {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 a.older-posts, a.newer-posts {
@@ -1364,7 +1371,8 @@ a.newer-posts:hover {
 
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */
 /* Medium Devices, Desktops */
-@media only screen and (max-width: 992px) {
+/* NOTE: max-width changed from 992 */
+@media only screen and (max-width: 1992px) {
   .post {
     width: 48%;
     max-width: 100%;

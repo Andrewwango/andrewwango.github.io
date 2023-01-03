@@ -1,13 +1,16 @@
 ---
 layout: post
-title: "Land access research: discovering lost rights of way using public data"
+type: project
+title: Discovering lost rights of way
 date: 2022-08-02 00:00:00 +0000
-description:  # Add post description (optional)
-img: prow/thumb.png # Add image post (optional)
+description: A Python geospatial data analysis
+img: prow/thumb2.png # Add image post (optional)
 tags: [research, data] # add tag
 ---
 
 A project to automatically analyse all footpaths in England and Wales to reclaim public rights of way (PRoW) using analysis of public GPX traces. In conjunction with [Joe Thorogood](https://rowresearch.coventry.domains/contact/).
+
+[Code](https://github.com/Andrewwango/prow-ml) | [Published article](https://earth.org/data_visualization/uk-land-access-rights/)
 
 ## Introduction
 

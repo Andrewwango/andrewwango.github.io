@@ -1,15 +1,16 @@
 ---
 layout: post
-title: "An interesting open-set image classification problem..."
+type: project
+title: OCR vs OOD
 date: 2022-06-03 00:00:00 +0000
-description:  # Add post description (optional)
-img: brass_ring/sample1.jpg # Add image post (optional)
+description: Text recognition for classifying brass ring images
+img: brass_ring/cover.png # Add image post (optional)
 tags: [freelance, machine-learning] # add tag
 ---
 
 [![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=GitHub)](https://github.com/Andrewwango/brass-ring-ocr)
 
-...and my first freelance data science project. I was recently emailed by an ML hobbyist who'd found my previous [open-set classification project on GitHub](https://github.com/Andrewwango/open-set-resnet), where I came up with a simple way to classify images in certain open-set recognition problems [demo](https://andrewwango.github.io/open-set-resnet-web-app).
+An interesting out-of-distribution (OOD) image classification problem and my first freelance data science project. I was recently emailed by an ML hobbyist who'd found my previous [open-set classification project on GitHub](https://github.com/Andrewwango/open-set-resnet), where I came up with a simple way to classify images in certain open-set recognition problems.
 
 They had a ["real-world"](https://www.cs.cmu.edu/~shuk/open-world-vision.html) image classification problem: 1000s of images of these brass "rings" split unevenly across ~20 classes (some with 1000+ samples, some with only a couple), plus the possibility of having to classify images that don't even fall into any of these classes. They had tackled the problem using deep learning (reporting 98% accuracy with a resnet18 CNN) and wanted to add open-set classification capabilities. Framed as a deep learning problem, we are faced with two challenges:
 
