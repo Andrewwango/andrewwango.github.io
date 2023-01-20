@@ -29,7 +29,7 @@ Values were extracted from the PDF tables, cleaned using `python` and joined wit
 
 ## Results
 
-Each of the following sections asks a question that informs the data analysis. Hover over and click into the charts and maps to get more insight into the data.
+Below are some of the results included in the analysis. Each section asks a question that informs the data analysis. Hover over and click into the charts and maps to get more insight into the data.
 
 ### How does engagement differ between Computer Studies and ICT?
 
@@ -37,14 +37,7 @@ In 2021-2022, the total number of ICT pupils is much bigger than the total numbe
 
 <iframe
   src="https://andrewwango.github.io/assets/html/ni_outreach/Total_Pupils.html"
-  style="width:100%; height:200px;"
-></iframe>
-
-In 2021-2022, there are many more schools offering ICT than Computer Studies for both Key Stages
-
-<iframe
-  src="https://andrewwango.github.io/assets/html/ni_outreach/Total_Schools.html"
-  style="width:100%; height:200px;"
+  style="width:100%;"
 ></iframe>
 
 ### What are the regional differences in teaching availability in NI?
@@ -53,7 +46,7 @@ In 2021-2022, those schools offering Computer Studies are poorly distributed aro
 
 <iframe
   src="https://andrewwango.github.io/assets/html/ni_outreach/Maps.html"
-  style="width:100%; height:600px;"
+  style="width:100%;"
 ></iframe>
 
 Computer studies:
@@ -71,5 +64,5 @@ Computer studies:
 
 <iframe
   src="https://andrewwango.github.io/assets/html/ni_outreach/Map_ICT.html"
-  style="width:100%; height:600px;"
+  style="width:100%;"
 ></iframe>
