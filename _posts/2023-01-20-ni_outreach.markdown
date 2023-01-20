@@ -1,10 +1,10 @@
 ---
 layout: post
 type: project
-title: NI schools computer studies data analysis
+title: Computer studies in Northern Irish schools
 date: 2023-01-20 00:00:00 +0000
-description: 
-img: 
+description: A tech outreach data analysis
+img: ni_outreach_cover.png
 tags: [data] 
 ---
 
@@ -37,7 +37,7 @@ In 2021-2022, there are many more pupils studying ICT than CS both Key Stages 4 
 
 <iframe
   src="https://andrewwango.github.io/assets/html/ni_outreach/Total_Pupils.html"
-  style="width:350px;height:200px"
+  style="width:350px;height:250px"
 ></iframe>
 
 ### What are the regional differences in teaching availability in NI?
@@ -46,14 +46,14 @@ In 2021-2022, those schools offering Computer Studies are poorly distributed aro
 
 <iframe
   src="https://andrewwango.github.io/assets/html/ni_outreach/Map_CS.html"
-  style="width:750px;height:400px"
+  style="width:650px;height:400px"
 ></iframe>
 
 ...compared to those offering ICT. Note circle size represents number of pupils per school.
 
 <iframe
   src="https://andrewwango.github.io/assets/html/ni_outreach/Map_ICT.html"
-  style="width:750px;height:400px"
+  style="width:650px;height:400px"
 ></iframe>
 
 
@@ -61,6 +61,14 @@ In 2021-2022, those schools offering Computer Studies are poorly distributed aro
 ### What courses are on offer?
 
 In 2021-2022, CS features only once in the top 5 courses by pupils:
+
+| Course Name                                                                             | Subject | Number of pupils |
+|-----------------------------------------------------------------------------------------|---------|------------------|
+| OCN NI Level 2 Certificate in Information Technology Applications                       | ICT     | 4590             |
+| Pearson Edexcel BTEC Level 1 Level 2 First Award in Information and Creative Technology | ICT     | 2721             |
+| OCR Level 3 Cambridge Technical Introductory Diploma in IT (QCF)                        | ICT     | 1464             |
+| Pearson BTEC Level 3 National Extended Certificate in Information Technology            | ICT     | 1009             |
+| OCR Level 1 Level 2 GCSE (9-1) in Computer Science                                      | CS      | 661              |
 
 
 
@@ -70,6 +78,6 @@ From 2015-2021, the total number of CS entries is consistently lower than some p
 
 <iframe
   src="https://andrewwango.github.io/assets/html/ni_outreach/History.html"
-  style="width:750px;height:400px"
+  style="width:650px;height:400px"
 ></iframe>
 
