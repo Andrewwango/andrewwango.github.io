@@ -37,7 +37,7 @@ In 2021-2022, the total number of ICT pupils is much bigger than the total numbe
 
 <iframe
   src="https://andrewwango.github.io/assets/html/ni_outreach/Total_Pupils.html"
-  style="width:100%;"
+  style="width:200px;height:100px"
 ></iframe>
 
 ### What are the regional differences in teaching availability in NI?
