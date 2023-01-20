@@ -51,9 +51,7 @@ The problem with FEM is that it is not in any way related to the real world; the
 
 The data-driven approach to these science and engineering problems involves integrating observed data to improve the physical model, for example:
 
-| Observed waves in a lab: | Observed cnoidal waves in the field: |
-|---|---|
-| <img src="{{site.baseurl}}/assets/img/iib_project/waveside%20dataset.gif" alt="drawing" width="100%"/> | <img src="{{site.baseurl}}/assets/img/iib_project/cnoidal%20image.JPG" alt="drawing" width="30%"/> [2] |
+
 
 By doing this, we can do the following:
 

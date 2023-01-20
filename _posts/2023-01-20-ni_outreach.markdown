@@ -62,13 +62,7 @@ In 2021-2022, those schools offering Computer Studies are poorly distributed aro
 
 In 2021-2022, CS features only once in the top 5 courses by pupils:
 
-| Course Name                                                                             | Subject | Number of pupils |
-|-----------------------------------------------------------------------------------------|---------|------------------|
-| OCN NI Level 2 Certificate in Information Technology Applications                       | ICT     | 4590             |
-| Pearson Edexcel BTEC Level 1 Level 2 First Award in Information and Creative Technology | ICT     | 2721             |
-| OCR Level 3 Cambridge Technical Introductory Diploma in IT (QCF)                        | ICT     | 1464             |
-| Pearson BTEC Level 3 National Extended Certificate in Information Technology            | ICT     | 1009             |
-| OCR Level 1 Level 2 GCSE (9-1) in Computer Science                                      | CS      | 661              |
+
 
 ### How have course numbers changed since 2015?
 
