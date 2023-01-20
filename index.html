@@ -22,7 +22,23 @@ layout: main
 {% endif %}
 {% endfor %}
 
-<h1 class="page-section-header">Blogs</h1>
+<h1 class="page-section-header">Articles</h1>
+
+{% for post in paginator.posts %}
+{% if post.type == "article" %}
+<article class="post">
+  {% if post.img %}
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+  {% endif %}
+  <div class="post-content">
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title | markdownify}}</a></h2>
+    <p>{{ post.description | markdownify }}</p>
+  </div>
+</article>
+{% endif %}
+{% endfor %}
+
+<h1 class="page-section-header">Projects</h1>
 
 {% for post in paginator.posts %}
 {% if post.type == "project" %}
