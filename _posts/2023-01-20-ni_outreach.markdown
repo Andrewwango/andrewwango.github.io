@@ -16,9 +16,13 @@ The Software Alliance acknowledges the inequity of access and low uptake of comp
 
 At Kainos, a company headquartered in Belfast and a member of the alliance, we recognise that computing education is important for our success. Alongside our [other outreach activities](https://www.kainos.com/insights/news/kainos-tech-outreach-programme-receives-highly-commended-honour-responsible-business-awards), a first step is analysing the data of current and past computing education in Northern Ireland.
 
-## Data
+## Methods
+
+Given the available data, the task is to explore 
+
+To determine the uptake in students obtaining an IT/Computing qualification, the following data sets were made available:
 
 <iframe
   src="https://andrewwango.github.io/assets/html/test.html"
-  style="width:100%; height:300px;"
+  style="width:100%; height:600;"
 ></iframe>
