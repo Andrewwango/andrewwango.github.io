@@ -37,7 +37,7 @@ In 2021-2022, there are many more pupils studying ICT than CS both Key Stages 4 
 
 <iframe
   src="https://andrewwango.github.io/assets/html/ni_outreach/Total_Pupils.html"
-  style="width:400px;height:200px"
+  style="width:350px;height:200px"
 ></iframe>
 
 ### What are the regional differences in teaching availability in NI?
@@ -46,14 +46,14 @@ In 2021-2022, those schools offering Computer Studies are poorly distributed aro
 
 <iframe
   src="https://andrewwango.github.io/assets/html/ni_outreach/Map_CS.html"
-  style="width:800px;height:400px"
+  style="width:750px;height:400px"
 ></iframe>
 
 ...compared to those offering ICT. Note circle size represents number of pupils per school.
 
 <iframe
   src="https://andrewwango.github.io/assets/html/ni_outreach/Map_ICT.html"
-  style="width:800px;height:400px"
+  style="width:750px;height:400px"
 ></iframe>
 
 
@@ -76,6 +76,6 @@ From 2015-2021, the total number of CS entries is consistently lower than some p
 
 <iframe
   src="https://andrewwango.github.io/assets/html/ni_outreach/History.html"
-  style="width:800px;height:400px"
+  style="width:750px;height:400px"
 ></iframe>
 
