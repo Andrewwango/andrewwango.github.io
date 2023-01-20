@@ -33,36 +33,49 @@ Below are some of the results included in the analysis. Each section asks a ques
 
 ### How does engagement differ between Computer Studies and ICT?
 
-In 2021-2022, the total number of ICT pupils is much bigger than the total number of Computer Studies pupils for both Key Stages 4 and 5.
+In 2021-2022, there are many more pupils studying ICT than CS both Key Stages 4 and 5.
 
 <iframe
   src="https://andrewwango.github.io/assets/html/ni_outreach/Total_Pupils.html"
-  style="width:200px;height:100px"
+  style="width:400px;height:200px"
 ></iframe>
 
 ### What are the regional differences in teaching availability in NI?
 
-In 2021-2022, those schools offering Computer Studies are poorly distributed around NI, compared to those offering ICT. Note circle size represents number of pupils per school.
+In 2021-2022, those schools offering Computer Studies are poorly distributed around NI...
 
 <iframe
-  src="https://andrewwango.github.io/assets/html/ni_outreach/Maps.html"
-  style="width:100%;"
+  src="https://andrewwango.github.io/assets/html/ni_outreach/Map_CS.html"
+  style="width:800px;height:400px"
 ></iframe>
 
-Computer studies:
+...compared to those offering ICT. Note circle size represents number of pupils per school.
+
+<iframe
+  src="https://andrewwango.github.io/assets/html/ni_outreach/Map_ICT.html"
+  style="width:800px;height:400px"
+></iframe>
+
 
 
 ### What courses are on offer?
 
+In 2021-2022, CS features only once in the top 5 courses by pupils:
+
+| Course Name                                                                             | Subject | Number of pupils |
+|-----------------------------------------------------------------------------------------|---------|------------------|
+| OCN NI Level 2 Certificate in Information Technology Applications                       | ICT     | 4590             |
+| Pearson Edexcel BTEC Level 1 Level 2 First Award in Information and Creative Technology | ICT     | 2721             |
+| OCR Level 3 Cambridge Technical Introductory Diploma in IT (QCF)                        | ICT     | 1464             |
+| Pearson BTEC Level 3 National Extended Certificate in Information Technology            | ICT     | 1009             |
+| OCR Level 1 Level 2 GCSE (9-1) in Computer Science                                      | CS      | 661              |
 
 ### How have course numbers changed since 2015?
 
-
-
-### 
-
+From 2015-2021, the total number of CS entries is consistently lower than some popular courses but comparable to others:
 
 <iframe
-  src="https://andrewwango.github.io/assets/html/ni_outreach/Map_ICT.html"
-  style="width:100%;"
+  src="https://andrewwango.github.io/assets/html/ni_outreach/History.html"
+  style="width:800px;height:400px"
 ></iframe>
+
