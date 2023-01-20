@@ -18,12 +18,7 @@ At Kainos, a company headquartered in Belfast and a member of the alliance, we r
 
 ## Methods
 
-Given the available data, the task is to tell a story about the state of computing (Computer Studies, CS) education in Northern Ireland (NI), in Key Stages 14 and 15 (ages 14-18), and how it compares with other subjects such as Information and Communications Technology (ICT), a more well-known qualification that is less relevant for aspiring tech innovators. The questions asked that inform our data analysis include:
-
-- How does engagement differ between Computer Studies and ICT?
-- What are the regional differences in teaching availability in NI?
-- What courses are on offer?
-- How have course numbers changed since 2015?
+Given the available data, the task is to ask questions to tell a story about the state of Computing Studies (CS) education in Northern Ireland (NI), in Key Stages (KS) 4 and 5 (ages 14-18), representing GCSE and A-Level qualifications. We also see how it compares with other subjects such as Information and Communications Technology (ICT), a more well-known qualification that is less relevant for aspiring tech innovators.
 
 The following data sets were made available:
 
@@ -32,7 +27,44 @@ The following data sets were made available:
 
 Values were extracted from the PDF tables, cleaned using `python` and joined with postcode data of NI schools. The data analysis was performed in Tableau.
 
-## Stories
+## Results
+
+Each of the following sections asks a question that informs the data analysis. Hover over and click into the charts and maps to get more insight into the data.
+
+### How does engagement differ between Computer Studies and ICT?
+
+In 2021-2022, the total number of ICT pupils is much bigger than the total number of Computer Studies pupils for both Key Stages 4 and 5.
+
+<iframe
+  src="https://andrewwango.github.io/assets/html/ni_outreach/Total_Pupils.html"
+  style="width:40%; height:200px;"
+></iframe>
+
+In 2021-2022, there are many more schools offering ICT than Computer Studies for both Key Stages
+
+<iframe
+  src="https://andrewwango.github.io/assets/html/ni_outreach/Total_Schools.html"
+  style="width:40%; height:200px;"
+></iframe>
+
+### What are the regional differences in teaching availability in NI?
+
+In 2021-2022, those schools offering Computer Studies are poorly distributed around NI, compared to those offering ICT. Note circle size represents number of pupils per school.
+
+<iframe
+  src="https://andrewwango.github.io/assets/html/ni_outreach/Maps.html"
+  style="width:100%; height:600px;"
+></iframe>
+
+Computer studies:
+
+
+### What courses are on offer?
+
+
+### How have course numbers changed since 2015?
+
+
 
 ### 
 
