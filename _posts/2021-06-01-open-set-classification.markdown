@@ -8,32 +8,15 @@ img: open-set-resnet/cover.png # Add image post (optional)
 tags: [data-science, machine-learning, internship] # add tag
 ---
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://andrewwango.github.io/open-set-resnet-web-app) [![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=GitHub)](https://github.com/Andrewwango/open-set-resnet)
+[![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=GitHub)](https://github.com/Andrewwango/open-set-resnet)
 
-Open-set classification or out-of-distribution detection is critical for letting image classifiers work in the real world. I developed a simple solution with multiple ResNet models. Check out the [web-app](https://andrewwango.github.io/open-set-resnet-web-app) and the [code](https://github.com/Andrewwango/open-set-resnet). 
+Open-set classification or out-of-distribution detection is critical for letting image classifiers work in the real world. I developed a simple solution with multiple ResNet models. Check out the UI and API in the [code](https://github.com/Andrewwango/open-set-resnet). 
 
 ![](https://raw.githubusercontent.com/Andrewwango/open-set-resnet/master/web-app/src/assets/display_sm.jpg)
 
-#### Web app
-Try me out [here](https://andrewwango.github.io/open-set-resnet-web-app)
-
-The API is available [here](https://open-set-resnet-api.herokuapp.com/)
-
 #### Getting started locally
-1.
-        git clone https://github.com/Andrewwango/open-set-resnet.git
-        cd open-set-resnet
-        pip install -r requirements.txt
-        cd python
-2. Start API: `uvicorn api.src.main:app --reload`
-3. Start Web app: `streamlit run web-app/src/web-app.py`
-**OR**
-3. Query the API using Swagger UI at `http://localhost:8000/docs`
-**OR**
-3. Call the inference function in Python (see ![demo](python/demo.ipynb))
 
-        from api import open_set_inference as osi 
-        osi.classify_open_set(image='test-images/animal.jpg')
+See [here](https://github.com/Andrewwango/open-set-resnet#getting-started-locally) for instructions on running the demo API and UI locally.
 
 #### Introduction
 A standard image classifier will assign a random image a category despite it not belonging to any specific category. These closed-set classifiers often do this with high confidence. An open-set classifier should detect images that do not belong in any of the classes. For example, a spaniels classifier should filter images of non-dogs and of non-spaniels; a car-model classifier should filter images of other makes or non-cars.
