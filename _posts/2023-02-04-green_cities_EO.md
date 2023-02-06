@@ -13,10 +13,11 @@ tags: [] # add tag
 ## Introduction
 
 Cities that are best prepared for a smart city future should be sustainable, according to the recent 2022 [ProptechOS](https://proptechos.com/smart-city-index/) report which benchmarks cities in US and Europe on a selection of indicators. This is backed up by the [OECD smart cities definition](https://www.oecd.org/cfe/cities/Smart-cities-measurement-framework-scoping.pdf). In the report, sustainability is measured using a green infrastructure indicator in 46 European cities, combining: 
-Number of EV charging points per capita
-Number of green certified buildings according to [GBIG](https://www.gbig.org/) in 2022, such as BREEAM or LEED (***possibly problematic data?)
 
-This prompts the following questions. How do we measure the environmental sustainability of cities? Do cities that do well at green infrastructure actually do well in other sustainability measures?
+- Number of EV charging points per capita
+- Number of green certified buildings according to [GBIG](https://www.gbig.org/) in 2022, such as BREEAM or LEED
+
+This prompts the following question. How do we measure the environmental sustainability of cities? We see that certain cities, such as London, that perform well in green infrastructure also perform well in some other sustainability measures, but not so well in others.
 
 ## What is urban environmental sustainability?
 
@@ -66,3 +67,12 @@ __Note that this is not designed to be a complete analysis of all European citie
 
 ## Discussion
 
+**Recycling rate.** We see a fairly strong positive trend, showing that cities prioritising green infrastructure are also progressive in waste management.
+
+**Climate policies.** A very strong positive trend, showing that the development of certain infrastructure is associated with strong climate-positive policy decisions with regards to other infrastructure.
+
+**SDG15: life on land.** We see an interesting positive and negative trend in the quality of nature and environment. Cities like Ljubljana and Zagreb are at the top of SDG15 despite being lower on the Green Infrastructure scale, whereas cities considered more highly developed such as Amsterdam or London perform worse in SDG15, showing a higher negative impact on the environment and ecology. One notable exception is Oslo.
+
+**Access to climate-friendly mobility and Space for people.** A positive trend with notable outliers, showing that in some cities, sustainable mobility covers much more than electric vehicles. For example, London is known for being poorly cyclable and suffers from congestion.
+
+**Air quality (concentration PM2.5)**. We see cities clustered into groups. A few major cities such as Berlin, Amsterdam, London and Paris have highly developed infrastructure but moderate air pollution as measured by concentration of PM2.5. Scandinavian cities, along with Madrid, Lisbon and Dublin perform well in terms of air quality. Predominantly Eastern European cities form the group with the worst air quality.
