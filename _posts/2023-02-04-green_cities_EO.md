@@ -4,7 +4,7 @@ title: How is urban environmental sustainability measured?
 date: 2023-02-04 00:00:00 +0000
 type: unlisted
 description:  # Add post description (optional)
-img: # Add image post (optional)
+img: EO/green_cities_EO_cover.jpg
 tags: [] # add tag
 ---
 
