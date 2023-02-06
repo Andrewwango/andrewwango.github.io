@@ -81,4 +81,8 @@ __Note that this is not designed to be a complete analysis of all European citie
 
 ## Conclusion
 
-We see that certain cities, such as London, that perform well in green infrastructure also perform well in some other sustainability measures, but not so well in others.
+From the above analysis of various indicators covering infrastructure, energy and nature, we see that cities must be measured in a wider framework to capture a more meaningful indicator of urban environmental sustainability, which must act as a foundation of future cities according to the [EEA](https://www.eea.europa.eu/themes/sustainability-transitions/urban-environment). Certain cities, such as London, have a high density of certain green infrastructure and also perform well in some other sustainability measures, but not so well in others.
+
+Individual indicators have limitations - for example, it is difficult to standardise a vast number of individual metrics that may be measured differently across the continent. Furthermore, it is difficult to combine the studied indicators into an actual outcome measure of resilience: a comprehensive analysis should also study cross-sectoral effects.
+
+Of course, every European city is at a different stage of reaching fully sustainable development, and each city faces unique challenges in tackling interlinking issues in environmental, social and economic sustainability. However, we cannot truly laud a city as environmentally sustainable unless it has measured and addressed all components simultaneously.
