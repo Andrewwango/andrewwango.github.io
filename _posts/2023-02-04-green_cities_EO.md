@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Comparing urban environmental sustainability indicators
+title: Comparing urban environmental sustainability indicators in Europe
 date: 2023-02-04 00:00:00 +0000
 type: unlisted
 description:  # Add post description (optional)
