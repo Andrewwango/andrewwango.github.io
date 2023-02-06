@@ -57,6 +57,8 @@ We include in our analysis the following transparently and robustly researched i
 - Accessibility to climate-friendly mobility - e.g. public transport availability and affordability, EV-charger availability
 - Policies score relating to policy pressure on polluting mobility and services offering climate-friendly mobility
 
+**Click the dropdown to view the indicators**
+
 <iframe
   src="{{site.baseurl}}/assets/html/green_cities.html"
   style="width:100%; height:520px; border:0"
