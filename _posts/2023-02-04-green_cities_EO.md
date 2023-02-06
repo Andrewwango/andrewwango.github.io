@@ -35,9 +35,7 @@ The [European Environment Agency’s reports](https://www.eea.europa.eu/themes/s
 ## How do different measures compare?
 Other organisations have recently published indicators measuring the above urban environmental sustainability factors in cities around Europe. We look at how some of these published indicators compare to those published by ProptechOS.
 
-#### [2019 SDG Index and Dashboards Report for European Cities](https://euro-cities.sdgindex.org/)
-
-We include in our analysis the following [indicators](https://s3.amazonaws.com/sustainabledevelopment.report/2019/2019_sdg_index_euro_cities.pdf) originally covering 45 European cities, covering parts of the UN [Sustainable Development Goals](https://sdgs.un.org/goals) (SDG) 7, 11, 12, 13, 15 linked to environmental sustainability:
+**[2019 SDG Index and Dashboards Report for European Cities](https://euro-cities.sdgindex.org/)**. We include in our analysis the following [indicators](https://s3.amazonaws.com/sustainabledevelopment.report/2019/2019_sdg_index_euro_cities.pdf) originally covering 45 European cities, covering parts of the UN [Sustainable Development Goals](https://sdgs.un.org/goals) (SDG) 7, 11, 12, 13, 15 linked to environmental sustainability:
 
 - [SDG15](https://www.globalgoals.org/goals/15-life-on-land/) (life on land), measuring environmental quality:
   - Urban green area (also included separately)
@@ -49,9 +47,7 @@ We include in our analysis the following [indicators](https://s3.amazonaws.com/s
 - Recycling rate and waste quantity, as part of SDG12 (responsible consumption)
 - Urban CO2 emissions for SDG13 climate action
 
-#### [Clean Cities Campaign 2022 rankings](https://cleancitiescampaign.org/ranking-2022-edition/)
-
-We include in our analysis the following transparently and robustly researched indicators originally covering 36 European cities, that prioritise zero-emissions mobility:
+**[Clean Cities Campaign 2022 rankings](https://cleancitiescampaign.org/ranking-2022-edition/)**. We include in our analysis the following transparently and robustly researched indicators originally covering 36 European cities, that prioritise zero-emissions mobility:
 
 - Space for people (opportunity for cycling and pedestrians, congestion)
 - Accessibility to climate-friendly mobility - e.g. public transport availability and affordability, EV-charger availability
