@@ -14,7 +14,7 @@ tags: [] # add tag
 
 <iframe
   src="{{site.baseurl}}/assets/html/green_cities.html"
-  style="width:100%; height:400px;"
+  style="width:100%; height:400px; border:0"
 ></iframe>
 
 
