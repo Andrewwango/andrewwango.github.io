@@ -56,7 +56,6 @@ We include in our analysis the following transparently and robustly researched i
 - Accessibility to climate-friendly mobility - e.g. public transport availability and affordability, EV-charger availability
 - Policies score relating to policy pressure on polluting mobility and services offering climate-friendly mobility
 
-<iframe>
 
 __Note that this is not designed to be a complete analysis of all European cities, and many originally studied cities have been omitted because of lack of data across datasets.__
 
