@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How is urban environmental sustainability measured?
+title: Comparing urban environmental sustainability indicators
 date: 2023-02-04 00:00:00 +0000
 type: unlisted
 description:  # Add post description (optional)
@@ -17,9 +17,9 @@ Cities that are best prepared for a smart city future should be sustainable, acc
 - Number of EV charging points per capita
 - Number of green certified buildings according to [GBIG](https://www.gbig.org/) in 2022, such as BREEAM or LEED
 
-This prompts the following question. How do we measure the environmental sustainability of cities? We see that certain cities, such as London, that perform well in green infrastructure also perform well in some other sustainability measures, but not so well in others.
+This prompts the following questions. How do we measure the environmental sustainability of cities? Do some cities perform well in one indicator but perform badly in others?
 
-## What is urban environmental sustainability?
+## How do we measure urban environmental sustainability?
 
 Although they represent lower emissions, the numbers of EV charging points and green certified buildings measure environmental progress in a (current) model of urbanisation centred around more cars and buildings. According to the [UN Habitat World Cities Report 2022](https://unhabitat.org/sites/default/files/2022/06/wcr_2022.pdf), it’s important that the future city goal should place environmental sustainability at its core, but we must consider a multitude of desirable outcomes. For example, electric cars play only one part in a wider approach to sustainable urban mobility.
 
@@ -32,8 +32,8 @@ The [European Environment Agency’s reports](https://www.eea.europa.eu/themes/s
 - Green spaces and nature quality
 - Zero waste
 
-## Analysis
-Other organisations have recently published indicators measuring the above urban environmental sustainability factors in cities around Europe. We look at how some of these published indicators compare to those published by ProptechOS. Do cities perform well in one indicator but perform badly in others?
+## How do different measures compare?
+Other organisations have recently published indicators measuring the above urban environmental sustainability factors in cities around Europe. We look at how some of these published indicators compare to those published by ProptechOS.
 
 #### [2019 SDG Index and Dashboards Report for European Cities](https://euro-cities.sdgindex.org/)
 
@@ -78,3 +78,7 @@ __Note that this is not designed to be a complete analysis of all European citie
 **Access to climate-friendly mobility and Space for people.** A positive trend with notable outliers, showing that in some cities, sustainable mobility covers much more than electric vehicles. For example, London is known for being poorly cyclable and suffers from congestion.
 
 **Air quality (concentration PM2.5)**. We see cities clustered into groups. A few major cities such as Berlin, Amsterdam, London and Paris have highly developed infrastructure but moderate air pollution as measured by concentration of PM2.5. Scandinavian cities, along with Madrid, Lisbon and Dublin perform well in terms of air quality. Predominantly Eastern European cities form the group with the worst air quality.
+
+## Conclusion
+
+We see that certain cities, such as London, that perform well in green infrastructure also perform well in some other sustainability measures, but not so well in others.
