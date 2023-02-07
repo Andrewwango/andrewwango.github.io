@@ -8,6 +8,8 @@ img: EO/green_cities_EO_cover.jpg
 tags: [] # add tag
 ---
 
+Cover photo by [Martin Magnemyr](https://unsplash.com/@mmagnemyr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/rXdnQundyOo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 **Author** Andrew Wang | Twitter: @andrewwango
 
 ## Introduction
