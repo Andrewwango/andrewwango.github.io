@@ -12,6 +12,10 @@ Cover photo by [Martin Magnemyr](https://unsplash.com/@mmagnemyr?utm_source=unsp
 
 **Author** Andrew Wang | Twitter: @andrewwango
 
+## Summary
+
+Environmental sustainability of a city can be measured using a vast set of indicators. Is it sensible to assess urban environmental sustainability with only a narrow set of these? After comparing various indicators across European cities, we conclude that some cities may perform well in one aspect but poorly in another, and that cities must simultaneously consider many perspectives in order to ensure a truly environmentally sustainable future.
+
 ## Introduction
 
 Cities that are best prepared for a "smart city future" should be sustainable, according to the recent 2022 [ProptechOS](https://proptechos.com/smart-city-index/) report which benchmarks cities in US and Europe on a selection of indicators. This is backed up by the [OECD smart cities definition](https://www.oecd.org/cfe/cities/Smart-cities-measurement-framework-scoping.pdf). In the report, sustainability is measured using a green infrastructure indicator across 46 European cities, combining: 
@@ -67,11 +71,11 @@ How do each of these indicators compare to the _ProptechOS_ measure of green fnf
 
 From the above analysis of various indicators covering infrastructure, energy and nature, we see that cities must be measured in a wider framework to capture a more meaningful indicator of urban environmental sustainability, which must act as a foundation of future cities according to the [EEA](https://www.eea.europa.eu/themes/sustainability-transitions/urban-environment). Certain cities, such as London, have a high density of certain green infrastructure and also perform well in some other sustainability measures, but not so well in others - an "efficient public transport system" must be coupled with walkability and cyclability. Paris, with its [strong climate-positive policy directions](https://www.timeout.com/paris/en/things-to-do/paris-green-sustainable-city-plan-2030) needs to additionally tackle its low score regarding environmental and ecological quality as part of SDG15.
 
-Individual indicators have limitations - for example, it is difficult to standardise a vast number of individual metrics that provide a comprehensive analysis and that may be measured differently across the continent. Furthermore, it is difficult to combine the studied indicators into an actual outcome measure of resilience: a comprehensive analysis should also study cross-sectoral effects.
-
-Of course, every European city is at a different stage on the journey towards fully sustainable development, and each city faces unique challenges in tackling intertwined issues in environmental, social and economic sustainability. However, we cannot truly laud a city as environmentally sustainable unless it has measured and addressed all components; this requires a shift in the traditional mentality of a model of sustainable urbanisation.
+Of course, every European city is at a different stage on the journey towards fully sustainable development, and each city faces unique challenges in tackling intertwined issues in environmental, social and economic sustainability. However, we cannot truly laud a city as environmentally sustainable unless it has measured and addressed all components, requiring a shift away from a narrow-scoped model of sustainable urbanisation.
 
 ## Appendix
+
+In using the following indicators, we assume that cities are defined in the same way across datasets and that there has been little change between 2019 and 2022.
 
 **[2019 SDG Index and Dashboards Report for European Cities](https://euro-cities.sdgindex.org/)** indicators. We select a few indicators covering SDGs 7, 11, 12, 13 and 15. Further information is available [here](https://s3.amazonaws.com/sustainabledevelopment.report/2019/2019_sdg_index_euro_cities.pdf).
 
@@ -91,4 +95,4 @@ Of course, every European city is at a different stage on the journey towards fu
 - Accessibility to climate-friendly mobility - e.g. public transport availability and affordability, EV-charger availability
 - Policies score relating to policy pressure on polluting mobility and services offering climate-friendly mobility
 
-Note that there are many possible indicators. Future analyses could compare indicators such as raw energy and water usage and wastage, further per capita measures, risk measures such as flooding risk, and quantification of effects such as the urban heat island effect.
+Note that individual indicators have limitations. It is difficult to standardise a vast number of metrics, that may be measured differently across the continent, in order to provide a comprehensive analysis. Furthermore, a comprehensive analysis should also study more complex cross-sectoral effects. Future analyses could compare further indicators such as raw energy and water usage and wastage, further per capita measures, risk measures such as flooding risk, and quantification of effects such as the urban heat island effect.
