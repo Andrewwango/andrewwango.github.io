@@ -10,7 +10,7 @@ tags: [research, data] # add tag
 
 A project to automatically analyse all footpaths in England and Wales to reclaim public rights of way (PRoW) using analysis of public GPX traces. In conjunction with [Joe Thorogood](https://rowresearch.coventry.domains/contact/).
 
-[Code](https://github.com/Andrewwango/prow-ml) | [Published article](https://earth.org/data_visualization/uk-land-access-rights/)
+[Code](https://github.com/Andrewwango/prow-ml) | [Published article](https://earth.org/data_visualization/uk-land-access-rights/) | [Web app](https://andrewwango-prow-ml-web-app-tz9rk4.streamlit.app/)
 
 ## Introduction
 
