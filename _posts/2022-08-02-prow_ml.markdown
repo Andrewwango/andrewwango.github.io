@@ -33,7 +33,7 @@ The Ramblers are tackling this by creating a [map of public rights of way that m
 
 > With the help of thousands of volunteers we searched all of England and Wales and found over 49,000 miles of paths which could be lost forever. Time is running out, with only five years left to collect the historical, documentary evidence needed to build and submit applications to restore the most important paths for future generations. 
 
-_From [Ramblers](https://www.ramblers.org.uk/get-involved/campaign-with-us/dont-lose-your-way-2026.aspx)._
+_From [Ramblers](https://www.ramblers.org.uk/get-involved/campaign-with-us/dont-lose-your-way-2026.aspx). Watch [this talk](https://www.youtube.com/watch?v=N0oSG4iEy0Q&list=PLJsLOysi1d5Ebb_Gxvk1Kuck5dYD6P0HW) for an excellent explanation of the injustice and their work._
 
 A more systematic approach is available using data of publicly-recorded GPS traces, for example from walking, running or cycling, which can expose potential paths of interest. As a data-oriented approach, we disregard any legal or historical information: **if the public are using the path, it should be a right of way**. This approach is desirable, since it is:
 
