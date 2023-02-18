@@ -88,11 +88,11 @@ The aim here is to combine the data detailing public usage of paths with the PRo
 The online map is available on the [web-app](https://andrewwango.github.io/prow-web-app) - check it out!. An example is shown below:
 
 <iframe
-  src="https://andrewwango.github.io/assets/html/east-of-england_BN.html"
+  src="https://andrewwango.github.io/assets/html/Beds_EO.html"
   style="width:100%; height:300px;"
 ></iframe>
 
-_OSM paths that have some public activity but are not PRoW, in Bedford, UK. Yellow-red = low-high activity._
+_Interactive map showing GPS activity recorded by the public (such as walking, running and cycling) in Bedford and Central Bedfordshire up to 2013. Black represents activity data that coincides with public rights of way, that is, where the activity was legal. Red/magenta represents activity data that does not, that is, where the activity counted as trespass. Deeper red indicates higher activity levels._
 
 ## Limitations
 
