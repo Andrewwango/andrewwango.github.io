@@ -29,6 +29,7 @@ Skip to...
     * [🇨🇳 EFR](#efr)
     * [🇮🇹 Broccoli pasta](#broccoli-pasta)
     * [🇮🇹 Cabbage pasta](#cabbage-pasta)
+    * [🇮🇹 Courgette pasta](#courgette-pasta)
     * [🇮🇹 Mushroom risotto](#risotto)
     * [🇨🇳 Stir-fried veg ideas](#veg)
     * [🇮🇳 Guest recipe from The Little One: Palak paneer](#paneer)
@@ -169,13 +170,23 @@ Serve with 老干妈 (laoganma), aka Jordan's old wet grandma
 #### "This sounds disgusting" - Mike
 <img src="{{site.baseurl}}/assets/img/cooking/cabbage-pasta-lucy.jpg" alt="drawing" width="50%"/>
 
----
-
 Olive oil in pan medium heat, add squarely sliced sweetheart cabbage, lid on, don’t mix for 5 mins.
 Add 🥄 sugar, roughly chopped 🧄 , roughly chopped anchovies with oil and knob of 🧈 stir.
 Fry until cabbage caramelised and anchovies “melted”.
 Meanwhile boil starchy spaghetti, when almost done add couple ladles pasta water to cabbage and boil down to go creamy.
 Add pasta, mix with more pasta water and Parmesan until creamy.
+
+---
+
+### 🇮🇹 Courgette pasta, AKA spaghetti alla Nerano <a id="courgette-pasta"></a>
+
+For 2 big boys
+
+2-3 courgettes sliced in thin rounds. Heat enough olive oil (quite a lot) in frying pan to immerse all courgettes. Deep fry courgettes until golden. Drain and keep oil for something else. Cool to room temp.
+
+Cook spaghetti (300-400g?)
+
+Heat courgettes in pan with some oil, butter, garlic and pasta water. Add pasta, Parmesan etc. until creamy.
 
 ---
 
