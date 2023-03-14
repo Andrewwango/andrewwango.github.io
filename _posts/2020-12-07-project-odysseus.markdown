@@ -10,13 +10,14 @@ tags: [research, data-science, machine-learning, internship]
 
 [![](https://img.shields.io/badge/arXiv-Paper%20in%20Preprint-green?logo=arxiv)](https://arxiv.org/abs/2012.07751)
 
-Summary of our paper ["Near Real Time Social Distance Estimation in London"](https://arxiv.org/abs/2012.07751), which has been accepted at the British Computer Society's Computer Journal.
+Summary of our paper ["Near Real Time Social Distance Estimation in London"](https://academic.oup.com/comjnl/advance-article/doi/10.1093/comjnl/bxac160/7071574?searchresult=1), which has been published in the British Computer Society's [Computer Journal](https://academic.oup.com/comjnl).
 
-Cite: James Walsh, Oluwafunmilola Kesa, Andrew Wang, Mihai Ilas, Patrick O'Hara, Oscar Giles, Neil Dhir, Mark Girolami, Theodoros Damoulas: _Near Real-Time Social Distancing in London_. arXiv:2012.07751.
+Cite: James Walsh, Oluwafunmilola Kesa, Andrew Wang, Mihai Ilas, Patrick O’Hara, Oscar Giles, Neil Dhir, Mark Girolami, Theodoros Damoulas, _Near Real-Time Social Distance Estimation In London_, The Computer Journal, 2023;, bxac160, [https://doi.org/10.1093/comjnl/bxac160](https://doi.org/10.1093/comjnl/bxac160)
 
 Publications:
 
-- [arXiv paper](https://arxiv.org/abs/2012.07751)
+- [Journal paper](https://academic.oup.com/comjnl/advance-article/doi/10.1093/comjnl/bxac160/7071574?searchresult=1)
+- [arXiv preprint](https://arxiv.org/abs/2012.07751)
 - [CIUK poster competition 2020 winner](https://www.scd.stfc.ac.uk/SiteAssets/Pages/CIUK-2020-Poster-Competition/O%27Hara.pdf)
 - Summary of the project on the [Alan Turing Institute website](https://www.turing.ac.uk/research/research-projects/project-odysseus-understanding-london-busyness-and-exiting-lockdown): Project Odysseus – understanding London ‘busyness’ and exiting lockdown.
 - [Press coverage](https://www.businessweekly.co.uk/news/academia-research/cambridge-university-role-%E2%80%98london-after-lockdown%E2%80%99-odyssey)
