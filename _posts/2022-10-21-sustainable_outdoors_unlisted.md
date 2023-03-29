@@ -45,3 +45,30 @@ To support the idea that these outdoor spaces remain important even after the pa
 <img src="{{site.baseurl}}/assets/img/EO/Figure2.png" alt="drawing" width="70%"/>
 </p>
 
+_Figure 2._ _**Left**: Google search interest in “walks near me” and “local walks”, according to [Google Trends](https://www.google.com/trends) data from 2018 to present, inspired by [this article](https://people-and-nature-survey-defra.hub.arcgis.com/pages/blog#google_trends_blog). Each series is normalised according to its own data within the timeframe, so the units are arbitrary and comparison cannot be made between series. An unpaired t-test between pre- and post- pandemic search results suggests a highly statistically significant difference (p≈10\-11) for both series (assuming stationarity). **Right**: proportion of adults who visited green and natural spaces for leisure in the past fortnight from April 2020 to March 2022 in England, according to the [People and Nature Survey](https://www.gov.uk/government/collections/people-and-nature-survey-for-england). This incorporates recently released monthly indicator data not presented on government reports. Data before this period is not available since the [data](https://www.gov.uk/government/collections/monitor-of-engagement-with-the-natural-environment-survey-purpose-and-results) was collected in a different format, and data after this period is unreleased._
+
+**Towards A Public-Informed Approach to Land Access Rights**
+
+The data above has shown that green and natural spaces in the local area are important to people seeking to go outdoors for leisure and have an interest in nature. However, the public is legally barred from setting foot on the vast majority of the outdoors around the country – 92% – because of poor land access rights dictating the few places granted access to the public and defining the rest as trespass. In this section, we consider a direction for a possible solution.
+
+In line with the data-backed approach of this article, we compare where there is land granted public access by law with where the public are actually walking and moving. The hypothesis is that there may be private paths or areas of land which show public activity, whether out of convenience, unawareness, or simple desire to explore local green spaces. Surely land access rights should evolve to reflect and protect by law the places where people want to walk? Suggestions from these findings could then strengthen existing campaigns to reclaim private areas for the public, such as that of the [Ramblers](https://dontloseyourway.ramblers.org.uk/).
+
+For our approach, we take the English and Welsh network of publicly accessible paths, called [public rights of way](https://www.legislation.gov.uk/ukpga/2000/37/contents) (PRoW), as a proxy for land access. As a simple illustrative analysis using openly available data, we compare the rights of way network with a large dataset of public GPS traces recorded around the country by members of the public. Example results for Bedfordshire are shown in Figure 3.
+
+It must be mentioned that there are many other interesting data-oriented avenues of highlighting regional need for access to outdoors spaces. For example, in hyper-urban settings such as Greater London, [a tool](https://devpost.com/software/green-space-suggestion-tool) was built to suggest areas for green space creation based on current green space access and demand, pollution and land availability.
+
+<iframe style="width: 100%; height: 300px;" src="https://andrewwango.github.io/assets/html/Beds_EO.html"></iframe>
+
+_Figure 3._ _Interactive map showing GPS activity recorded by the public (such as walking, running and cycling) in Bedford and Central Bedfordshire up to 2013, taken from a [dump of GPX file data](http://zverik.openstreetmap.ru/gps/files/extracts/index.html) from OpenStreetMap in 2013. Black represents activity data that coincides with public rights of way, that is, where the activity was legal. Red/magenta represents activity data that does not, that is, where the activity counted as trespass. Deeper red indicates higher activity levels. Read more and get started with analysing other areas by following the instructions in the code: [github.com/Andrewwango/prow-ml](https://github.com/Andrewwango/prow-ml)_
+
+We see that, while most activity coincides with where it is legal (and often signposted), there are paths of interest that are not public, which therefore can be fenced or blocked without notice. For such a path, this information could be used to support a campaign to change their status, especially if the path has already been identified as, for example, a former historic right of way (cf. the [Ramblers](https://dontloseyourway.ramblers.org.uk/)). Of course, our identified paths will inevitably be a subset of all possibilities since trespass that is recorded is a subset of the total desire to trespass.
+
+**Conclusion**
+
+Nature should be accessible for all, and survey data presented in this article has shown us that the public’s interest in nature and accessing the outdoors for exercise and recreation locally is now higher than before the pandemic. This is important in moving towards a more sustainable approach towards the outdoors.
+
+The limited public land access rights in England and Wales mean that for the majority population, access to much of the outdoors and countryside is illegal, behind closed doors or subject to a fee. By looking at data showing public activity on footpaths, we can identify possible paths to protect with the status of being free for the public to access.
+
+There is much more work to be done in providing fairer access to the outdoors in England and Wales. For readers from other countries, I would love to hear about attitudes towards how land access rights shape the sustainability of the outdoors – please [get in touch](https://twitter.com/messages/compose?recipient_id=869203021267443712)!
+
+_Note: all statements about availability of released data is true as of date of publication._
