@@ -2,13 +2,13 @@
 layout: post
 title: "Inclusion and representation in the UK outdoors"
 type: other
-date: 2022-06-01 00:00:00 +0000
+date: 2023-05-27 00:00:00 +0000
 description: "Cultural and ethnic diversity in outdoor sports: my experiences and aims"
-img: fell.png
+img: fell.jpg
 tags: [personal] 
 ---
 
-#### Contents
+### Contents
 
 - [Background](#background)
 - [My focusses](#my-focusses)
@@ -38,7 +38,7 @@ _Adapted from [Our Shared Outdoors](https://www.facebook.com/oursharedoutdoors)_
 
 <iframe
  src="https://andrewwango.github.io/assets/html/regions_by_ethnicity.html"
- style="width:80%; height:200px;"
+ style="width:80%; height:200px; border:0;"
 ></iframe>
 
 _Author's analysis from England and Wales Census 2021_
