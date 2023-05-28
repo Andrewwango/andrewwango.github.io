@@ -36,12 +36,9 @@ _Adapted from [Our Shared Outdoors](https://www.facebook.com/oursharedoutdoors)_
 1. There are many people of colour all around the country like me who enjoy doing various outdoor sports for fun, such as hiking, running, cycling, climbing and swimming.
 2. People of colour are distributed all over the country, meaning that it's harder to find or make communities. While over half the UK Black population is in London, for Asian minorities it is more distributed:
 
-<iframe
- src="https://andrewwango.github.io/assets/html/regions_by_ethnicity.html"
- style="width:80%; height:200px; border:0;"
-></iframe>
+    <iframe src="https://andrewwango.github.io/assets/html/regions_by_ethnicity.html" style="width:80%; height:400px; border:0;"></iframe>
 
-_Author's analysis from England and Wales Census 2021_
+    _Author's analysis from England and Wales Census 2021_
 
 3. On top of underrepresentation, this disconnection might discourage people of colour to for example practice the sport in public, or join local clubs, events or competitions.
 
