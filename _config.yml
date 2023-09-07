@@ -25,6 +25,7 @@ discus-identifier: # add your discus identifier
 analytics: # Google Analytics
 
 # Build Settings
+# Template is Jekyll Figs https://figs.jekyll-themes.com/blog/documentation/
 markdown: kramdown
 plugins:
   - jekyll-sitemap
