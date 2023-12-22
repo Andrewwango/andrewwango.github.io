@@ -9,11 +9,10 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Andrew Wang # add your name
 author-img: logo.jpg # add your photo
-about-author: AI Engineer at <a href="https://www.kainos.com/">Kainos</a>. Cambridge Uni MEng grad. Data scientist and researcher passionate about environmental sustainability & land justice. Campaigning for better access to the outdoors for everyone. Speak to me in 🇬🇧 🇫🇷 🇨🇳 🇩🇪
+about-author: PhD student in ML for computational imaging at the School of Engineering, University of Edinburgh. Data scientist. Campaigning for better access to the outdoors for everyone.
 cv-author: "https://andrewwango.github.io/cv.pdf"
 google-scholar: "https://scholar.google.com/citations?user=00ET0NAAAAAJ"
 social-twitter: andrewwango # add your Twitter handle
-social-facebook: # add your Facebook handle
 social-github: andrewwango # add your Github handle
 social-linkedin: andrewwang27 # add your Linkedin handle
 social-email: andrew.wang27@gmail.com # add your Email address

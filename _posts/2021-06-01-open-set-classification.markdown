@@ -1,6 +1,6 @@
 ---
 layout: post
-type: project
+type: archive
 title: Open-set image classification
 date: 2021-06-01 00:00:00 +0000
 description: A simple and novel approach

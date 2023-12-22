@@ -1,6 +1,6 @@
 ---
 layout: post
-type: project
+type: archive
 title: OCR vs OOD
 date: 2022-06-03 00:00:00 +0000
 description: Text recognition for classifying brass ring images
