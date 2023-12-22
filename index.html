@@ -22,7 +22,7 @@ layout: main
 {% endif %}
 {% endfor %}
 
-<h1 class="page-section-header">Articles</h1>
+<!-- <h1 class="page-section-header">Articles</h1>
 
 {% for post in paginator.posts %}
 {% if post.type == "article" %}
@@ -36,12 +36,12 @@ layout: main
   </div>
 </article>
 {% endif %}
-{% endfor %}
+{% endfor %} -->
 
 <h1 class="page-section-header">Projects</h1>
 
 {% for post in paginator.posts %}
-{% if post.type == "project" %}
+{% if post.type == "project" or post.type == "article" %}
 <article class="post">
   {% if post.img %}
     <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
