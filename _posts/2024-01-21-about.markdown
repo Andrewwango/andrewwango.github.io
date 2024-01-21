@@ -1,0 +1,24 @@
+---
+layout: post
+title: "About me"
+type: about
+date: 2024-01-01 00:00:00 +0000
+description: 
+img: coomb.jpg
+tags: [personal] 
+---
+
+I'm a PhD research student at the [Institute for Imaging, Data and Communications](https://www.eng.ed.ac.uk/research/institutes/idcom) at the University of Edinburgh, supervised by [Prof Mike Davies](https://www.eng.ed.ac.uk/about/people/prof-michael-e-davies).
+
+I'm developing unsupervised ML methodologies for solving inverse imaging problems. These problems appear in many critical imaging scenarios: accelerating medical imaging, higher resolution Earth observation, electron microscopy etc. We rarely have ground truth in the real world - how do we know what a black hole is supposed to look like before ever imaging a black hole - motivating the need for provable unsupervised techniques. My interests include **computer vision**, **inverse problems**, **unsupervised deep learning**, **physics-informed ML**, **compressed sensing**, **medical imaging** and **earth observation**.
+
+Check out my [CV](https://andrewwango.github.io/cv.pdf) and my [Google Scholar](https://scholar.google.com/citations?user=00ET0NAAAAAJ).
+
+🏞️🏞️🏞️
+
+As a keen fell-runner and climber, I'm campaigning to improve access to the outdoors. I founded [ESEA Outdoors UK](https://www.instagram.com/eseaoutdoorsuk/) [_(about)_](https://eseaoutdoorsuk.carrd.co/), a grassroots community to advocate for better representation, diversity and inclusion in the outdoors.
+
+I’m also excited to have joined the [National Trails UK](https://www.nationaltrails.uk/) Board as a Trustee, where my interest is in enabling underrepresented and marginalised people to access nature. The UK is facing a triple nature, climate and social crisis and landscapes such as National Trails are crucial for fighting biodiversity loss, improving access to the outdoors for everyone and promoting sustainable tourism.
+
+I'm also interested in [UK land access rights](https://andrewwango.github.io/sustainable_outdoors/).
+
