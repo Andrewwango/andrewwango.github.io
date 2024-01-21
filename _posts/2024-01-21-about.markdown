@@ -10,9 +10,9 @@ tags: [personal]
 
 I'm a PhD research student at the [Institute for Imaging, Data and Communications](https://www.eng.ed.ac.uk/research/institutes/idcom) at the University of Edinburgh, supervised by [Prof Mike Davies](https://www.eng.ed.ac.uk/about/people/prof-michael-e-davies).
 
-I'm developing unsupervised ML methodologies for solving inverse imaging problems. These problems appear in many critical imaging scenarios: accelerating medical imaging, higher resolution Earth observation, electron microscopy etc. We rarely have ground truth in the real world - how do we know what a black hole is supposed to look like before ever imaging a black hole - motivating the need for provable unsupervised techniques. My interests include **computer vision**, **inverse problems**, **unsupervised deep learning**, **physics-informed ML**, **compressed sensing**, **medical imaging** and **earth observation**.
+I'm developing unsupervised ML methodologies for solving inverse imaging problems. These problems appear in many critical imaging scenarios: accelerating medical imaging, higher resolution Earth observation, electron microscopy etc. We rarely have ground truth in the real world - how do we know what a black hole is supposed to look like before ever imaging a black hole - motivating the need for provable unsupervised techniques. My interests include **computer vision**, **inverse problems**, **unsupervised deep learning**, **physics-informed ML**, **compressed sensing**, **medical imaging** and **Earth observation**.
 
-Check out my [CV](https://andrewwango.github.io/cv.pdf) and my [Google Scholar](https://scholar.google.com/citations?user=00ET0NAAAAAJ).
+Check out my [CV](https://andrewwango.github.io/cv.pdf) and [Google Scholar](https://scholar.google.com/citations?user=00ET0NAAAAAJ).
 
 🏞️🏞️🏞️
 
