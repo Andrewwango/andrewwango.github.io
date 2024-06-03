@@ -1491,4 +1491,5 @@ a.newer-posts:hover {
 
 a {
   color: rgb(5, 130, 255);
+  text-decoration: none;
 }
