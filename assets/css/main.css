@@ -773,7 +773,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   color: #515151;
   background-color: #fbfbfb;
   margin: 0;
@@ -1486,4 +1486,9 @@ a.newer-posts:hover {
   .post .post-content .post-title a {
     font-size: 21px;
   }
+}
+
+
+a {
+  color: rgb(5, 130, 255);
 }
