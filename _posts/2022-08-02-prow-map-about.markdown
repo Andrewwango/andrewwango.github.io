@@ -83,3 +83,7 @@ Find the code on [GitHub](https://github.com/Andrewwango/prow-map) and try runni
 
 ## Ethical considerations
 All input public data is anonymised and untraceable as per the OSM API.
+
+## Citation
+
+Wang, Andrew. _Mapping lost rights of way: a Python geospatial data analysis_, 2024. URL: https://andrewwango.github.io/prow-map
