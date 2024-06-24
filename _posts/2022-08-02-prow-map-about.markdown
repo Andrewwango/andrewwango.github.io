@@ -1,10 +1,10 @@
 ---
 layout: post
 type: project
-title: Discovering lost rights of way
+title: Mapping lost rights of way
 date: 2022-08-02 00:00:00 +0000
 description: A Python geospatial data analysis
-img: prow/thumb2.png # Add image post (optional)
+img: prow/thumb4.png # Add image post (optional)
 tags: [research, data] # add tag
 ---
 
