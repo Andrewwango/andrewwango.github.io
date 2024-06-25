@@ -15,6 +15,17 @@ I'm developing unsupervised ML methodologies for solving inverse imaging problem
 
 Check out my [CV](https://andrewwango.github.io/cv.pdf) and [Google Scholar](https://scholar.google.com/citations?user=00ET0NAAAAAJ).
 
+### Publications
+
+- A. Wang, M. Davies, [_“Perspective-Equivariant Imaging: an Unsupervised Framework for Multispectral Pansharpening”_](https://arxiv.org/abs/2403.09327), in preprint, arXiv:2403.09327 \[cs.CV\], 2024. [Blog.](https://andrewwango.github.io/perspective-equivariant-imaging)
+- J. Walsh, O. Kesa, A. Wang et al., [_“Near Real-Time Social Distance Estimation in London”_](https://academic.oup.com/comjnl/article/67/1/95/7071574), The Computer Journal, 2023. Winner of OUP [Wilkes Award](https://academic.oup.com/comjnl/pages/Wilkes_award?login=false) 2024. [Press](https://www.turing.ac.uk/research/research-projects/project-odysseus-understanding-london-busyness-and-exiting-lockdown). [Blog](https://andrewwango.github.io/project-odysseus/).
+- P. Houdouin, A. Wang et al., [_“Robust Classification with Flexible Discriminant Analysis in Heterogeneous Data”_](https://ieeexplore.ieee.org/document/9747576), IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022. [Blog.](https://andrewwango.github.io/femda/)
+
+
+### Workshops & Conferences
+
+- 10-06-2024 \| _"Perspective-Equivariant Imaging: an Unsupervised Framework for Pansharpening"_, [Maths4DL Geometric Deep Learning workshop](https://maths4dl.ac.uk/newsevents/geometric-deep-learning-workshop-university-of-cambridge-10-12-june-2024) lightning talk & poster, University of Cambridge.
+
 ## Data Scientist
 
 Check out my [project portfolio](https://andrewwango.github.io).
@@ -31,14 +42,13 @@ I'm also interested in [UK land access rights](https://andrewwango.github.io/sus
 
 ### Writing
 
-18-06-2024 \| BMC Summit magazine \| _Diversity in the Mountains at the Great Lakeland 3 Day_
-
-21-03-2024 \| BMC \| [_East and Southeast Asian people go outdoors too_](https://hillwalking.thebmc.co.uk/east-and-southeast-asian-people-go-outdoors-too)
+- 18-06-2024 \| BMC Summit magazine \| [_Diversity in the Mountains at the Great Lakeland 3 Day_](https://eseaoutdoorsuk.github.io/2024-bmc-summit/)
+- 21-03-2024 \| BMC \| [_East and Southeast Asian people go outdoors too_](https://hillwalking.thebmc.co.uk/east-and-southeast-asian-people-go-outdoors-too)
+- 18-09-2023 \| Earth.org \| [_Why Improving UK Land Access Rights Is Important For A More Sustainable Outdoors_](https://earth.org/data_visualization/uk-land-access-rights/)
+- 16-02-2023 \| Earth.org \| [_Comparing Urban Environmental Sustainability Indicators In Europe_](https://earth.org/data_visualization/urban-environmental-sustainability/)
 
 ### Speaker
 
-14-07-2024 \| Love Trails Festival \| [_Land Access and the Right to Roam_](https://www.lovetrailsfestival.co.uk/explore-talks?explore=block-rwbm0h-39)
-
-07-07-2024 \| Timber Festival \| [_Using community to tackle racism in the outdoors: an ESEA perspective_](https://timberfestival.org.uk/2024-programme/using-community-to-tackle-racism-in-the-outdoors-an-esea-perspective/)
-
-05-05-2024 \| SCARPA Great Lakeland 3 Day \| _Diversity & inclusion in the outdoors_
+- 14-07-2024 \| Love Trails Festival \| [_Land Access and the Right to Roam_](https://www.lovetrailsfestival.co.uk/explore-talks?explore=block-rwbm0h-39)
+- 07-07-2024 \| Timber Festival \| [_Using community to tackle racism in the outdoors: an ESEA perspective_](https://timberfestival.org.uk/2024-programme/using-community-to-tackle-racism-in-the-outdoors-an-esea-perspective/)
+- 05-05-2024 \| SCARPA Great Lakeland 3 Day \| _Diversity & inclusion in the outdoors_
