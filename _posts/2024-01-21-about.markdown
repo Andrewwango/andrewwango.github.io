@@ -24,7 +24,7 @@ Check out my [CV](https://andrewwango.github.io/cv.pdf) and [Google Scholar](htt
 
 ### Workshops & Conferences
 
-- 10-06-2024 \| _"Perspective-Equivariant Imaging: an Unsupervised Framework for Pansharpening"_, [Maths4DL Geometric Deep Learning workshop](https://maths4dl.ac.uk/newsevents/geometric-deep-learning-workshop-university-of-cambridge-10-12-june-2024) lightning talk & poster, University of Cambridge.
+- 10-06-2024 \| _"Perspective-Equivariant Imaging: an Unsupervised Framework for Pansharpening"_, [Maths4DL Geometric Deep Learning workshop](https://maths4dl.ac.uk/newsevents/geometric-deep-learning-workshop-university-of-cambridge-10-12-june-2024) [lightning talk & poster](https://maths4dl.ac.uk/wp-content/uploads/2024/02/Andrew_Wang.pdf), University of Cambridge.
 
 ## Data Scientist
 
@@ -49,6 +49,8 @@ I'm also interested in [UK land access rights](https://andrewwango.github.io/sus
 
 ### Speaker
 
-- 14-07-2024 \| Love Trails Festival \| [_Land Access and the Right to Roam_](https://www.lovetrailsfestival.co.uk/explore-talks?explore=block-rwbm0h-39)
+- 14-07-2024 \| Love Trails Festival \| [_Land Access: the need for a true Right to Roam_](https://www.lovetrailsfestival.co.uk/explore-talks?explore=block-rwbm0h-39) with Eben Muse (BMC), Jon Moses (Right to Roam) and Amy-Jane Beer
+- 12-07-2024 \| Love Trails Festival \| [_The Outsiders Project: remarkable people doing remarkable things_](https://www.lovetrailsfestival.co.uk/explore-talks?explore=block-rwbm0h-39) with Phil Young, Rotimi Odukoya (Clmbxr) and Trina Dawkins.
 - 07-07-2024 \| Timber Festival \| [_Using community to tackle racism in the outdoors: an ESEA perspective_](https://timberfestival.org.uk/2024-programme/using-community-to-tackle-racism-in-the-outdoors-an-esea-perspective/)
 - 05-05-2024 \| SCARPA Great Lakeland 3 Day \| _Diversity & inclusion in the outdoors_
+- 28-11-2020 \| Kendal Mountain Literature Festival \| [_Open Mountain - Space and Isolation_](https://kendalmountainplayer.com/programs/open-mountain)
