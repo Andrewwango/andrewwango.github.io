@@ -20,7 +20,7 @@ Check out my [CV](https://andrewwango.github.io/cv.pdf) and [Google Scholar](htt
 ### Publications
 
 - **Upcoming** - A. Wang, M. Davies, _"Fully unsupervised dynamic MRI reconstruction via diffeo-temporal equivariance"_
-- A. Wang, M. Davies, [_“Perspective-Equivariant Imaging: an Unsupervised Framework for Multispectral Pansharpening”_](https://arxiv.org/abs/2403.09327), in preprint, arXiv:2403.09327 \[cs.CV\], 2024. [Blog.](https://andrewwango.github.io/perspective-equivariant-imaging)
+- A. Wang, M. Davies, [_“Perspective-Equivariant Imaging: an Unsupervised Framework for Multispectral Pansharpening”_](https://arxiv.org/abs/2403.09327), [ECCV Workshop on Traditional Computer Vision in the Age of Deep Learning](https://sites.google.com/view/tradicv/home?authuser=0), 2024. [Blog.](https://andrewwango.github.io/perspective-equivariant-imaging)
 - J. Walsh, O. Kesa, A. Wang et al., [_“Near Real-Time Social Distance Estimation in London”_](https://academic.oup.com/comjnl/article/67/1/95/7071574), The Computer Journal, 2023. Winner of OUP [Wilkes Award](https://academic.oup.com/comjnl/pages/Wilkes_award?login=false) 2024. [Press](https://www.turing.ac.uk/research/research-projects/project-odysseus-understanding-london-busyness-and-exiting-lockdown). [Blog](https://andrewwango.github.io/project-odysseus/).
 - P. Houdouin, A. Wang et al., [_“Robust Classification with Flexible Discriminant Analysis in Heterogeneous Data”_](https://ieeexplore.ieee.org/document/9747576), IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022. [Blog.](https://andrewwango.github.io/femda/)
 
