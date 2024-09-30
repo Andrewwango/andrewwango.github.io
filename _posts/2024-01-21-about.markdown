@@ -11,7 +11,9 @@ img: coomb.jpg
 
 I'm a PhD research student at the [Institute for Imaging, Data and Communications](https://www.eng.ed.ac.uk/research/institutes/idcom) at the University of Edinburgh, supervised by [Prof Mike Davies](https://www.eng.ed.ac.uk/about/people/prof-michael-e-davies).
 
-I'm developing unsupervised ML methodologies for solving inverse imaging problems. These problems appear in many critical imaging scenarios: accelerating medical imaging, higher resolution Earth observation, electron microscopy etc. We rarely have ground truth in the real world - how do we know what a black hole is supposed to look like before ever imaging a black hole - motivating the need for provable unsupervised techniques. My interests include **computer vision**, **inverse problems**, **unsupervised deep learning**, **physics-informed ML**, **compressed sensing**, **medical imaging** and **Earth observation**.
+I'm developing unsupervised ML methodologies for solving inverse imaging problems. These problems appear in many critical imaging scenarios: accelerating medical imaging, higher resolution Earth observation, electron microscopy etc. We rarely have ground truth in the real world - how do we know what a black hole is supposed to look like before ever imaging a black hole - motivating the need for provable unsupervised techniques. 
+
+[Get in touch](mailto:andrew.wang@ed.ac.uk) if you are interested in **computer vision**, **inverse problems**, **unsupervised deep learning**, **geometric deep learning**, **compressed sensing**, **medical imaging** or **Earth observation**.
 
 I also am a core contributor to the [DeepInverse](https://deepinv.github.io), a PyTorch-based library for solving imaging inverse problems with deep learning.
 
@@ -37,9 +39,11 @@ Check out my [project portfolio](https://andrewwango.github.io).
 
 ## Activism
 
-I'm an activist for better access to the outdoors for everyone. I founded [ESEA Outdoors UK](https://www.instagram.com/eseaoutdoorsuk/) [_(about)_](https://eseaoutdoorsuk.carrd.co/), a grassroots community to advocate for better representation, diversity and inclusion in the outdoors.
+I'm an activist and advocate for better access to nature and the outdoors for everyone, and I'm interested in sociological and political aspects of nature and conservation.
 
-I've also joined the [National Trails UK](https://www.nationaltrails.uk/) Board as a Trustee, where my interest is in enabling underrepresented and marginalised people to access nature. The UK is facing a triple nature, climate and social crisis and landscapes such as National Trails are crucial for fighting biodiversity loss, improving health and wellbeing and promoting sustainable tourism.
+I founded [ESEA Outdoors UK](https://www.instagram.com/eseaoutdoorsuk/) [_(about)_](https://eseaoutdoorsuk.carrd.co/), a grassroots community to advocate for better representation, diversity and inclusion in the outdoors.
+
+I'm on the [National Trails UK](https://www.nationaltrails.uk/) Board as a Trustee, where my interest is in enabling underrepresented and marginalised people to access nature. The UK is facing a triple nature, climate and social crisis and landscapes such as National Trails are crucial for fighting biodiversity loss, improving health and wellbeing and promoting sustainable tourism.
 
 I'm also interested in [UK land access rights](https://andrewwango.github.io/sustainable_outdoors/).
 
@@ -52,7 +56,7 @@ I'm also interested in [UK land access rights](https://andrewwango.github.io/sus
 
 ### Speaker
 
-- Upcoming \| [Kendal Mountain Festival](https://www.kendalmountainfestival.com/) \|
+- 23-11-2024 \| [Kendal Mountain Festival](https://www.kendalmountainfestival.com/) \| [The Human Powered Session - presented by Patagonia](https://kendalmountainfestival.eventive.org/schedule/66796a8cf0c579007b34e2d9)
 - 14-07-2024 \| Love Trails Festival \| [_Land Access: the need for a true Right to Roam_](https://www.lovetrailsfestival.co.uk/explore-talks?explore=block-rwbm0h-39) with Eben Muse (BMC), Jon Moses (Right to Roam) and Amy-Jane Beer
 - 12-07-2024 \| Love Trails Festival \| [_The Outsiders Project: remarkable people doing remarkable things_](https://www.lovetrailsfestival.co.uk/explore-talks?explore=block-rwbm0h-39) with Phil Young and Trina Dawkins.
 - 07-07-2024 \| Timber Festival \| [_Using community to tackle racism in the outdoors: an ESEA perspective_](https://timberfestival.org.uk/2024-programme/using-community-to-tackle-racism-in-the-outdoors-an-esea-perspective/)
