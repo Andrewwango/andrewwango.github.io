@@ -13,10 +13,13 @@ I'm a PhD research student at the [Institute for Imaging, Data and Communication
 
 I'm developing unsupervised ML methodologies for solving inverse imaging problems. These problems appear in many critical imaging scenarios: accelerating medical imaging, higher resolution Earth observation, electron microscopy etc. We rarely have ground truth in the real world - how do we know what a black hole is supposed to look like before ever imaging a black hole - motivating the need for provable unsupervised techniques. My interests include **computer vision**, **inverse problems**, **unsupervised deep learning**, **physics-informed ML**, **compressed sensing**, **medical imaging** and **Earth observation**.
 
+I also am a core contributor to the [DeepInverse](https://deepinv.github.io), a PyTorch-based library for solving imaging inverse problems with deep learning.
+
 Check out my [CV](https://andrewwango.github.io/cv.pdf) and [Google Scholar](https://scholar.google.com/citations?user=00ET0NAAAAAJ).
 
 ### Publications
 
+- **Upcoming** - A. Wang, M. Davies, _"Fully unsupervised dynamic MRI reconstruction via diffeo-temporal equivariance"_
 - A. Wang, M. Davies, [_“Perspective-Equivariant Imaging: an Unsupervised Framework for Multispectral Pansharpening”_](https://arxiv.org/abs/2403.09327), in preprint, arXiv:2403.09327 \[cs.CV\], 2024. [Blog.](https://andrewwango.github.io/perspective-equivariant-imaging)
 - J. Walsh, O. Kesa, A. Wang et al., [_“Near Real-Time Social Distance Estimation in London”_](https://academic.oup.com/comjnl/article/67/1/95/7071574), The Computer Journal, 2023. Winner of OUP [Wilkes Award](https://academic.oup.com/comjnl/pages/Wilkes_award?login=false) 2024. [Press](https://www.turing.ac.uk/research/research-projects/project-odysseus-understanding-london-busyness-and-exiting-lockdown). [Blog](https://andrewwango.github.io/project-odysseus/).
 - P. Houdouin, A. Wang et al., [_“Robust Classification with Flexible Discriminant Analysis in Heterogeneous Data”_](https://ieeexplore.ieee.org/document/9747576), IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022. [Blog.](https://andrewwango.github.io/femda/)
