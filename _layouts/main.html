@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{% unless page.no-sidebar %}
 <aside class="sidebar">
   <header>
     <div class="about">
@@ -42,6 +43,8 @@ layout: default
     </div>
   </footer> <!-- End Footer -->
 </aside> <!-- End Sidebar -->
+{% endunless %}
+
 <div class="content-box clearfix">
   {{ content }}
 </div>
