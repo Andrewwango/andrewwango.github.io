@@ -8,7 +8,7 @@ img: coomb.jpg
 no-sidebar: true
 ---
 
-**Andrew Wang** | Work in progress.
+**Andrew Wang** \| Work in progress.
 
 _Large-scale conservation relies on a nature-connected population, which is achieved not by perpetuating exclusion but a radical equity of access to nature._
 
