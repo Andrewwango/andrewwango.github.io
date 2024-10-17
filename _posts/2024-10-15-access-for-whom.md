@@ -65,4 +65,4 @@ Now, time for a walk in my little right-wing-but-not-dangerously-so corner of th
 
 _To learn more and act now, check out this [list of Resources](https://eseaoutdoorsuk.github.io/resources/)._
 
-_[Andrew Wang](https://linktr.ee/andrew.wang) is an activist for better access to nature and the outdoors for everyone. [Get in touch](https://andrewwango.github.io/about#contact)._
+_[Andrew Wang](https://linktr.ee/andrew.wang) is an activist for better access to nature and the outdoors for everyone. [Get in touch](https://andrewwango.github.io/about#get-in-touch)._
