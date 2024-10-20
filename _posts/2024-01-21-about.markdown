@@ -15,8 +15,6 @@ I'm developing unsupervised ML methodologies for solving inverse imaging problem
 
 [Get in touch](mailto:andrew.wang@ed.ac.uk) if you are interested in **computer vision**, **inverse problems**, **unsupervised deep learning**, **geometric deep learning**, **compressed sensing**, **medical imaging** or **Earth observation**.
 
-I also am a core contributor to the [DeepInverse](https://deepinv.github.io), a PyTorch-based library for solving imaging inverse problems with deep learning.
-
 Check out my [CV](https://andrewwango.github.io/cv.pdf) and [Google Scholar](https://scholar.google.com/citations?user=00ET0NAAAAAJ).
 
 ### Publications
@@ -30,6 +28,16 @@ Check out my [CV](https://andrewwango.github.io/cv.pdf) and [Google Scholar](htt
 ### Workshops & Conferences
 
 - 10-06-2024 \| _"Perspective-Equivariant Imaging: an Unsupervised Framework for Pansharpening"_, [Maths4DL Geometric Deep Learning workshop](https://maths4dl.ac.uk/newsevents/geometric-deep-learning-workshop-university-of-cambridge-10-12-june-2024) [lightning talk & poster](https://maths4dl.ac.uk/wp-content/uploads/2024/02/Andrew_Wang.pdf), University of Cambridge.
+
+### Software
+
+I also am a core contributor to the [DeepInverse](https://deepinv.github.io), a PyTorch-based library for solving imaging inverse problems with deep learning. Some recent contributions include:
+
+- [Generative adversarial networks for image reconstruction](https://deepinv.github.io/deepinv/auto_examples/adversarial-learning/demo_gan_imaging.html)
+- [Image transformations for equivariant imaging](https://deepinv.github.io/deepinv/auto_examples/self-supervised-learning/demo_ei_transforms.html)
+- [Invertible image transformations](https://deepinv.github.io/deepinv/auto_examples/basics/demo_transforms.html)
+- [Self-supervised algorithms including Artifact2Artifact and Phase2Phase](https://deepinv.github.io/deepinv/auto_examples/self-supervised-learning/demo_artifact2artifact.html)
+- [Dynamic MRI physics](https://deepinv.github.io/deepinv/deepinv.physics.html#magnetic-resonance-imaging)
 
 ## Data Scientist
 
