@@ -28,13 +28,13 @@ by [Andrew Wang](https://andrewwango.github.io/about#activism) \| with thanks to
 <img src="{{site.baseurl}}/assets/img/brandwave.jpg" width="70%"/>
 </p>
 <p align="center">
-_Figure 1: the panel's ticketing site._
+<i>Figure 1: the panel's ticketing site.</i>
 </p>
 
 <p align="center">
 <img src="{{site.baseurl}}/assets/img/lny-kmf.jpg" width="70%"/>
 </p>
 <p align="center">
-_Figure 2: me, confused at some questionable Lunar New Year decorations in November._
+<i>Figure 2: me, confused at some questionable Lunar New Year decorations in November.</i>
 </p>
 
