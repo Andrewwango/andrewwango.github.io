@@ -8,8 +8,6 @@ img: kmf_cover.jpg
 no-sidebar: true
 ---
 
-by [Andrew Wang](https://andrewwango.github.io/about#activism) \| with thanks to Eben Myrddin Muse
-
 At last week's excellent Kendal Mountain Festival, a [panel session](https://kendalmountainfestival.eventive.org/schedule/670c128a13dab100669da3de) led by a marketing agency and a leading outdoor footwear brand caught my eye. The [panel's description](https://www.instagram.com/p/DCGelOLpoTy/?igsh=MXcwMnNyazQwbm1j) talked about _"promoting diversity and inclusion in the outdoors"_ and started with "_pale, male, stale..._" - words that would not look out of place in my own work. To a casual listener, the agency's work sounded great. The invited panellists, whom I admired, shared their inspirational grassroots community work to challenge the narrative, and the brand regularly funds impactful projects. So what did I take problem with?
 
 The first signs were comically obvious: two white guys leading a panel on diversity and inclusion, with a white guy as the promo photo. _"We understand your target market, because we are your target market"_, the marketing agency states on [their website](https://www.brandwavemarketing.com/about-us/meet-the-team/)'s page before listing their all-white team. True inclusion in the outdoors requires tackling systemic issues. It does not consist of pretending that the white able-bodied man on stage promoting a for-profit company is in any way inspiring to real marginalised communities who face real barriers to access. 
@@ -24,14 +22,19 @@ Promoting your company as one that cares about radical change, while doing nothi
 
 It has downstream effects on marginalised people. Festivals think they are fostering change by platforming these companies and sponsors, yet the erasure of our voices continues. The status quo simply remains unchallenged; meanwhile, our community members will continue to face racism not only in their daily lives, but at the festival in front of our very eyes.
 
+by [Andrew Wang](https://andrewwango.github.io/about#activism) \| with thanks to [Eben Myrddin Muse](https://linktr.ee/ebenmyrddin)
+
 <p align="center">
 <img src="{{site.baseurl}}/assets/img/brandwave.jpg" width="70%"/>
 </p>
-
-_The panel's ticketing site._
+<p align="center">
+_Figure 1: the panel's ticketing site._
+</p>
 
 <p align="center">
 <img src="{{site.baseurl}}/assets/img/lny-kmf.jpg" width="70%"/>
 </p>
+<p align="center">
+_Figure 2: me, confused at some questionable Lunar New Year decorations in November._
+</p>
 
-_Me, confused at some questionable Lunar New Year decorations in November._
