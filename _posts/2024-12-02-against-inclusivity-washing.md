@@ -22,7 +22,7 @@ Promoting your company as one that cares about radical change, while doing nothi
 
 It has downstream effects on marginalised people. Festivals think they are fostering change by platforming these companies and sponsors, yet the erasure of our voices continues. The status quo simply remains unchallenged; meanwhile, our community members will continue to face racism not only in their daily lives, but at the festival in front of our very eyes.
 
-by [Andrew Wang](https://andrewwango.github.io/about#activism) \| with thanks to [Eben Myrddin Muse](https://linktr.ee/ebenmyrddin)
+by [Andrew Wang](https://linktr.ee/andrew.wang) \| with thanks to [Eben Myrddin Muse](https://linktr.ee/ebenmyrddin)
 
 <p align="center">
 <img src="{{site.baseurl}}/assets/img/brandwave.jpg" width="70%"/>
