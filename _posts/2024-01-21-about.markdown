@@ -37,7 +37,7 @@ I also am a core contributor to the [DeepInverse](https://deepinv.github.io), a 
 - [Image transformations for equivariant imaging](https://deepinv.github.io/deepinv/auto_examples/self-supervised-learning/demo_ei_transforms.html)
 - [Invertible image transformations](https://deepinv.github.io/deepinv/auto_examples/basics/demo_transforms.html)
 - [Self-supervised algorithms including Artifact2Artifact and Phase2Phase](https://deepinv.github.io/deepinv/auto_examples/self-supervised-learning/demo_artifact2artifact.html)
-- [Dynamic MRI physics](https://deepinv.github.io/deepinv/deepinv.physics.html#magnetic-resonance-imaging)
+- [Dynamic Magnetic Resonance Imaging (MRI) physics](https://deepinv.github.io/deepinv/deepinv.physics.html#magnetic-resonance-imaging), [3D and multi-coil MRI](https://deepinv.github.io/deepinv/api/stubs/deepinv.physics.MultiCoilMRI.html#deepinv.physics.MultiCoilMRI)
 
 ## Data Scientist
 
@@ -47,18 +47,20 @@ Check out my [project portfolio](https://andrewwango.github.io).
 
 ## Activism
 
-I'm an activist and advocate for better access to nature and the outdoors for everyone, and I'm interested in sociological and political aspects of nature and conservation.
+I'm an activist and campaigner for better access to nature and the outdoors for everyone. See below for previous writing and speaking.
 
 I founded [ESEA Outdoors UK](https://www.instagram.com/eseaoutdoorsuk/) [_(about)_](https://eseaoutdoorsuk.carrd.co/), a grassroots community to advocate for better representation, diversity and inclusion in the outdoors.
 
-I'm on the [National Trails UK](https://www.nationaltrails.uk/) Board as a Trustee, where my interest is in enabling underrepresented and marginalised people to access nature. The UK is facing a triple nature, climate and social crisis and landscapes such as National Trails are crucial for fighting biodiversity loss, improving health and wellbeing and promoting sustainable tourism.
+I'm a Trustee of [National Trails UK](https://www.nationaltrails.uk/), where my interest is in enabling underrepresented and marginalised people to access nature.
 
-I'm also interested in [UK land access rights](https://andrewwango.github.io/sustainable_outdoors/).
+I'm also interested in the data of [UK land access rights](https://andrewwango.github.io/prow-map/).
 
 To learn more about these topics, check out our [list of Resources](https://eseaoutdoorsuk.github.io/resources/).
 
 ### Writing
 
+- 02-12-2024 \| Blog \| [_Against inclusivity-washing in the outdoors_](https://andrewwango.github.io/against-inclusivity-washing/)
+- 15-10-2024 \| Blog \| [_Access to nature - but for whom?_](https://andrewwango.github.io/access-for-whom/)
 - 18-06-2024 \| [BMC Summit magazine](https://www.thebmc.co.uk/cats/all/summit_magazine) \| [_Diversity in the Mountains at the Great Lakeland 3 Day_](https://eseaoutdoorsuk.github.io/2024-bmc-summit/) (free to read)
 - 21-03-2024 \| BMC \| [_East and Southeast Asian people go outdoors too_](https://www.thebmc.co.uk/en/east-and-southeast-asian-people-go-outdoors-too)
 - 18-09-2023 \| Earth.org \| [_Why Improving UK Land Access Rights Is Important For A More Sustainable Outdoors_](https://earth.org/data_visualization/uk-land-access-rights/)
@@ -66,8 +68,8 @@ To learn more about these topics, check out our [list of Resources](https://esea
 
 ### Speaker
 
-- 23-11-2024 \| [Kendal Mountain Festival](https://www.kendalmountainfestival.com/) \| [The Human Powered Session - presented by Patagonia](https://kendalmountainfestival.eventive.org/schedule/66796a8cf0c579007b34e2d9)
-- 14-07-2024 \| Love Trails Festival \| [_Land Access: the need for a true Right to Roam_](https://www.lovetrailsfestival.co.uk/explore-talks?explore=block-rwbm0h-39) with Eben Muse (BMC), Jon Moses (Right to Roam) and Amy-Jane Beer
+- 23-11-2024 \| [Kendal Mountain Festival](https://www.kendalmountainfestival.com/) \| [The Human Powered Session - presented by Patagonia](https://kendalmountainfestival.eventive.org/schedule/66796a8cf0c579007b34e2d9) with [Eben Myrddin Muse](https://linktr.ee/ebenmyrddin) and Carlos Casas.
+- 14-07-2024 \| Love Trails Festival \| [_Land Access: the need for a true Right to Roam_](https://www.lovetrailsfestival.co.uk/explore-talks?explore=block-rwbm0h-39) with [Eben Myrddin Muse](https://linktr.ee/ebenmyrddin) (BMC), Jon Moses (Right to Roam) and Amy-Jane Beer
 - 12-07-2024 \| Love Trails Festival \| [_The Outsiders Project: remarkable people doing remarkable things_](https://www.lovetrailsfestival.co.uk/explore-talks?explore=block-rwbm0h-39) with Phil Young and Trina Dawkins.
 - 07-07-2024 \| Timber Festival \| [_Using community to tackle racism in the outdoors: an ESEA perspective_](https://timberfestival.org.uk/2024-programme/using-community-to-tackle-racism-in-the-outdoors-an-esea-perspective/)
 - 05-05-2024 \| SCARPA Great Lakeland 3 Day \| _Diversity & inclusion in the outdoors_
