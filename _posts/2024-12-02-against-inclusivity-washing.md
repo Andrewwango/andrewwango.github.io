@@ -8,6 +8,10 @@ img: kmf_cover.jpg
 no-sidebar: true
 ---
 
+_Note: this blog has been moved to [Substack](https://eseaoutdoorsuk.substack.com/p/against-inclusivity-washing)._
+
+[**Andrew Wang**](https://linktr.ee/andrew.wang) \| Opinion
+
 At last week's excellent Kendal Mountain Festival, a [panel session](https://kendalmountainfestival.eventive.org/schedule/670c128a13dab100669da3de) led by a marketing agency and a leading outdoor footwear brand caught my eye. The [panel's description](https://www.instagram.com/p/DCGelOLpoTy/?igsh=MXcwMnNyazQwbm1j) talked about _"promoting diversity and inclusion in the outdoors"_ and started with "_pale, male, stale..._" - words that would not look out of place in my own work. To a casual listener, the agency's work sounded great. The invited panellists, whom I admired, shared their inspirational grassroots community work to challenge the narrative, and the brand regularly funds impactful projects. So what did I take problem with?
 
 The first signs were comically obvious: two white guys leading a panel on diversity and inclusion, with a white guy as the promo photo. _"We understand your target market, because we are your target market"_, the marketing agency states on [their website](https://www.brandwavemarketing.com/about-us/meet-the-team/)'s page before listing their all-white team. True inclusion in the outdoors requires tackling systemic issues. It does not consist of pretending that the white able-bodied man on stage promoting a for-profit company is in any way inspiring to real marginalised communities who face real barriers to access. 

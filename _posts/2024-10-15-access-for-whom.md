@@ -8,7 +8,9 @@ img: coomb.jpg
 no-sidebar: true
 ---
 
-**Andrew Wang** \| Opinion
+_Note: this blog has been moved to [Substack](https://eseaoutdoorsuk.substack.com/p/access-to-nature)._
+
+[**Andrew Wang**](https://linktr.ee/andrew.wang) \| Opinion
 
 _Large-scale conservation relies on a nature-connected population, which is achieved not by perpetuating exclusion but a radical equity of access to nature._
 
