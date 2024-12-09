@@ -7,6 +7,19 @@ description:
 img: coomb.jpg
 ---
 
+## Contents
+
+- [Research](#research)
+  - [Publications](#publications)
+  - [Workshops & Conferences](#workshops--conferences)
+  - [Software](#software)
+- [Data Scientist](#data-scientist)
+- [Activism](#activism)
+  - [Writing](#writing)
+  - [Speaker](#speaker)
+- [Get in touch](#get-in-touch)
+
+
 ## Research
 
 I'm a PhD research student at the [Institute for Imaging, Data and Communications](https://www.eng.ed.ac.uk/research/institutes/idcom) at the University of Edinburgh, supervised by [Prof Mike Davies](https://www.eng.ed.ac.uk/about/people/prof-michael-e-davies).

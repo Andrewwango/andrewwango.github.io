@@ -9,7 +9,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Andrew Wang # add your name
 author-img: logo.jpg # add your photo
-about-author: PhD student, data scientist, activist. #PhD student in ML at the University of Edinburgh. Data scientist interested in social good. Campaigning for better access to the outdoors for everyone.
+about-author: Researcher, data scientist, activist. #PhD student in ML at the University of Edinburgh. Data scientist interested in social good. Campaigning for better access to the outdoors for everyone.
 cv-author: "https://andrewwango.github.io/cv.pdf"
 google-scholar: "https://scholar.google.com/citations?user=00ET0NAAAAAJ"
 social-twitter: andrewwango # add your Twitter handle
