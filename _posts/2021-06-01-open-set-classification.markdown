@@ -4,8 +4,8 @@ type: archive
 title: Open-set image classification
 date: 2021-06-01 00:00:00 +0000
 description: A simple and novel approach
-img: open-set-resnet/cover.png # Add image post (optional)
-tags: [data-science, machine-learning, internship] # add tag
+img: open-set-resnet/cover.png
+tags: [data-science, machine-learning]
 ---
 
 [![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=GitHub)](https://github.com/Andrewwango/open-set-resnet)

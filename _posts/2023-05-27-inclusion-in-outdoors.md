@@ -5,7 +5,6 @@ type: other
 date: 2023-05-27 00:00:00 +0000
 description: "Cultural and ethnic diversity in outdoor sports: my experiences and aims"
 img: fell.jpg
-tags: [personal] 
 ---
 
 ### Contents

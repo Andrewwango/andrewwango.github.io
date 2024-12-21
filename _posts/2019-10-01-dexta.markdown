@@ -4,8 +4,8 @@ type: archive
 title: Modifying the Dexmo haptic controller
 date: 2020-12-07 00:00:00 +0000
 description: Learning more degrees of freedom
-img: dexta/Dexta_overall.png # Add image post (optional)
-tags: [robotics, internship] # add tag
+img: dexta/Dexta_overall.png
+tags: [robotics]
 ---
 
 During my internship at [Dexta Robotics, Shenzhen](https://www.dextarobotics.com/), I had the opportunity to play around with Dexta Robotics' flagship product, the Dexmo force-feedback exoskeletal glove. Apart from exhibiting the product [at SIGGRAPH 2019](https://twitter.com/within/status/1161015333873836037?s=21&t=RVDklT0jfbUsP7mYKXmmCA), I also worked on trying to improve the technology itself. From the [website](https://www.dextarobotics.com/product): 

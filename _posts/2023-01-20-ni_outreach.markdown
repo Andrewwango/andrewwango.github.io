@@ -5,7 +5,7 @@ title: Computer studies in Northern Irish schools
 date: 2023-01-20 00:00:00 +0000
 description: A tech outreach data analysis
 img: ni_outreach_cover.png
-tags: [data] 
+tags: [data-science] 
 ---
 
 ## Background

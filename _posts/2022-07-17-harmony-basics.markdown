@@ -4,8 +4,6 @@ title: Harmonic mixing
 date: 2022-07-17 00:00:00 +0000
 type: other
 description:  Harmony basics for Jordan
-img: # Add image post (optional)
-tags: [life] # add tag
 ---
 
 When composing, producing or mixing it adds something to think about the tonality (how keys relate to one another) and harmony (how chords are composed from a key) of songs. The amount of harmonic information and interest in a song can vary a lot - the single descriptor of "key" doesn't give much away about what to expect. This post is to give an introduction to the basics of harmony, how to listen to it in a song, and how to use it while mixing. 

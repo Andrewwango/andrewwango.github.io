@@ -4,8 +4,8 @@ type: research
 title: Physics-informed dynamic latent space models
 date: 2022-07-01 00:00:00 +0000
 description:  MEng thesis in computational statistics and ML
-img: iib_project/MNIST_manifold_long.png # Add image post (optional)
-tags: [research, machine-learning, cambridge] # add tag
+img: iib_project/MNIST_manifold_long.png
+tags: [research, machine-learning]
 usemathjax: true
 ---
 

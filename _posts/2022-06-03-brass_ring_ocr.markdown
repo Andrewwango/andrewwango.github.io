@@ -4,8 +4,8 @@ type: archive
 title: OCR vs OOD
 date: 2022-06-03 00:00:00 +0000
 description: Text recognition for classifying brass ring images
-img: brass_ring/cover.png # Add image post (optional)
-tags: [freelance, machine-learning] # add tag
+img: brass_ring/cover.png
+tags: [data-science, machine-learning]
 ---
 
 [![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=GitHub)](https://github.com/Andrewwango/brass-ring-ocr)

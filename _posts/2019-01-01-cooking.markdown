@@ -5,7 +5,6 @@ date: 2019-01-01 00:00:00 +0000
 type: other
 description: A collection of my recipes.
 img: # Add image post (optional)
-tags: [life] # add tag
 ---
 
 A collection of recipes requested by friends and passed down from family.

@@ -4,8 +4,8 @@ type: project
 title: Mapping lost rights of way
 date: 2022-08-02 00:00:00 +0000
 description: A Python geospatial data analysis
-img: prow/thumb4.png # Add image post (optional)
-tags: [research, data] # add tag
+img: prow/thumb4.png
+tags: [research, data-science, geospatial, environmental, activism]
 ---
 
 A land access research project to automatically analyse all footpaths in England and Wales to reclaim public rights of way (PRoW) using analysis of public GPX traces. 

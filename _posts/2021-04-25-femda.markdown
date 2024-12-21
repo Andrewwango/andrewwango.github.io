@@ -4,8 +4,8 @@ type: research
 title: FEMDA robust classification
 date: 2021-04-25 00:00:00 +0000
 description: Conference paper at ICASSP 2022
-img: femda_img_long.jpg # Add image post (optional)
-tags: [research, machine-learning, internship] # add tag
+img: femda_img_long.jpg
+tags: [research, machine-learning, data-science]
 ---
 
 [![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=GitHub)](https://github.com/Andrewwango/femda)

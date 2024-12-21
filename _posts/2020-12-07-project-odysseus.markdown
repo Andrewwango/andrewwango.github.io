@@ -5,7 +5,7 @@ title: London social distance estimation
 date: 2020-12-07 00:00:00 +0000
 description: BCS Computer Journal paper with the Alan Turing Institute
 img: turing/turing_cover.png 
-tags: [research, data-science, machine-learning, internship]
+tags: [research, data-science, machine-learning]
 ---
 
 [![](https://img.shields.io/badge/arXiv-Paper%20in%20Preprint-green?logo=arxiv)](https://arxiv.org/abs/2012.07751)

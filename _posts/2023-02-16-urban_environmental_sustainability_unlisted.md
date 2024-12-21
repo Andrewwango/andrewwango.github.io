@@ -5,7 +5,6 @@ date: 2023-02-04 00:00:00 +0000
 type: unlisted
 description: Unlisted copy of article at [earth.org](https://earth.org/data_visualization/urban-environmental-sustainability/) 
 img: EO/green_cities_EO_cover.jpg
-tags: [research, data] 
 ---
 
 Cover photo by [Martin Magnemyr](https://unsplash.com/@mmagnemyr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/rXdnQundyOo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

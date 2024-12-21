@@ -5,7 +5,6 @@ date: 2022-10-21 00:00:00 +0000
 type: unlisted
 description: Unlisted copy of article at [earth.org](https://earth.org/data_visualization/uk-land-access-rights/) # Add post description (optional)
 img: prow/thumb3.png
-tags: [research, data] 
 ---
 
 **Author** Andrew Wang | Twitter: @andrewwango

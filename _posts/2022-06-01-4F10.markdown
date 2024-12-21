@@ -4,8 +4,7 @@ title: "4F10: Deep Learning"
 type: other
 date: 2022-06-01 00:00:00 +0000
 description:  A collection of topics and materials
-img: # Add image post (optional)
-tags: [cambridge] # add tag
+img:
 ---
 
 A collection of topics and materials for 4F10: Deep Learning and Structured Data in 2022.
