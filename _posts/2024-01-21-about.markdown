@@ -33,14 +33,17 @@ Check out my [CV](https://andrewwango.github.io/cv.pdf) and [Google Scholar](htt
 ### Publications
 
 - A. Wang, M. Davies, [_"Fully unsupervised dynamic MRI reconstruction via diffeo-temporal equivariance"_](https://arxiv.org/abs/2410.08646), on arXiv, Oct 2024. [Blog](https://andrewwango.github.io/ddei).
-- A. Wang, M. Davies, [_“Perspective-Equivariant Imaging: an Unsupervised Framework for Multispectral Pansharpening”_](https://arxiv.org/abs/2403.09327), [ECCV Workshop on Traditional Computer Vision in the Age of Deep Learning](https://sites.google.com/view/tradicv/home?authuser=0), 2024. [Blog](https://andrewwango.github.io/perspective-equivariant-imaging).
+- A. Wang, M. Davies, [_“Perspective-Equivariant Imaging: an Unsupervised Framework for Multispectral Pansharpening”_](https://arxiv.org/abs/2403.09327), [IEEE/CVF European Conference on Computer Vision (ECCV)](https://eccv2024.ecva.net/) [Workshop on Traditional Computer Vision in the Age of Deep Learning](https://sites.google.com/view/tradicv/home?authuser=0), 2024. [Blog](https://andrewwango.github.io/perspective-equivariant-imaging).
 - J. Walsh, O. Kesa, A. Wang et al., [_“Near Real-Time Social Distance Estimation in London”_](https://academic.oup.com/comjnl/article/67/1/95/7071574), The Computer Journal, 2023. Winner of OUP [Wilkes Award](https://academic.oup.com/comjnl/pages/Wilkes_award?login=false) 2024. [Press](https://www.turing.ac.uk/research/research-projects/project-odysseus-understanding-london-busyness-and-exiting-lockdown). [Blog](https://andrewwango.github.io/project-odysseus/).
 - P. Houdouin, A. Wang et al., [_“Robust Classification with Flexible Discriminant Analysis in Heterogeneous Data”_](https://ieeexplore.ieee.org/document/9747576), IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022. [Blog.](https://andrewwango.github.io/femda/)
 
 
 ### Workshops & Conferences
 
-- 10-06-2024 \| _"Perspective-Equivariant Imaging: an Unsupervised Framework for Pansharpening"_, [Maths4DL Geometric Deep Learning workshop](https://maths4dl.ac.uk/newsevents/geometric-deep-learning-workshop-university-of-cambridge-10-12-june-2024) [lightning talk & poster](https://maths4dl.ac.uk/wp-content/uploads/2024/02/Andrew_Wang.pdf), University of Cambridge.
+- 19-12-2024 \| Lightning talk and poster \| _"Learning to reconstruct accelerated dynamic MRI without ground truth"_, [International Workshop on Mathematical Imaging and AI Algorithms](https://www.strath.ac.uk/science/mathematicsstatistics/iptaworkshop2024/), IPTA 2024, University of Strathclyde, Glasgow.
+- 04-12-2024 \| Seminar \| _"Learning to solve imaging inverse problems without ground truth"_, [Edinburgh Vision](https://groups.inf.ed.ac.uk/vision/), University of Edinburgh.
+- 29-09-2024 \| Lightning talk and poster \| _"Perspective-Equivariance for Unsupervised Imaging with Camera Geometry"_, [TradiCV workshop](https://sites.google.com/view/tradicv/home?authuser=0), ECCV 2024, Milan.
+- 10-06-2024 \| [Lightning talk & poster](https://maths4dl.ac.uk/wp-content/uploads/2024/02/Andrew_Wang.pdf) \| _"Perspective-Equivariant Imaging: an Unsupervised Framework for Pansharpening"_, [Maths4DL Geometric Deep Learning workshop](https://maths4dl.ac.uk/newsevents/geometric-deep-learning-workshop-university-of-cambridge-10-12-june-2024), University of Cambridge.
 
 ### Software
 
