@@ -40,7 +40,7 @@ Check out my [CV](https://andrewwango.github.io/cv.pdf) and [Google Scholar](htt
 
 ### Workshops & Conferences
 
-- 19-12-2024 \| Lightning talk and poster \| _"Learning to reconstruct accelerated dynamic MRI without ground truth"_, [International Workshop on Mathematical Imaging and AI Algorithms](https://www.strath.ac.uk/science/mathematicsstatistics/iptaworkshop2024/), IPTA 2024, University of Strathclyde, Glasgow.
+- 19-12-2024 \| Lightning talk and [poster](https://andrewwango.github.io/pdf/ddei_poster.pdf) \| _"Learning to reconstruct accelerated dynamic MRI without ground truth"_, [International Workshop on Mathematical Imaging and AI Algorithms](https://www.strath.ac.uk/science/mathematicsstatistics/iptaworkshop2024/), IPTA 2024, University of Strathclyde, Glasgow.
 - 04-12-2024 \| Seminar \| _"Learning to solve imaging inverse problems without ground truth"_, [Edinburgh Vision](https://groups.inf.ed.ac.uk/vision/), University of Edinburgh.
 - 29-09-2024 \| Lightning talk and poster \| _"Perspective-Equivariance for Unsupervised Imaging with Camera Geometry"_, [TradiCV workshop](https://sites.google.com/view/tradicv/home?authuser=0), ECCV 2024, Milan.
 - 10-06-2024 \| [Lightning talk & poster](https://maths4dl.ac.uk/wp-content/uploads/2024/02/Andrew_Wang.pdf) \| _"Perspective-Equivariant Imaging: an Unsupervised Framework for Pansharpening"_, [Maths4DL Geometric Deep Learning workshop](https://maths4dl.ac.uk/newsevents/geometric-deep-learning-workshop-university-of-cambridge-10-12-june-2024), University of Cambridge.
