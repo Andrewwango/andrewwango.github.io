@@ -1,7 +1,7 @@
 ---
 layout: post
 type: research
-title: FEMDA robust classification
+title: "Paper: FEMDA robust classification"
 date: 2021-04-25 00:00:00 +0000
 description: Conference paper at ICASSP 2022
 img: femda_img_long.jpg
