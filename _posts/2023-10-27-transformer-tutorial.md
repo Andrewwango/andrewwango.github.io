@@ -24,19 +24,19 @@ img:
 
 **For now, ignore details about the encoder and positional encoding.**
 
-![](overview.png)
+![]({{site.baseurl}}/assets/img/transformers/overview.png)
 
 _From_ [_The Illustrated Transformer_](https://jalammar.github.io/illustrated-transformer/)
 
 Vision transformer: **only the tokeniser changes**: patch-based tokenisation. Everything else equivalent.
 
-![](ViT.png)  
+![]({{site.baseurl}}/assets/img/transformers/ViT.png)  
 
 _From [Dosovitsky et al. An image is worth 16x16 words: transformers for image recognition at scale.](https://arxiv.org/abs/2010.11929 "https://arxiv.org/abs/2010.11929")_
 
 Transformer encoder = **self-attention** + MLP (+ layernorm + skip connections)
 
-![](encoder.png)  
+![]({{site.baseurl}}/assets/img/transformers/encoder.png)  
 
 _From [Vaswani et al. Attention is all you need](https://arxiv.org/abs/1706.03762 )_
 
@@ -52,7 +52,7 @@ Task specific head can be...
 
 Example application: [_Lin et al. ViT enable fast and robust accelerated MRI_](https://proceedings.mlr.press/v172/lin22a/lin22a.pdf)
 
-![](results.png)  
+![]({{site.baseurl}}/assets/img/transformers/results.png)  
 
 Compare performances wrt. pretraining performance, distribution shift.
 
@@ -103,7 +103,7 @@ Summary:
 
 > _Dosovitsky et al. -_ As we can see, while there is a large gap between the performances of the model with no positional embedding and models with positional embedding, there is little to no difference between different ways of encoding positional information. We speculate that since our Transformer encoder operates on patch-level inputs, as opposed to pixel-level, the differences in how to encode spatial information is less important. More precisely, in patch-level inputs, the spatial dimensions are much smaller than the original pixel-level inputs, e.g., 14 × 14 as opposed to 224 × 224, and learning to represent the spatial relations in this resolution is equally easy for these different positional encoding strategies.
 
-![](posenc.png)
+![]({{site.baseurl}}/assets/img/transformers/posenc.png)
 </details>
 
 
@@ -140,4 +140,4 @@ Applications:
 
 [_Liang et al. SwinIR: Image restoration using Swin transformer_](https://arxiv.org/abs/2108.10257 "https://arxiv.org/abs/2108.10257")  
 
-![](swin.png)
+![]({{site.baseurl}}/assets/img/transformers/swin.png)
