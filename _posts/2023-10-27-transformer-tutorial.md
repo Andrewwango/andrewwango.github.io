@@ -65,12 +65,12 @@ _Skip to 3:29: Attention_
 
 Self-attention matrix equations - taken from _[Romero et al. Group equivariant stand-alone self-attention for vision](https://arxiv.org/abs/2010.00977)_
 
->  Let rows of $\mathbf{X}$ be vectors representing patch embeddings.  
-> $\text{SA}(X)=\text{softmax}(\mathbf{Q}\mathbf{K}^T)\mathbf{V}=\text{softmax}(\mathbf{X}\mathbf{W}_Q(\mathbf{X}\mathbf{W}_K)^T)\mathbf{X}\mathbf{W}_V$  
+>  Let rows of \(\mathbf{X}\) be vectors representing patch embeddings.  
+> \(\text{SA}(X)=\text{softmax}(\mathbf{Q}\mathbf{K}^T)\mathbf{V}=\text{softmax}(\mathbf{X}\mathbf{W}_Q(\mathbf{X}\mathbf{W}_K)^T)\mathbf{X}\mathbf{W}_V\)  
 
-+ dimensional normalising terms; where $\mathbf{W}_{\{Q,K,V\}}$ learnable.
++ dimensional normalising terms; where \(\mathbf{W}_{\{Q,K,V\}}\) learnable.
 
-**Multi-head self-attention**: self-attention performed $h$ times with $h$ different $\mathbf{W}_{\{Q,K,V\}}$ matrices, output concatenated and passed through one FC layer.
+**Multi-head self-attention**: self-attention performed \(h\) times with \(h\) different \(\mathbf{W}_{\{Q,K,V\}}\) matrices, output concatenated and passed through one FC layer.
 
 Advantages over convolution operation
 
@@ -83,20 +83,20 @@ _See above video. Skip to 7:55_
 
 Summary:
 
-- Positional encoder takes patch position $i$ e.g. $i=\{1..9\}$ and outputs a vector to be summed to embedding vector.
+- Positional encoder takes patch position \(i\) e.g. \(i=\{1..9\}\) and outputs a vector to be summed to embedding vector.
 - Positional encoder can either be fixed (according to a complicated scheme) or learned.
 
 > _Dosovitsky et al. -_ Position embeddings are added to the patch embeddings to retain positional information. We use standard learnable 1D position embeddings, since we have not observed significant performance gains from using more advanced 2D-aware position embeddings
 
 **Absolute** positional encoding (taken from _Romero et al.)_
 
-> $\text{SA}(x)=\text{softmax}(\mathbf{A})\mathbf{X}\mathbf{W}_V;\quad\mathbf{A}= (\mathbf{X}+\mathbf{P})\mathbf{W}_Q((\mathbf{X}+\mathbf{P})\mathbf{W}_K)^T$
+> \(\text{SA}(x)=\text{softmax}(\mathbf{A})\mathbf{X}\mathbf{W}_V;\quad\mathbf{A}= (\mathbf{X}+\mathbf{P})\mathbf{W}_Q((\mathbf{X}+\mathbf{P})\mathbf{W}_K)^T\)
 
 **"Relative"** positional encoding
 
-> Introduced by Shaw et al. (2018), relative encodings consider the _relative distance_ between the query token $i$ (the token we compute the representation of), and the key token $j$ (the token we attend to). The calculation of the attention scores then becomes:  
+> Introduced by Shaw et al. (2018), relative encodings consider the _relative distance_ between the query token \(i\) (the token we compute the representation of), and the key token \(j\) (the token we attend to). The calculation of the attention scores then becomes:  
 > 
-> $\mathbf{A}_{i,j}=\mathbf{X}_i\mathbf{W}_Q((\mathbf{X}_j+\mathbf{P}_{x(j)-x(i)})\mathbf{W}_K)^T$
+> \(\mathbf{A}_{i,j}=\mathbf{X}_i\mathbf{W}_Q((\mathbf{X}_j+\mathbf{P}_{x(j)-x(i)})\mathbf{W}_K)^T\)
 
 
 <details><summary>Aside: learned positional encodings experiments</summary>
@@ -124,7 +124,7 @@ _[Romero et al. Group equivariant stand-alone self-attention for vision](https:/
 
 Question: can group equivariance properties of positional encoding be framed in the context of EI?
 
-Probably not - since positional encoding acts on input images $A^\dagger x$ rather than the actual images $x$?
+Probably not - since positional encoding acts on input images \(A^\dagger x\) rather than the actual images \(x\)?
 
 ## 4b. Swin
 
