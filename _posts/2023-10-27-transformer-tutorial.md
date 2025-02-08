@@ -3,8 +3,7 @@ layout: post
 title: "Tutorial: Fundamentals of transformers"
 date: 2023-10-27 00:00:00 +0000
 type: unlisted
-description:
-img:
+description: "Tutorial: Fundamentals of transformers"
 usemathjax: true
 ---
 #### Contents
