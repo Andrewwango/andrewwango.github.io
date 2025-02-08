@@ -60,7 +60,7 @@ Compare performances wrt. pretraining performance, distribution shift.
 
 _Skip to 3:29: Attention_
 
-[What are Transformer Neural Networks?](https://www.youtube.com/embed/XSSTuhyAmnI?feature=oembed)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XSSTuhyAmnI?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 Self-attention matrix equations - taken from _[Romero et al. Group equivariant stand-alone self-attention for vision](https://arxiv.org/abs/2010.00977)_
@@ -134,7 +134,7 @@ Probably not - since positional encoding acts on input images $A^\dagger x$ ra
 
 _Skip to 6:51 Swin Transformer Block_
 
-[Swin Transformer: Hierarchical Vision Transformer using Shifted Windows (paper illustrated)](https://www.youtube.com/embed/tFYxJZBAbE8?feature=oembed)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tFYxJZBAbE8?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Applications:
 
