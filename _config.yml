@@ -22,7 +22,7 @@ linktree: andrew.wang
 discus-identifier: # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+google_analytics: G-N499RT9NQY
 
 # Build Settings
 # Template is Jekyll Figs https://figs.jekyll-themes.com/blog/documentation/
