@@ -24,6 +24,7 @@ Skip to...
     * [Grilled chicken](#grilled-chicken)
     * [🇨🇳 Sweet and sour pork](#sweet-sour)
     * [Pulled pork](#pulled-pork)
+    * [🇨🇳 Chicken broccoli](#chicken-broccoli)
 * **🥦 [Vegetarian](#vegetarian)**
     * [🇨🇳 EFR](#efr)
     * [🇮🇹 Broccoli pasta](#broccoli-pasta)
@@ -129,6 +130,23 @@ Grill on dry high-heat cast-iron pan for 5 mins per side, until cooked (inside=7
 4. Cook low and slow - 140°C/120°C fan for >6 hours, the longer the better. Optionally for last hour turn up heat slightly and uncover slightly to develop crust and evaporate some liquid. Remove and rest.
 5. BBQ sauce: sauté diced onion, add splash vinegar, ketchup (forms base of sauce), some sugar/honey, optional: molasses/soy sauce/Worcestershire sauce/anything else, garlic powder. Add juices from roasting tray. Simmer until thick.
 6. Pull pork with 2 forks and mix in sauce.
+
+---
+
+### 🇨🇳 Chicken and broccoli <a id="chicken-broccoli"></a>
+
+<img src="{{site.baseurl}}/assets/img/cooking/joe-chicken.png" alt="drawing" width="50%"/>
+
+- Aromatics: minced ginger, garlic, spring onion whites.
+- Veggies: boil broken up 🥦 (stem peeled and sliced) 4 mins, 1 onion in large slices, 1 small red pepper similarly sized slices.
+- Chicken breast (350g for 4 people) sliced against grain thinly into wide thin slices. Marinate: between 1/2-2/3 (e.g. 4/7) teaspoon bicarb soda (to tenderise), sprinkle white pepper (optional), some salt, MSG, dash Shaoxing wine, dash light soy sauce. Massage until liquid fully incorporated into chicken. Massage in tablespoon cornflour to coat and incorporate. Massage in some oil to coat.
+- Fry some raw cashews in oil. Leave oil.
+- Chicken 1st fry: fry in enough oil until golden, cooked and all separated. Remove.
+- In same oil, stir fry aromatics then veggies.
+- Sauce: dash Shaoxing wine, oyster sauce, light soy sauce, enough dark soy sauce, sweet soy sauce (optional), enough sugar, salt, MSG.
+- Add chicken and cashews back in, combine. Add cornflour slurry, reduce.
+- Finish off the heat with small drizzle sesame oil, spring onion greens.
+
 
 ---
 
