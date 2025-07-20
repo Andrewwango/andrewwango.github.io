@@ -9,41 +9,48 @@ img: coomb.jpg
 
 ## Contents
 
-- [Research](#research)
-  - [Publications](#publications)
-  - [Workshops & Conferences](#workshops--conferences)
-  - [Software](#software)
-- [Data Scientist](#data-scientist)
+- [Work](#work)
 - [Activism](#activism)
-  - [Writing](#writing)
-  - [Speaker](#speaker)
 - [Get in touch](#get-in-touch)
 
 
-## Research
+## Work
 
-I'm a PhD research student at the [Institute for Imaging, Data and Communications](https://www.eng.ed.ac.uk/research/institutes/idcom) at the University of Edinburgh, supervised by [Prof Mike Davies](https://www.eng.ed.ac.uk/about/people/prof-michael-e-davies).
+I'm building a startup [Blur Labs](https://blurlabs.ai/)! We are building open-source AI foundation models for image reconstruction. Powering the next generation of faster, cheaper imaging devices.
 
-I design deep learning algorithms for solving real-world inverse imaging problems where we rarely have ground truth, such as accelerating medical imaging or higher resolution Earth observation. These problems are super important but very challenging - how do we know what a black hole is supposed to look like before ever imaging one? 
+Interested in imaging? Follow us on [LinkedIn](https://www.linkedin.com/company/blurlabs) or [get in touch](#get-in-touch) with me.
 
-[Get in touch](mailto:andrew.wang@ed.ac.uk) if you are interested in **computer vision**, **inverse problems**, **unsupervised deep learning**, **geometric deep learning**, **compressed sensing**, **medical imaging** or **Earth observation**.
+Blur Labs is based in Paris and proudly supported by [Inria Startup Studio](https://www.inriastartupstudio.fr).
+
+### Research
+
+I was a PhD researcher at the University of Edinburgh, supervised by [Prof Mike Davies](https://www.eng.ed.ac.uk/about/people/prof-michael-e-davies).
+
+I design deep learning algorithms for solving real-world inverse imaging problems where we rarely have ground truth, such as accelerating medical imaging or higher resolution Earth observation.
+
+[Get in touch](#get-in-touch) if you are interested in **computer vision**, **inverse problems**, **unsupervised deep learning**, **geometric deep learning**, **compressed sensing**, **medical imaging** or **Earth observation**.
 
 Check out my [CV](https://andrewwango.github.io/cv.pdf) and [Google Scholar](https://scholar.google.com/citations?user=00ET0NAAAAAJ).
+
+### Software
+
+I am a lead maintainer for [**DeepInverse**](https://deepinv.github.io), the Python library for imaging with deep learning.
+
+I'm open to freelance work! Check out my [project portfolio](https://andrewwango.github.io).
 
 ### Publications
 
 - J. Tachella, M. Terris, S. Hurault, A. Wang et al., [_"DeepInverse: A Python package for solving imaging inverse problems with deep learning"_](https://arxiv.org/abs/2505.20160), on arXiv, 2025.
 
-- A. Wang, S. McDonagh, M. Davies, [_"Benchmarking Self-Supervised Learning Methods for Accelerated MRI Reconstruction"_](https://arxiv.org/abs/2502.14009), on arXiv, 2025. [Website.](https://andrewwango.github.io/ssibench/)
+- A. Wang, S. McDonagh, M. Davies, [_"Benchmarking Self-Supervised Learning Methods for Accelerated MRI Reconstruction"_](https://arxiv.org/abs/2502.14009), on arXiv, 2025. [Website](https://andrewwango.github.io/ssibench/).
 
-- A. Wang, M. Davies, [_"Fully unsupervised dynamic MRI reconstruction via diffeo-temporal equivariance"_](https://ieeexplore.ieee.org/document/10980940), IEEE 2025 [International Symposium on Biomedical Imaging](https://biomedicalimaging.org/2025/) (ISBI 2025), Houston. Oral presentation (top 18% of papers). [Blog](https://andrewwango.github.io/ddei).
+- A. Wang, M. Davies, [_"Fully unsupervised dynamic MRI reconstruction via diffeo-temporal equivariance"_](https://ieeexplore.ieee.org/document/10980940), IEEE 2025 [International Symposium on Biomedical Imaging](https://biomedicalimaging.org/2025/) (ISBI 2025), Houston. Oral presentation (top 18% of papers). [Website](https://andrewwango.github.io/ddei).
 
-- A. Wang, M. Davies, [_“Perspective-Equivariant Imaging: an Unsupervised Framework for Multispectral Pansharpening”_](https://link.springer.com/chapter/10.1007/978-3-031-91585-7_8), [European Conference on Computer Vision (ECCV)](https://eccv2024.ecva.net/) [Workshop on Traditional Computer Vision in the Age of Deep Learning](https://sites.google.com/view/tradicv/home?authuser=0), Milan, 2024. Oral presentation. [Blog](https://andrewwango.github.io/perspective-equivariant-imaging).
+- A. Wang, M. Davies, [_“Perspective-Equivariant Imaging: an Unsupervised Framework for Multispectral Pansharpening”_](https://link.springer.com/chapter/10.1007/978-3-031-91585-7_8), [European Conference on Computer Vision (ECCV)](https://eccv2024.ecva.net/) [Workshop on Traditional Computer Vision in the Age of Deep Learning](https://sites.google.com/view/tradicv/home?authuser=0), Milan, 2024. Oral presentation. [Website](https://andrewwango.github.io/perspective-equivariant-imaging).
 
-- J. Walsh, O. Kesa, A. Wang et al., [_“Near Real-Time Social Distance Estimation in London”_](https://academic.oup.com/comjnl/article/67/1/95/7071574), The Computer Journal, 2023. Winner of OUP [Wilkes Award](https://academic.oup.com/comjnl/pages/Wilkes_award) for best paper 2024. [Press](https://www.turing.ac.uk/research/research-projects/project-odysseus-understanding-london-busyness-and-exiting-lockdown), [Press](https://www.eng.cam.ac.uk/news/researchers-scoop-best-paper-award-ai-vision-based-social-distancing-monitoring-tool). [Blog](https://andrewwango.github.io/project-odysseus/).
+- J. Walsh, O. Kesa, A. Wang et al., [_“Near Real-Time Social Distance Estimation in London”_](https://academic.oup.com/comjnl/article/67/1/95/7071574), The Computer Journal, 2023. Winner of OUP [Wilkes Award](https://academic.oup.com/comjnl/pages/Wilkes_award) for best paper 2024. [Press](https://www.turing.ac.uk/research/research-projects/project-odysseus-understanding-london-busyness-and-exiting-lockdown), [Press](https://www.eng.cam.ac.uk/news/researchers-scoop-best-paper-award-ai-vision-based-social-distancing-monitoring-tool).
 
-- P. Houdouin, A. Wang et al., [_“Robust Classification with Flexible Discriminant Analysis in Heterogeneous Data”_](https://ieeexplore.ieee.org/document/9747576), IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022. [Blog.](https://andrewwango.github.io/femda/)
-
+- P. Houdouin, A. Wang et al., [_“Robust Classification with Flexible Discriminant Analysis in Heterogeneous Data”_](https://ieeexplore.ieee.org/document/9747576), IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022.
 
 ### Workshops & Conferences
 
@@ -55,32 +62,19 @@ Also see conference oral presentations above.
 
 - 25-02-2025 \| Seminar ([recording](https://www.youtube.com/watch?v=3JtrPP7qUCY)) \| _"Equivariant imaging with groups of real-world transforms"_, Maxwell Institute for Mathematical Sciences, Edinburgh.
 
-- 19-12-2024 \| Lightning talk and [poster](https://andrewwango.github.io/assets/pdf/ddei_poster.pdf) \| _"Learning to reconstruct accelerated dynamic MRI without ground truth"_, [International Workshop on Mathematical Imaging and AI Algorithms](https://www.strath.ac.uk/science/mathematicsstatistics/iptaworkshop2024/), IPTA 2024, University of Strathclyde, Glasgow.
+- 19-12-2024 \| [Lightning talk](https://andrewwango.github.io/assets/pdf/ddei_poster.pdf) \| _"Learning to reconstruct accelerated dynamic MRI without ground truth"_, [International Workshop on Mathematical Imaging and AI Algorithms](https://www.strath.ac.uk/science/mathematicsstatistics/iptaworkshop2024/), IPTA 2024, University of Strathclyde, Glasgow.
 
 - 04-12-2024 \| Seminar \| _"Learning to solve imaging inverse problems without ground truth"_, [Edinburgh Vision](https://groups.inf.ed.ac.uk/vision/), University of Edinburgh.
 
-- 10-06-2024 \| [Lightning talk & poster](https://maths4dl.ac.uk/wp-content/uploads/2024/02/Andrew_Wang.pdf) \| _"Perspective-Equivariant Imaging: an Unsupervised Framework for Pansharpening"_, [Maths4DL Geometric Deep Learning workshop](https://maths4dl.ac.uk/newsevents/geometric-deep-learning-workshop-university-of-cambridge-10-12-june-2024), University of Cambridge.
+- 10-06-2024 \| [Lightning talk](https://maths4dl.ac.uk/wp-content/uploads/2024/02/Andrew_Wang.pdf) \| _"Perspective-Equivariant Imaging: an Unsupervised Framework for Pansharpening"_, [Maths4DL Geometric Deep Learning workshop](https://maths4dl.ac.uk/newsevents/geometric-deep-learning-workshop-university-of-cambridge-10-12-june-2024), University of Cambridge.
 
-### Software
 
-I also am a lead contributor to [DeepInverse](https://deepinv.github.io), a PyTorch-based library for solving imaging inverse problems with deep learning, with 7000 monthly total downloads. Some recent contributions include:
-
-- [Generative adversarial networks for image reconstruction](https://deepinv.github.io/deepinv/auto_examples/adversarial-learning/demo_gan_imaging.html)
-- [Image transformations for equivariant imaging](https://deepinv.github.io/deepinv/auto_examples/self-supervised-learning/demo_ei_transforms.html)
-- [Invertible image transformations](https://deepinv.github.io/deepinv/auto_examples/basics/demo_transforms.html)
-- [Self-supervised algorithms including Artifact2Artifact and Phase2Phase](https://deepinv.github.io/deepinv/auto_examples/self-supervised-learning/demo_artifact2artifact.html)
-- [Advanced MRI](https://deepinv.github.io/deepinv/auto_examples/basics/demo_tour_mri.html): [Dynamic Magnetic Resonance Imaging (MRI) physics](https://deepinv.github.io/deepinv/deepinv.physics.html#magnetic-resonance-imaging), [3D and multi-coil MRI](https://deepinv.github.io/deepinv/api/stubs/deepinv.physics.MultiCoilMRI.html#deepinv.physics.MultiCoilMRI)
-- [Remote sensing with satellite imaging datasets and physics](https://deepinv.github.io/deepinv/auto_examples/basics/demo_remote_sensing.html)
-
-## Data Scientist
-
-Check out my [project portfolio](https://andrewwango.github.io). I'm open to freelance work!
 
 🏞️🏞️🏞️
 
 ## Activism
 
-I'm an activist and campaigner for better access to nature and the outdoors for everyone. See below for previous writing and speaking.
+I'm an activist and campaigner for better access to nature and the outdoors for everyone.
 
 I founded [ESEA Outdoors UK](https://eseaoutdoors.uk), a grassroots community to advocate for better representation, diversity and inclusion in the outdoors.
 

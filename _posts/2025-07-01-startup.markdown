@@ -1,0 +1,8 @@
+---
+layout: post
+title: "About Blur Labs"
+type: about
+date: 2025-07-01 00:00:00 +0000
+description: 
+img: blurlabs.png
+---
