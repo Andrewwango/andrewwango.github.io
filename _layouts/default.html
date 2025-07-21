@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
+{% if page.redirect_to %}
+  <link rel="canonical" href="{{ page.redirect_to }}"/>
+  <meta http-equiv="refresh" content="0;url={{ page.redirect_to }}" />
+  <script>location='{{ page.redirect_to }}'</script>
+{% endif %}
 <body>
-
   <div class="wrapper">
     {{ content }}
   </div>
-  
 </body>
 </html>

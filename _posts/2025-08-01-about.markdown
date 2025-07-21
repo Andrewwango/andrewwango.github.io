@@ -2,16 +2,20 @@
 layout: post
 title: "About me"
 type: about
-date: 2024-01-01 00:00:00 +0000
+date: 2025-08-01 00:00:00 +0000
 description: 
 img: coomb.jpg
 ---
 
 ## Contents
 
+- [Get in touch](#get-in-touch)
 - [Work](#work)
 - [Activism](#activism)
-- [Get in touch](#get-in-touch)
+
+## Get in touch
+
+Get in touch via [email](mailto:andrew.wang@ed.ac.uk) or [LinkedIn](https://in.linkedin.com/in/andrewwang27).
 
 
 ## Work
@@ -100,8 +104,3 @@ To learn more about these topics, check out my [list of Resources](https://eseao
 - 07-07-2024 \| Timber Festival \| [_Using community to tackle racism in the outdoors: an ESEA perspective_](https://timberfestival.org.uk/2024-programme/using-community-to-tackle-racism-in-the-outdoors-an-esea-perspective/)
 - 05-05-2024 \| SCARPA Great Lakeland 3 Day \| _Diversity & inclusion in the outdoors_
 - 28-11-2020 \| Kendal Mountain Literature Festival \| [_Open Mountain - Space and Isolation_](https://kendalmountainplayer.com/programs/open-mountain)
-
-## Get in touch
-
-Get in touch via [email](mailto:andrew.wang@ed.ac.uk) or [LinkedIn](https://in.linkedin.com/in/andrewwang27).
-
