@@ -44,7 +44,7 @@ I'm open to freelance work! Check out my [project portfolio](https://andrewwango
 
 ### Publications
 
-- J. Tachella, M. Terris, S. Hurault, A. Wang et al., [_"DeepInverse: A Python package for solving imaging inverse problems with deep learning"_](https://arxiv.org/abs/2505.20160), on arXiv, 2025.
+- J. Tachella, M. Terris, S. Hurault, A. Wang et al., [_"DeepInverse: A Python package for solving imaging inverse problems with deep learning"_](https://joss.theoj.org/papers/10.21105/joss.08923), Journal of Open Source Software, 2025.
 
 - A. Wang, S. McDonagh, M. Davies, [_"Benchmarking Self-Supervised Learning Methods for Accelerated MRI Reconstruction"_](https://arxiv.org/abs/2502.14009), on arXiv, 2025. [Website](https://andrewwango.github.io/ssibench/).
 
