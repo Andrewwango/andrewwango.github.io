@@ -2,27 +2,20 @@
 layout: post
 title: "About me"
 type: about
-date: 2025-07-02 00:00:00 +0000
 description: 
 img: coomb.jpg
 ---
 
-## Contents
+[Work](#work) | [Research](#research) | [Software](#software) | [Publications](#publications) | [Talks](#talks) | [Activism](#activism)
 
-- [Get in touch](#get-in-touch)
-- [Work](#work)
-- [Activism](#activism)
-
-## Get in touch
-
-Get in touch via [email](mailto:andrew.wang@ed.ac.uk) or [LinkedIn](https://in.linkedin.com/in/andrewwang27).
+**Get in touch** via [email](mailto:andrew.wang@ed.ac.uk) or [LinkedIn](https://in.linkedin.com/in/andrewwang27).
 
 
 ## Work
 
 I'm building a startup [Blur Labs](https://blurlabs.ai/)! We are building open-source AI foundation models for image reconstruction. Powering the next generation of faster, cheaper imaging devices.
 
-Interested in imaging? Follow us on [LinkedIn](https://www.linkedin.com/company/blurlabs) or [get in touch](#get-in-touch) with me.
+Interested in imaging? Follow us on [LinkedIn](https://www.linkedin.com/company/blurlabs) or get in touch with me.
 
 Blur Labs is based in Paris and proudly supported by [Inria Startup Studio](https://www.inriastartupstudio.fr).
 
@@ -30,19 +23,21 @@ Blur Labs is based in Paris and proudly supported by [Inria Startup Studio](http
 
 I was a PhD researcher at the University of Edinburgh, supervised by [Prof Mike Davies](https://www.eng.ed.ac.uk/about/people/prof-michael-e-davies).
 
-I design deep learning algorithms for solving real-world inverse imaging problems where we rarely have ground truth, such as accelerating medical imaging or higher resolution Earth observation.
+I design deep learning algorithms for solving real-world imaging inverse problems where we rarely have ground truth, such as accelerating medical imaging or higher resolution Earth observation.
 
-[Get in touch](#get-in-touch) if you are interested in **computer vision**, **inverse problems**, **unsupervised deep learning**, **geometric deep learning**, **compressed sensing**, **medical imaging** or **Earth observation**.
+I'm interested in **computer vision**, **inverse problems**, **unsupervised deep learning**, **geometric deep learning**, **medical imaging** and **Earth observation**.
 
 Check out my [CV](https://andrewwango.github.io/cv.pdf) and [Google Scholar](https://scholar.google.com/citations?user=00ET0NAAAAAJ).
 
 ### Software
 
-I am a lead maintainer for [**DeepInverse**](https://deepinv.github.io), the Python library for imaging with deep learning.
+I am a lead maintainer for [**DeepInverse**](https://deepinv.github.io), the PyTorch library for imaging with deep learning. We're part of the [official PyTorch ecosystem](https://pytorch.org/blog/deepinverse-joins-pytorch-ecosystem/)!
 
-I'm open to freelance work! Check out my [project portfolio](https://andrewwango.github.io).
+I'm open to freelance work - check out my [project portfolio](https://andrewwango.github.io).
 
 ### Publications
+
+- A. Wang, M. Davies, [_"Perspective-Equivariant Fine-tuning for Multispectral Demosaicing without Ground Truth"_](https://arxiv.org/abs/2603.01332), on arXiv, 2026.
 
 - J. Tachella, M. Terris, S. Hurault, A. Wang et al., [_"DeepInverse: A Python package for solving imaging inverse problems with deep learning"_](https://joss.theoj.org/papers/10.21105/joss.08923), Journal of Open Source Software, 2025.
 
@@ -56,19 +51,29 @@ I'm open to freelance work! Check out my [project portfolio](https://andrewwango
 
 - P. Houdouin, A. Wang et al., [_“Robust Classification with Flexible Discriminant Analysis in Heterogeneous Data”_](https://ieeexplore.ieee.org/document/9747576), IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022.
 
-### Workshops & Conferences
+### Talks
 
-Also see conference oral presentations above.
+- 04-10-2026 \| Tutorial \| TBC, 29th International Conference on Medical Image Computing and Computer Assisted Intervention ([MICCAI](https://conferences.miccai.org/2026/en/)) 2026, Abu Dhabi.
+
+- 07-04-2026 \| [Lightning talk](https://pytorchconferenceeu2026.sched.com/event/2Hin6/lightning-talk-how-deepinverse-is-solving-imaging-in-science-and-healthcare-with-pytorch-andrew-wang-deepinverse?iframe=no) \| _"How DeepInverse is solving imaging in science and healthcare with PyTorch"_, [PyTorch Conference Europe](https://events.linuxfoundation.org/pytorch-conference-europe/), Paris.
+
+- 04-05-2026 \| Invited speaker \| Workshop on [Imaging inverse problems and generating models: sparsity and robustness versus expressivity](https://icms.ac.uk/activities/workshop/imaging-inverse-problems-and-generating-models-sparsity-and-robustness-versus-expressivity/), International Centre for Mathematical Science, Edinburgh.
+
+- 03-03-2026 \| Invited speaker \| _"Get started with DeepInverse for image reconstruction with deep learning"_, [Symposium on AI and Reconstruction for Biomedical Imaging](https://www.ccpsynerbi.ac.uk/events/airbi/), London Institute for Healthcare Engineering, London.
 
 - 18-04-2025 \| [Seminar](https://www.ifml.institute/index.php/events/ifml-seminar-041825-learning-solve-imaging-inverse-problems-without-ground-truth) ([recording](https://www.youtube.com/watch?v=r7I9m_123Dw)) \| _"Learning to solve imaging inverse problems without ground truth"_, Institute for Foundations of Machine Learning, University of Texas at Austin.
 
-- 16-04-2025 \| [Tutorial](https://biomedicalimaging.org/2025/academic-software-demos/) \| _"[DeepInverse](https://deepinv.github.io/): a PyTorch library for imaging with deep learning"_, ISBI, Houston, Apr 2025.
+- 16-04-2025 \| [Tutorial](https://biomedicalimaging.org/2025/academic-software-demos/) \| _"DeepInverse"_, International Symposium on Biomedical Imaging ([ISBI]((https://biomedicalimaging.org/2025/))), Houston, Apr 2025.
+
+- 16-04-2025 \| Oral presentation \| _"Fully unsupervised dynamic MRI reconstruction via diffeo-temporal equivariance"_, ISBI 2025, Houston.
 
 - 25-02-2025 \| Seminar ([recording](https://www.youtube.com/watch?v=3JtrPP7qUCY)) \| _"Equivariant imaging with groups of real-world transforms"_, Maxwell Institute for Mathematical Sciences, Edinburgh.
 
 - 19-12-2024 \| [Lightning talk](https://andrewwango.github.io/assets/pdf/ddei_poster.pdf) \| _"Learning to reconstruct accelerated dynamic MRI without ground truth"_, [International Workshop on Mathematical Imaging and AI Algorithms](https://www.strath.ac.uk/science/mathematicsstatistics/iptaworkshop2024/), IPTA 2024, University of Strathclyde, Glasgow.
 
 - 04-12-2024 \| Seminar \| _"Learning to solve imaging inverse problems without ground truth"_, [Edinburgh Vision](https://groups.inf.ed.ac.uk/vision/), University of Edinburgh.
+
+- 29-09-2024 \| Oral presentation \| [_“Perspective-Equivariant Imaging”_], [ECCV](https://eccv2024.ecva.net/) [TradiCV workshop](https://sites.google.com/view/tradicv/home?authuser=0), Milan, 2024.
 
 - 10-06-2024 \| [Lightning talk](https://maths4dl.ac.uk/wp-content/uploads/2024/02/Andrew_Wang.pdf) \| _"Perspective-Equivariant Imaging: an Unsupervised Framework for Pansharpening"_, [Maths4DL Geometric Deep Learning workshop](https://maths4dl.ac.uk/newsevents/geometric-deep-learning-workshop-university-of-cambridge-10-12-june-2024), University of Cambridge.
 
