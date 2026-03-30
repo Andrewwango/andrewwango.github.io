@@ -1,8 +1,9 @@
 ---
-layout: main
+layout: redirected
+redirect_to: about
 ---
 
-{% for post in paginator.posts %}
+<!-- {% for post in paginator.posts %}
 {% if post.type == "about" %}
 <article class="post">
   {% if post.img %}
@@ -16,9 +17,9 @@ layout: main
   </div>
 </article>
 {% endif %}
-{% endfor %}
+{% endfor %} -->
 
-<h1 class="page-section-header">Research</h1>
+<!-- <h1 class="page-section-header">Research</h1>
 
 {% for post in paginator.posts %}
 {% if post.type == "research" %}
@@ -28,14 +29,11 @@ layout: main
   {% endif %}
   <div class="post-content">
     <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title | markdownify}}</a></h2>
-    <!-- <p>{{ post.content | strip_html | truncatewords: 15 }}</p> -->
     <p>{{ post.description | markdownify }}</p>
-    <!-- <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span> -->
-    <!-- <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span> -->
   </div>
 </article>
 {% endif %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- <h1 class="page-section-header">Articles</h1>
 
@@ -53,7 +51,7 @@ layout: main
 {% endif %}
 {% endfor %} -->
 
-<h1 class="page-section-header">Data Science Projects</h1>
+<!-- <h1 class="page-section-header">Data Science Projects</h1>
 
 {% for post in paginator.posts %}
 {% if post.type == "project" or post.type == "article" %}
@@ -67,6 +65,6 @@ layout: main
   </div>
 </article>
 {% endif %}
-{% endfor %}
+{% endfor %} -->
 
 {% include pagination.html %}

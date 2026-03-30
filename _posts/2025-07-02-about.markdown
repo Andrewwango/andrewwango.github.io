@@ -53,11 +53,11 @@ I'm open to freelance work - check out my [project portfolio](https://andrewwang
 
 ### Talks
 
-- 04-10-2026 \| Tutorial \| TBC, 29th International Conference on Medical Image Computing and Computer Assisted Intervention ([MICCAI](https://conferences.miccai.org/2026/en/)) 2026, Abu Dhabi.
+- 04-10-2026 \| Tutorial \| 29th International Conference on Medical Image Computing and Computer Assisted Intervention ([MICCAI](https://conferences.miccai.org/2026/en/)) 2026, Abu Dhabi.
 
 - 07-04-2026 \| [Lightning talk](https://pytorchconferenceeu2026.sched.com/event/2Hin6/lightning-talk-how-deepinverse-is-solving-imaging-in-science-and-healthcare-with-pytorch-andrew-wang-deepinverse?iframe=no) \| _"How DeepInverse is solving imaging in science and healthcare with PyTorch"_, [PyTorch Conference Europe](https://events.linuxfoundation.org/pytorch-conference-europe/), Paris.
 
-- 04-05-2026 \| Invited speaker \| Workshop on [Imaging inverse problems and generating models: sparsity and robustness versus expressivity](https://icms.ac.uk/activities/workshop/imaging-inverse-problems-and-generating-models-sparsity-and-robustness-versus-expressivity/), International Centre for Mathematical Science, Edinburgh.
+- 04-05-2026 \| Invited speaker \| Workshop on [Imaging inverse problems and generating models: sparsity and robustness versus expressivity](https://icms.ac.uk/activities/workshop/imaging-inverse-problems-and-generating-models-sparsity-and-robustness-versus-expressivity/), International Centre for Mathematical Sciences, Edinburgh.
 
 - 03-03-2026 \| Invited speaker \| _"Get started with DeepInverse for image reconstruction with deep learning"_, [Symposium on AI and Reconstruction for Biomedical Imaging](https://www.ccpsynerbi.ac.uk/events/airbi/), London Institute for Healthcare Engineering, London.
 
@@ -103,11 +103,19 @@ To learn more about these topics, check out my [list of Resources](https://eseao
 - 18-09-2023 \| Earth.org \| [_Why Improving UK Land Access Rights Is Important For A More Sustainable Outdoors_](https://earth.org/data_visualization/uk-land-access-rights/)
 - 16-02-2023 \| Earth.org \| [_Comparing Urban Environmental Sustainability Indicators In Europe_](https://earth.org/data_visualization/urban-environmental-sustainability/)
 
-### Speaker
+### Speaking
 
+- 21-11-2025 \| Kendal Mountain Festival \| with Patagonia and All The Elements.
 - 23-11-2024 \| [Kendal Mountain Festival](https://www.kendalmountainfestival.com/) \| [The Human Powered Session - presented by Patagonia](https://kendalmountainfestival.eventive.org/schedule/66796a8cf0c579007b34e2d9) with [Eben Myrddin Muse](https://linktr.ee/ebenmyrddin) and Carlos Casas.
 - 14-07-2024 \| Love Trails Festival \| [_Land Access: the need for a true Right to Roam_](https://www.lovetrailsfestival.co.uk/explore-talks?explore=block-rwbm0h-39) with [Eben Myrddin Muse](https://linktr.ee/ebenmyrddin) (BMC), Jon Moses (Right to Roam) and Amy-Jane Beer
 - 12-07-2024 \| Love Trails Festival \| [_The Outsiders Project: remarkable people doing remarkable things_](https://www.lovetrailsfestival.co.uk/explore-talks?explore=block-rwbm0h-39) with Phil Young and Trina Dawkins.
 - 07-07-2024 \| Timber Festival \| [_Using community to tackle racism in the outdoors: an ESEA perspective_](https://timberfestival.org.uk/2024-programme/using-community-to-tackle-racism-in-the-outdoors-an-esea-perspective/)
 - 05-05-2024 \| SCARPA Great Lakeland 3 Day \| _Diversity & inclusion in the outdoors_
 - 28-11-2020 \| Kendal Mountain Literature Festival \| [_Open Mountain - Space and Isolation_](https://kendalmountainplayer.com/programs/open-mountain)
+
+### Other data science projects
+
+- 05-01-2025 \| [Interactive map](https://andrewwango.github.io/eseaoutdoorsuk/) \| Community map for ESEA Outdoors UK: a Bootstrap website.
+- 25-02-2023 \| [Tutorial](https://andrewwango.github.io/how-to-gpx-overpass-googlemaps-tutorial/) \| How to find places of interest along a GPX route using the Python APIs for Overpass and Google Maps Places.
+- 20-01-2023 \| [Blog](https://andrewwango.github.io/ni_outreach/) \| A tech outreach data analysis of computer studies in Northern Irish schools.
+- 02-08-2022 \| [Interactive map](https://andrewwango.github.io/prow-map/) \| Mapping lost public rights of way: a geospatial data analysis research project using public data.
