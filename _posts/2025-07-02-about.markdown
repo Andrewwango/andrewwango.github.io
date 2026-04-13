@@ -48,7 +48,7 @@ I'm open to freelance work - check out my [project portfolio](https://andrewwang
 
 ### Talks
 
-- 04-10-2026 \| Tutorial \| _DeepInverse_ \| 29th International Conference on Medical Image Computing and Computer Assisted Intervention ([MICCAI](https://conferences.miccai.org/2026/en/)) 2026, Abu Dhabi.
+- 04-10-2026 \| [Tutorial](https://deepinv.github.io/deepinv/miccai-2026) \| _DeepInverse_ \| 29th International Conference on Medical Image Computing and Computer Assisted Intervention ([MICCAI](https://conferences.miccai.org/2026/en/)) 2026, Abu Dhabi.
 - 07-04-2026 \| [Lightning talk](https://pytorchconferenceeu2026.sched.com/event/2Hin6/lightning-talk-how-deepinverse-is-solving-imaging-in-science-and-healthcare-with-pytorch-andrew-wang-deepinverse?iframe=no) \| _"How DeepInverse is solving imaging in science and healthcare with PyTorch"_, [PyTorch Conference Europe](https://events.linuxfoundation.org/pytorch-conference-europe/), Paris.
 - 04-05-2026 \| Invited speaker \| _DeepInverse_ \| Workshop on [Imaging inverse problems and generating models: sparsity and robustness versus expressivity](https://icms.ac.uk/activities/workshop/imaging-inverse-problems-and-generating-models-sparsity-and-robustness-versus-expressivity/), International Centre for Mathematical Sciences, Edinburgh.
 - 03-03-2026 \| Invited speaker \| _"Get started with DeepInverse for image reconstruction with deep learning"_, [Symposium on AI and Reconstruction for Biomedical Imaging](https://www.ccpsynerbi.ac.uk/events/airbi/), London Institute for Healthcare Engineering, London.
