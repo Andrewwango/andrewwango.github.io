@@ -27,7 +27,7 @@ I design deep learning algorithms for solving real-world imaging inverse problem
 
 I'm interested in **computer vision**, **inverse problems**, **unsupervised deep learning**, **geometric deep learning**, **medical imaging** and **Earth observation**.
 
-Check out my [CV](https://andrewwango.github.io/cv.pdf) and [Google Scholar](https://scholar.google.com/citations?user=00ET0NAAAAAJ).
+Check out my [Google Scholar](https://scholar.google.com/citations?user=00ET0NAAAAAJ).
 
 ### Software
 
@@ -44,6 +44,7 @@ I'm open to freelance work - check out my [project portfolio](https://andrewwang
 - A. Wang, M. Davies, [_“Perspective-Equivariant Imaging: an Unsupervised Framework for Multispectral Pansharpening”_](https://link.springer.com/chapter/10.1007/978-3-031-91585-7_8), [European Conference on Computer Vision (ECCV)](https://eccv2024.ecva.net/) [Workshop on Traditional Computer Vision in the Age of Deep Learning](https://sites.google.com/view/tradicv/home?authuser=0), Milan, 2024. Oral presentation. [Website](https://andrewwango.github.io/perspective-equivariant-imaging).
 - J. Walsh, O. Kesa, A. Wang et al., [_“Near Real-Time Social Distance Estimation in London”_](https://academic.oup.com/comjnl/article/67/1/95/7071574), The Computer Journal, 2023. Winner of OUP [Wilkes Award](https://academic.oup.com/comjnl/pages/Wilkes_award) for best paper 2024. [Press](https://www.turing.ac.uk/research/research-projects/project-odysseus-understanding-london-busyness-and-exiting-lockdown), [Press](https://www.eng.cam.ac.uk/news/researchers-scoop-best-paper-award-ai-vision-based-social-distancing-monitoring-tool).
 - P. Houdouin, A. Wang et al., [_“Robust Classification with Flexible Discriminant Analysis in Heterogeneous Data”_](https://ieeexplore.ieee.org/document/9747576), IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022.
+- A. Wang, [_"Dynamic latent spaces with statistical finite elements"_](https://andrewwango.github.io/assets/pdf/iib_report.pdf), Master's thesis, University of Cambridge, 2022.
 
 ### Talks
 
