@@ -13,7 +13,7 @@ img: coomb.jpg
 
 ## Work
 
-I'm building a startup [Blur Labs](https://blurlabs.ai/) with [Matthieu](https://matthieutrs.github.io/) and [Julián](https://tachella.github.io/)! We are building open-source AI foundation models for image reconstruction. Powering the next generation of faster, cheaper imaging devices.
+I'm building a startup [Blur Labs](https://blurlabs.ai/) with [Matthieu](https://matthieutrs.github.io/) and [Julián](https://tachella.github.io/)! We are building open-source AI foundation models for image reconstruction. Powering the next generation of faster, cheaper & more robust imaging devices, across scientific, medical and industrial applications.
 
 Interested in imaging? Follow us on [LinkedIn](https://www.linkedin.com/company/blurlabs) or get in touch with me via [email](mailto:andrew.wang@ed.ac.uk) or [LinkedIn](https://in.linkedin.com/in/andrewwang27).
 
@@ -33,15 +33,15 @@ Check out my [Google Scholar](https://scholar.google.com/citations?user=00ET0NAA
 
 I am a lead maintainer for [**DeepInverse**](https://deepinv.github.io), the PyTorch library for imaging with deep learning. We're part of the [official PyTorch ecosystem](https://pytorch.org/blog/deepinverse-joins-pytorch-ecosystem/)!
 
-I'm open to freelance work - check out my [project portfolio](https://andrewwango.github.io).
+I'm open to freelance work and consulting, reach out via [email](mailto:andrew.wang@ed.ac.uk).
 
 ### Publications
 
-- A. Wang, M. Davies, [_"Perspective-Equivariant Fine-tuning for Multispectral Demosaicing without Ground Truth"_](https://arxiv.org/abs/2603.01332), CVPR NTIRE workshop, 2026.
+- A. Wang, M. Davies, [_"Perspective-Equivariant Fine-tuning for Multispectral Demosaicing without Ground Truth"_](https://arxiv.org/abs/2603.01332), to appear in the Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2026.
 - J. Tachella, M. Terris, S. Hurault, A. Wang et al., [_"DeepInverse: A Python package for solving imaging inverse problems with deep learning"_](https://joss.theoj.org/papers/10.21105/joss.08923), Journal of Open Source Software, 2025.
 - A. Wang, S. McDonagh, M. Davies, [_"Benchmarking Self-Supervised Learning Methods for Accelerated MRI Reconstruction"_](https://arxiv.org/abs/2502.14009), on arXiv, 2025. [Website](https://andrewwango.github.io/ssibench/).
-- A. Wang, M. Davies, [_"Fully unsupervised dynamic MRI reconstruction via diffeo-temporal equivariance"_](https://ieeexplore.ieee.org/document/10980940), IEEE 2025 [International Symposium on Biomedical Imaging](https://biomedicalimaging.org/2025/) (ISBI 2025), Houston. Oral presentation (top 18% of papers). [Website](https://andrewwango.github.io/ddei).
-- A. Wang, M. Davies, [_“Perspective-Equivariant Imaging: an Unsupervised Framework for Multispectral Pansharpening”_](https://link.springer.com/chapter/10.1007/978-3-031-91585-7_8), [European Conference on Computer Vision (ECCV)](https://eccv2024.ecva.net/) [Workshop on Traditional Computer Vision in the Age of Deep Learning](https://sites.google.com/view/tradicv/home?authuser=0), Milan, 2024. Oral presentation. [Website](https://andrewwango.github.io/perspective-equivariant-imaging).
+- A. Wang, M. Davies, [_"Fully unsupervised dynamic MRI reconstruction via diffeo-temporal equivariance"_](https://ieeexplore.ieee.org/document/10980940), IEEE International Symposium on Biomedical Imaging (ISBI), 2025. Oral presentation (top 18% of papers). [Website](https://andrewwango.github.io/ddei).
+- A. Wang, M. Davies, [_“Perspective-Equivariant Imaging: an Unsupervised Framework for Multispectral Pansharpening”_](https://link.springer.com/chapter/10.1007/978-3-031-91585-7_8), Proceedings of the European Conference on Computer Vision (ECCV) Workshops, 2024. Oral presentation. [Website](https://andrewwango.github.io/perspective-equivariant-imaging).
 - J. Walsh, O. Kesa, A. Wang et al., [_“Near Real-Time Social Distance Estimation in London”_](https://academic.oup.com/comjnl/article/67/1/95/7071574), The Computer Journal, 2023. Winner of OUP [Wilkes Award](https://academic.oup.com/comjnl/pages/Wilkes_award) for best paper 2024. [Press](https://www.turing.ac.uk/research/research-projects/project-odysseus-understanding-london-busyness-and-exiting-lockdown), [Press](https://www.eng.cam.ac.uk/news/researchers-scoop-best-paper-award-ai-vision-based-social-distancing-monitoring-tool).
 - P. Houdouin, A. Wang et al., [_“Robust Classification with Flexible Discriminant Analysis in Heterogeneous Data”_](https://ieeexplore.ieee.org/document/9747576), IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022.
 - A. Wang, [_"Dynamic latent spaces with statistical finite elements"_](https://andrewwango.github.io/assets/pdf/iib_report.pdf), Master's thesis, University of Cambridge, 2022.
@@ -49,8 +49,8 @@ I'm open to freelance work - check out my [project portfolio](https://andrewwang
 ### Talks
 
 - 04-10-2026 \| [Tutorial](https://deepinv.github.io/deepinv/miccai-2026) \| _DeepInverse_ \| 29th International Conference on Medical Image Computing and Computer Assisted Intervention ([MICCAI](https://conferences.miccai.org/2026/en/)) 2026, Abu Dhabi.
-- 07-04-2026 \| [Lightning talk](https://pytorchconferenceeu2026.sched.com/event/2Hin6/lightning-talk-how-deepinverse-is-solving-imaging-in-science-and-healthcare-with-pytorch-andrew-wang-deepinverse?iframe=no) \| _"How DeepInverse is solving imaging in science and healthcare with PyTorch"_, [PyTorch Conference Europe](https://events.linuxfoundation.org/pytorch-conference-europe/), Paris.
 - 04-05-2026 \| Invited speaker \| _DeepInverse_ \| Workshop on [Imaging inverse problems and generating models: sparsity and robustness versus expressivity](https://icms.ac.uk/activities/workshop/imaging-inverse-problems-and-generating-models-sparsity-and-robustness-versus-expressivity/), International Centre for Mathematical Sciences, Edinburgh.
+- 07-04-2026 \| [Lightning talk](https://pytorchconferenceeu2026.sched.com/event/2Hin6/lightning-talk-how-deepinverse-is-solving-imaging-in-science-and-healthcare-with-pytorch-andrew-wang-deepinverse?iframe=no) \| _"How DeepInverse is solving imaging in science and healthcare with PyTorch"_, [PyTorch Conference Europe](https://events.linuxfoundation.org/pytorch-conference-europe/), Paris.
 - 03-03-2026 \| Invited speaker \| _"Get started with DeepInverse for image reconstruction with deep learning"_, [Symposium on AI and Reconstruction for Biomedical Imaging](https://www.ccpsynerbi.ac.uk/events/airbi/), London Institute for Healthcare Engineering, London.
 - 18-04-2025 \| [Seminar](https://www.ifml.institute/index.php/events/ifml-seminar-041825-learning-solve-imaging-inverse-problems-without-ground-truth) ([recording](https://www.youtube.com/watch?v=r7I9m_123Dw)) \| _"Learning to solve imaging inverse problems without ground truth"_, Institute for Foundations of Machine Learning, University of Texas at Austin.
 - 16-04-2025 \| [Tutorial](https://biomedicalimaging.org/2025/academic-software-demos/) \| _"DeepInverse"_, International Symposium on Biomedical Imaging ([ISBI]((https://biomedicalimaging.org/2025/))), Houston, Apr 2025.
@@ -58,7 +58,7 @@ I'm open to freelance work - check out my [project portfolio](https://andrewwang
 - 25-02-2025 \| Seminar ([recording](https://www.youtube.com/watch?v=3JtrPP7qUCY)) \| _"Equivariant imaging with groups of real-world transforms"_, Maxwell Institute for Mathematical Sciences, Edinburgh.
 - 19-12-2024 \| [Lightning talk](https://andrewwango.github.io/assets/pdf/ddei_poster.pdf) \| _"Learning to reconstruct accelerated dynamic MRI without ground truth"_, [International Workshop on Mathematical Imaging and AI Algorithms](https://www.strath.ac.uk/science/mathematicsstatistics/iptaworkshop2024/), IPTA 2024, University of Strathclyde, Glasgow.
 - 04-12-2024 \| Seminar \| _"Learning to solve imaging inverse problems without ground truth"_, [Edinburgh Vision](https://groups.inf.ed.ac.uk/vision/), University of Edinburgh.
-- 29-09-2024 \| Oral presentation \| [_“Perspective-Equivariant Imaging”_], [ECCV](https://eccv2024.ecva.net/) [TradiCV workshop](https://sites.google.com/view/tradicv/home?authuser=0), Milan, 2024.
+- 29-09-2024 \| Oral presentation \| _“Perspective-Equivariant Imaging”_, ECCV [Workshop on Traditional Computer Vision in the Age of Deep Learning](https://sites.google.com/view/tradicv/home?authuser=0), Milan, 2024.
 - 10-06-2024 \| [Lightning talk](https://maths4dl.ac.uk/wp-content/uploads/2024/02/Andrew_Wang.pdf) \| _"Perspective-Equivariant Imaging: an Unsupervised Framework for Pansharpening"_, [Maths4DL Geometric Deep Learning workshop](https://maths4dl.ac.uk/newsevents/geometric-deep-learning-workshop-university-of-cambridge-10-12-june-2024), University of Cambridge.
 
 
